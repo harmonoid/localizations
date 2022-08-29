@@ -21,7 +21,7 @@
 |Slovenian|Slovenia| [@mytja](https://github.com/mytja) | [`sl_SI.json`](./sl_SI.json) |
 |Swedish|Sweden| - | [`sv_SE.json`](./sv_SE.json) |
 |Turkish|Turkey| [@TuranBerlin](https://github.com/TuranBerlin) | [`tr_TR.json`](./tr_TR.json) |
-|Simplified Chinese|China| [@zzs2002043](https://github.com/zzs2002043), [@stonega](https://github.com/stonega), [@wcxu21](https://github.com/wcxu21) | [`zh_CN.json`](./zh_CN.json) |
+|Simplified Chinese|China| [@ALILEX-1](https://github.com/@ALILEX-1), [@stonega](https://github.com/stonega), [@wcxu21](https://github.com/wcxu21), [@zzs20020430](https://github.com/zzs20020430) | [`zh_CN.json`](./zh_CN.json) |
 
 ## Contribute
 
