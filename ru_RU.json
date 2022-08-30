@@ -232,6 +232,7 @@
   "UNMUTE": "Включить звук",
   "UPDATE_AVAILABLE": "Доступно обновление: VERSION",
   "URL": "URL",
+  "USE_LRC_FILE_FROM_TRACK_DIRECTORY": "Use .LRC from track directory",
   "USE_MODERN_NOW_PLAYING_SCREEN": "Современный экран воспроизведения с динамическими обоями и текстами песен",
   "USE_THESE_CHARACTERS_TO_SEPARATE_ARTISTS": "Используйте ; // / \\\\ или \\ чтобы разделять исполнителей.",
   "VALUE": "Value",

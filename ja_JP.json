@@ -232,6 +232,7 @@
   "UNMUTE": "ミュート解除",
   "UPDATE_AVAILABLE": "アップデートが利用可能: VERSION",
   "URL": "URL",
+  "USE_LRC_FILE_FROM_TRACK_DIRECTORY": "Use .LRC from track directory",
   "USE_MODERN_NOW_PLAYING_SCREEN": "ダイナミックな背景と時間同期された歌詞を備えたモダンな\"再生中画面\"を使用する",
   "USE_THESE_CHARACTERS_TO_SEPARATE_ARTISTS": "; // / \\\\ または \\ を使うと複数のアーティストを区切れます。",
   "VALUE": "Value",

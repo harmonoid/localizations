@@ -232,6 +232,7 @@
   "UNMUTE": "Unmute",
   "UPDATE_AVAILABLE": "Posodobitev na voljo: VERSION",
   "URL": "URL",
+  "USE_LRC_FILE_FROM_TRACK_DIRECTORY": "Use .LRC from track directory",
   "USE_MODERN_NOW_PLAYING_SCREEN": "Use modern \"Now Playing Screen\" with dynamic backgrounds & time-synced lyrics",
   "USE_THESE_CHARACTERS_TO_SEPARATE_ARTISTS": "Use ; // / \\\\ or \\ to separate multiple artists.",
   "VALUE": "Value",

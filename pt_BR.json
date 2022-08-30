@@ -232,6 +232,7 @@
   "UNMUTE": "Desativar Mudo",
   "UPDATE_AVAILABLE": "Atualização disponível: VERSION",
   "URL": "URL",
+  "USE_LRC_FILE_FROM_TRACK_DIRECTORY": "Use .LRC from track directory",
   "USE_MODERN_NOW_PLAYING_SCREEN": "Use a moderna \"Agora Tela em Reprodução\" com planos de fundo dinâmicos e letras sincronizadas no tempo",
   "USE_THESE_CHARACTERS_TO_SEPARATE_ARTISTS": "Usar ; // / \\\\ ou \\ para separar vários artistas.",
   "VALUE": "Valor",

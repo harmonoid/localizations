@@ -232,6 +232,7 @@
   "UNMUTE": "Réactiver le son",
   "UPDATE_AVAILABLE": "Mise à jour disponible : VERSION",
   "URL": "URL",
+  "USE_LRC_FILE_FROM_TRACK_DIRECTORY": "Use .LRC from track directory",
   "USE_MODERN_NOW_PLAYING_SCREEN": "Utilisez l'\"écran de lecture en cours\" moderne avec des arrière-plans dynamiques et des paroles synchronisées dans le temps",
   "USE_THESE_CHARACTERS_TO_SEPARATE_ARTISTS": "Utiliser ; // / \\\\ ou \\ pour séparer plusieurs artistes.",
   "VALUE": "Value",

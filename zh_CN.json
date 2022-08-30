@@ -232,6 +232,7 @@
   "UNMUTE": "关闭静音",
   "UPDATE_AVAILABLE": "可用更新：VERSION",
   "URL": "URL",
+  "USE_LRC_FILE_FROM_TRACK_DIRECTORY": "Use .LRC from track directory",
   "USE_MODERN_NOW_PLAYING_SCREEN": "使用具有动态背景和时间同步歌词的现代“正在播放屏幕”",
   "USE_THESE_CHARACTERS_TO_SEPARATE_ARTISTS": "使用 ; // / \\\\ 或 \\ 分隔多个艺术家。",
   "VALUE": "值",
