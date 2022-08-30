@@ -29,27 +29,22 @@
   "CHANGE_NOW_PLAYING_BAR_COLOR_BASED_ON_MUSIC_TITLE": "Dynamic Now Playing Bar coloring",
   "CLEAR_LRC_FILE": "Clear selected LRC file",
   "COLLECTION": "مجموعه",
-  "COLLECTION_ALBUM_DELETE_DIALOG_BODY": "آیا می‌خواهید آلبوم \"NAME\" را حذف کنید؟",
-  "COLLECTION_ALBUM_DELETE_DIALOG_HEADER": "حذف",
+  "COLLECTION_ALBUM_DELETE_DIALOG_BODY": "Delete the album \"NAME\"?",
+  "COLLECTION_ALBUM_DELETE_DIALOG_HEADER": "Delete",
   "COLLECTION_INDEXING_HINT": "اضافه کردن موزیک ...",
   "COLLECTION_INDEXING_LABEL": "موسیقی‌های دستگاه شما در حال همگام‌سازی است.\nایدهٔ جالبی نیست که برنامه را ببندید.",
-  "COLLECTION_INFO_SUBHEADER": "برخی بینش‌های آلبوم",
-  "COLLECTION_OTHER_SUBHEADER_ALBUM": "آلبوم‌های بیشتر",
-  "COLLECTION_OTHER_SUBHEADER_ARTIST": "هنرمندان بیشتر",
-  "COLLECTION_OTHER_SUBHEADER_TRACK": "موسیقی‌های بیشتر",
-  "COLLECTION_PLAYLIST_DELETE_DIALOG_BODY": "پاک کردن لیست پخش \"NAME\"؟",
-  "COLLECTION_PLAYLIST_DELETE_DIALOG_HEADER": "حذف",
+  "COLLECTION_PLAYLIST_DELETE_DIALOG_BODY": "Delete the playlist \"NAME\"?",
+  "COLLECTION_PLAYLIST_DELETE_DIALOG_HEADER": "Delete",
   "COLLECTION_SEARCH_LABEL": "نگاهی در مجموعه شما",
   "COLLECTION_SEARCH_NO_RESULTS_SUBTITLE": "چیزی مثل آن در مجموعه یافت نشد.",
   "COLLECTION_SEARCH_NO_RESULTS_TITLE": "پاسخی یافت نشد.",
   "COLLECTION_SEARCH_WELCOME": "جستجوی آلبوم‌ها، موسیقی‌ها یا هنرمندان...",
-  "COLLECTION_TOP_BODY_ALBUM_EMPTY": "جست‌جو و ذخیره کردن موسیقی برای دیدن آن در این محل\nصفحه را به پایین بکشید تا بروزرسانی شود.",
   "COLLECTION_TOP_SUBHEADER_ALBUM": "آخرین آلبوم",
   "COLLECTION_TOP_SUBHEADER_ARTIST": "آخرین هنرمند",
   "COLLECTION_TOP_SUBHEADER_TRACK": "آخرین آهنگ",
   "COLLECTION_TRACKS_SUBHEADER": "آهنگ",
-  "COLLECTION_TRACK_DELETE_DIALOG_BODY": "حذف آهنگ \"NAME\"؟",
-  "COLLECTION_TRACK_DELETE_DIALOG_HEADER": "حذف کردن",
+  "COLLECTION_TRACK_DELETE_DIALOG_BODY": "Delete the track \"NAME\"?",
+  "COLLECTION_TRACK_DELETE_DIALOG_HEADER": "Delete",
   "COLLECTION_TRACK_PLAYLIST_REMOVE_DIALOG_BODY": "Remove \"TRACK_NAME\" from \"PLAYLIST_NAME\"?",
   "COMING_UP": "بالا آمدن",
   "CONTROL_PANEL": "Control Panel",
@@ -62,10 +57,8 @@
   "CREATE_PLAYLIST_SUBHEADER": "ساخت لیست پخش جدید برای اضافه شدن موزیک‌های شما",
   "DATE_ADDED": "تاریخ اضافه شد.",
   "DELETE": "حذف",
-  "DELETE_TRACK": "حذف موسیقی",
   "DESCENDING": "نزولی",
   "DISABLE_VOLUME_BOOST": "Disable volume boost",
-  "DISCORD": "سرور دیسکورد",
   "DISCOVERING_FILES": "Discovering files...",
   "DONATE": "Donate",
   "DONE": "Done",
@@ -105,11 +98,9 @@
   "INDEXING_ALREADY_GOING_ON_TITLE": "Wait",
   "INTERNET_ERROR": "وضعیت اتصال خود را بررسی کنید.",
   "INVALID_PLAYLIST_URL": "An invalid playlist URL was provided.",
-  "KNOW_MORE": "بیشتر بدانید...",
   "LAST_COLLECTION_DIRECTORY_REMOVED": "حداقل یک پوشه باید در کالکشن شما باشد.",
   "LESS": "Less",
   "LIKED_SONGS": "Liked Songs",
-  "LISTENING_TO_MUSIC": "گوش دادن به موزیک💜",
   "LYRICS": "تکست‌ها",
   "LYRICS_NOT_FOUND": "تکست آهنگ پیدا نشد.",
   "LYRICS_RETRIEVING": "گرفتن تکست‌ها...",
@@ -126,9 +117,6 @@
   "NOTIFICATION_LYRICS_SUBTITLE": "تکست را در اعلان نمایش بده...",
   "NOTIFICATION_LYRICS_TITLE": "تکست در اعلان",
   "NOW_PLAYING": "در حال پخش",
-  "NOW_PLAYING_NEXT_TRACK": "بعدی",
-  "NOW_PLAYING_NOT_PLAYING_TITLE": "هنوز چیزی اجرا نشده.",
-  "NOW_PLAYING_PREVIOUS_TRACK": "قبلی",
   "NOW_PLAYING_SCREEN": "Now Playing Screen",
   "NOW_PLAYING_SCREEN_SETTING_SUBTITLE": "Settings related to the \"Now Playing Screen\"",
   "NOW_YOU_ARE_GOOD_TO_GO_BACK": "Now you're good to go back.",
@@ -164,9 +152,6 @@
   "PLAY_URL_SUBTITLE": "Enter URI to the media resource",
   "PREVIOUS": "قبلی",
   "PROPERTY": "Property",
-  "PROXY_SUBTITLE": "Enable proxy for external media resources.",
-  "PROXY_TITLE": "Proxy",
-  "PROXY_URL": "Proxy URL",
   "READ": "Read",
   "READ_METADATA": "Read metadata",
   "RECOMMENDATIONS": "پیشنهادات",
@@ -191,13 +176,11 @@
   "RETRIEVING_LINK": "در حال گرفتن جریان",
   "SAVE": "Save",
   "SAVE_AS_PLAYLIST": "Save as playlist",
-  "SAVE_TO_DOWNLOADS": "ذخیره در دانلود‌ها",
   "SD_CARD": "SD Card",
   "SEARCH": "جستجو",
   "SEARCH_COLLECTION": "جستجو در مجموعه",
   "SEARCH_HISTORY_SUBHEADER": "جستجوهای اخیر",
   "SEARCH_NO_RECENT_SEARCHES": "جستجوهای اخیر شما اینجا نمایش داده می‌شود",
-  "SEARCH_RESULT_LOADER_LABEL": "گرفتن موزیک شما...",
   "SEARCH_WELCOME": "جستجو در هارمونوید",
   "SEE_ALL": "دیدن همه",
   "SELECTED_DIRECTORIES": "فهرستی از آنچه تا کنون پیدا کرده‌ایم...",
@@ -210,25 +193,13 @@
   "SETTING_APP_VERSION_LATEST": "آخرین نسخه",
   "SETTING_APP_VERSION_SUBTITLE": "اطلاعاتی درمورد نسخه برنامه",
   "SETTING_APP_VERSION_TITLE": "نسخه",
-  "SETTING_GITHUB": "گیت‌هاب",
-  "SETTING_INDEXING_DONE": "ایندکس شده",
   "SETTING_INDEXING_LINEAR_PROGRESS_INDICATOR": "NUMBER_STRING از TOTAL_STRING موسیقی ایندکس شد.",
-  "SETTING_INDEXING_SUBTITLE": "پوشه‌های بیشتری را در مجموعه خود اضافه کنید.",
-  "SETTING_INDEXING_TITLE": "مجموعه",
-  "SETTING_INDEXING_WARNING": "پروسه را قطع نکنید.",
-  "SETTING_LANGUAGE_PROVIDERS_SUBTITLE": "تشکر بسیار بابت ساپورت کردن از اپلیکیشن",
-  "SETTING_LANGUAGE_PROVIDERS_TITLE": "فراهم کننده‌های ترجمه",
-  "SETTING_LANGUAGE_RESTART_DIALOG_SUBTITLE": "آیا می‌خواهید برنامه را مجدد بارگذاری کنید؟",
-  "SETTING_LANGUAGE_RESTART_DIALOG_TITLE": "نیازمند به بارگذاری مجدد برنامه",
+  "SETTING_INDEXING_SUBTITLE": "Include more folders in your music library",
+  "SETTING_INDEXING_TITLE": "Library",
   "SETTING_LANGUAGE_SUBTITLE": "عوض کردن زبان برنامه",
   "SETTING_LANGUAGE_TITLE": "زبان",
-  "SETTING_MISCELLANEOUS_ENABLE_IOS_SUBTITLE": "ست کردن سیستم‌عامل به TargetPlatform.IOS",
-  "SETTING_MISCELLANEOUS_ENABLE_IOS_TITLE": "Enable iOS mechanics",
   "SETTING_MISCELLANEOUS_SUBTITLE": "Other settings in the app",
   "SETTING_MISCELLANEOUS_TITLE": "Miscellaneous",
-  "SETTING_STARGAZERS_SUBTITLE": "بسیار ممنون برای ساپورت شما",
-  "SETTING_STARGAZERS_TITLE": "Project Stargazers",
-  "SETTING_STAR_GITHUB": "به پروژه ستاره دهید.",
   "SETTING_THEME_SUBTITLE": "عوض کردن تم به تیره و یا روشن",
   "SETTING_THEME_TITLE": "تم",
   "SET_LRC_FILE": "Set LRC file",
@@ -249,11 +220,9 @@
   "STATS_SUBTITLE": "Statistical details about your music library",
   "STATS_TITLE": "Stats",
   "STREAM": "Stream",
-  "SWITCH_THEME": "عوض کردن تم",
   "THEME_MODE_DARK": "تیره",
   "THEME_MODE_LIGHT": "روشن",
   "THEME_MODE_SYSTEM": "بر اساس دستگاه",
-  "TIMEOUT": "Timeout",
   "TRACK": "موسیقی‌",
   "TRACKS_FROM_ARTIST": "موسیقی‌ها",
   "TRACK_NUMBER": "Track Number",
