@@ -10,7 +10,6 @@
 |German|Germany| [@MickLesk](https://github.com/MickLesk) |[`de_DE.json`](./de_DE.json)|
 |Persian|Iran| [@0xj0hn](https://github.com/0xj0hn) |[`fa_IR.json`](./fa_IR.json)|
 |French|France| [@gaetan1903](https://github.com/gaetan1903) |[`fr_FR.json`](./fr_FR.json)|
-|Hindi|India| [@prateekmedia](https://github.com/prateekmedia) |[`hi_IN.json`](./hi_IN.json)|
 |Hungarian|Hungary| - |[`hu_HU.json`](./hu_HU.json)|
 |Indonesian|Indonesia| [@KesiTakeshi](https://github.com/KesiTakeshi) |[`id_ID.json`](./id_ID.json)|=
 |Japanese|Japan| [@HiSubway](https://github.com/HiSubway), [@mi875](https://github.com/mi875), [@yulog](https://github.com/yulog) |[`ja_JP.json`](./ja_JP.json)|
