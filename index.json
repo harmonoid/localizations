@@ -1,0 +1,87 @@
+[
+  {
+    "code": "en-US",
+    "name": "English",
+    "country": "United States"
+  },
+  {
+    "code": "ru-RU",
+    "name": "Русский",
+    "country": "Россия"
+  },
+  {
+    "code": "sl-SI",
+    "name": "Slovenščina",
+    "country": "Slovenija"
+  },
+  {
+    "code": "pt-BR",
+    "name": "Português",
+    "country": "Brasil"
+  },
+  {
+    "code": "hi-IN",
+    "name": "हिन्दी",
+    "country": "भारत"
+  },
+  {
+    "code": "de-DE",
+    "name": "Deutsch",
+    "country": "Deutschland"
+  },
+  {
+    "code": "nl-NL",
+    "name": "Nederlands",
+    "country": "Nederland"
+  },
+  {
+    "code": "sv-SE",
+    "name": "Svenska",
+    "country": "Sverige"
+  },
+  {
+    "code": "fr-FR",
+    "name": "Français",
+    "country": "France"
+  },
+  {
+    "code": "fa-IR",
+    "name": "فارسی",
+    "country": "ایران"
+  },
+  {
+    "code": "hu-HU",
+    "name": "Magyar",
+    "country": "Magyarország"
+  },
+  {
+    "code": "mg-MG",
+    "name": "Malagasy",
+    "country": "Madagascar"
+  },
+  {
+    "code": "zh-CN",
+    "name": "中文",
+    "country": "中国"
+  },
+  {
+    "code": "ja-JP",
+    "name": "日本語",
+    "country": "日本"
+  },
+  {
+    "code": "tr-TR",
+    "name": "Türkçe",
+    "country": "Türkiye"
+  },
+  {
+    "code": "az-AZ",
+    "name": "Azerbaijani",
+    "country": "Azerbaijan"
+  },
+  {
+    "code": "id-ID",
+    "name": "Indonesian",
+    "country": "Indonesia"
+  }
+]
