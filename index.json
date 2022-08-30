@@ -1,86 +1,86 @@
 [
   {
-    "code": "en-US",
+    "code": "en_US",
     "name": "English",
     "country": "United States"
   },
   {
-    "code": "ru-RU",
+    "code": "ru_RU",
     "name": "Русский",
     "country": "Россия"
   },
   {
-    "code": "sl-SI",
+    "code": "sl_SI",
     "name": "Slovenščina",
     "country": "Slovenija"
   },
   {
-    "code": "pt-BR",
+    "code": "pt_BR",
     "name": "Português",
     "country": "Brasil"
   },
   {
-    "code": "hi-IN",
+    "code": "hi_IN",
     "name": "हिन्दी",
     "country": "भारत"
   },
   {
-    "code": "de-DE",
+    "code": "de_DE",
     "name": "Deutsch",
     "country": "Deutschland"
   },
   {
-    "code": "nl-NL",
+    "code": "nl_NL",
     "name": "Nederlands",
     "country": "Nederland"
   },
   {
-    "code": "sv-SE",
+    "code": "sv_SE",
     "name": "Svenska",
     "country": "Sverige"
   },
   {
-    "code": "fr-FR",
+    "code": "fr_FR",
     "name": "Français",
     "country": "France"
   },
   {
-    "code": "fa-IR",
+    "code": "fa_IR",
     "name": "فارسی",
     "country": "ایران"
   },
   {
-    "code": "hu-HU",
+    "code": "hu_HU",
     "name": "Magyar",
     "country": "Magyarország"
   },
   {
-    "code": "mg-MG",
+    "code": "mg_MG",
     "name": "Malagasy",
     "country": "Madagascar"
   },
   {
-    "code": "zh-CN",
+    "code": "zh_CN",
     "name": "中文",
     "country": "中国"
   },
   {
-    "code": "ja-JP",
+    "code": "ja_JP",
     "name": "日本語",
     "country": "日本"
   },
   {
-    "code": "tr-TR",
+    "code": "tr_TR",
     "name": "Türkçe",
     "country": "Türkiye"
   },
   {
-    "code": "az-AZ",
+    "code": "az_AZ",
     "name": "Azerbaijani",
     "country": "Azerbaijan"
   },
   {
-    "code": "id-ID",
+    "code": "id_ID",
     "name": "Indonesian",
     "country": "Indonesia"
   }
