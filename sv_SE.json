@@ -77,6 +77,7 @@
   "EXIT_TITLE": "Avsluta",
   "EXPERIMENTAL": "Experimental",
   "EXPERIMENTAL_SUBTITLE": "These settings are not marked as stable yet",
+  "FALLBACK_ALBUM_ARTS": "Lookup for fallback album arts",
   "FILE": "File",
   "FILE_INFORMATION": "File information",
   "FILE_PATH_OR_URL": "Enter file path or URL",

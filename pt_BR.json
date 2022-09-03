@@ -77,6 +77,7 @@
   "EXIT_TITLE": "Sair",
   "EXPERIMENTAL": "Experimental",
   "EXPERIMENTAL_SUBTITLE": "Essas configurações ainda não estão marcadas como estáveis",
+  "FALLBACK_ALBUM_ARTS": "Lookup for fallback album arts",
   "FILE": "Arquivo",
   "FILE_INFORMATION": "Informações do arquivo",
   "FILE_PATH_OR_URL": "Insira o caminho do arquivo ou URL",

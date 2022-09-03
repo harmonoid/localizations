@@ -77,6 +77,7 @@
   "EXIT_TITLE": "Quitter",
   "EXPERIMENTAL": "Expérimental",
   "EXPERIMENTAL_SUBTITLE": "Ces paramètres ne sont pas marqués comme étant stables.",
+  "FALLBACK_ALBUM_ARTS": "Lookup for fallback album arts",
   "FILE": "Fichier",
   "FILE_INFORMATION": "Information sur le fichier",
   "FILE_PATH_OR_URL": "Entrez le chemin du fichier ou l'URL",
