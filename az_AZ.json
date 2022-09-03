@@ -77,6 +77,7 @@
   "EXIT_TITLE": "Çıx",
   "EXPERIMENTAL": "Eksperimental",
   "EXPERIMENTAL_SUBTITLE": "Bu parametrlər hələ stabil olaraq qeyd edilməyib",
+  "FALLBACK_ALBUM_ARTS": "Lookup for fallback album arts",
   "FILE": "Fayl",
   "FILE_INFORMATION": "Fayl informasiyası",
   "FILE_PATH_OR_URL": "Faylın yerini ya da URL-i daxil edin",
