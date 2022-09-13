@@ -112,6 +112,7 @@
   "MENU": "菜单",
   "MINIMUM_FILE_SIZE": "最小文件大小",
   "MINIMUM_FILE_SIZE_WARNING": "更改最小文件大小后，必须重新索引您的音乐库。",
+  "MOBILE_ENABLE_NOW_PLAYING_RIPPLE_EFFECT": "Ripple effect on \"Now Playing Screen\"",
   "MOBILE_ENABLE_VOLUME_SLIDER": "Show volume slider",
   "MORE": "更多",
   "MUTE": "切换静音",

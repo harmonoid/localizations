@@ -112,6 +112,7 @@
   "MENU": "Menu",
   "MINIMUM_FILE_SIZE": "Taille de fichier minimale",
   "MINIMUM_FILE_SIZE_WARNING": "Votre bibliothèque musicale doit être réindexée après avoir modifié la taille de fichier minimale.",
+  "MOBILE_ENABLE_NOW_PLAYING_RIPPLE_EFFECT": "Ripple effect on \"Now Playing Screen\"",
   "MOBILE_ENABLE_VOLUME_SLIDER": "Show volume slider",
   "MORE": "Plus",
   "MUTE": "Couper le son",

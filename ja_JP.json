@@ -112,6 +112,7 @@
   "MENU": "メニュー",
   "MINIMUM_FILE_SIZE": "最小ファイルサイズ",
   "MINIMUM_FILE_SIZE_WARNING": "最小ファイルサイズを変更した後は、音楽ライブラリの再インデックスが必要です。",
+  "MOBILE_ENABLE_NOW_PLAYING_RIPPLE_EFFECT": "Ripple effect on \"Now Playing Screen\"",
   "MOBILE_ENABLE_VOLUME_SLIDER": "Show volume slider",
   "MORE": "もっと",
   "MUTE": "ミュート",
