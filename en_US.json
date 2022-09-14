@@ -36,7 +36,7 @@
   "COLLECTION_INDEXING_LABEL": "Your local music is being synced.\nIt's not a good idea to close the app.",
   "COLLECTION_PLAYLIST_DELETE_DIALOG_BODY": "Delete the playlist \"NAME\"?",
   "COLLECTION_PLAYLIST_DELETE_DIALOG_HEADER": "Delete",
-  "COLLECTION_SEARCH_LABEL": "Lookup music",
+  "COLLECTION_SEARCH_LABEL": "Find",
   "COLLECTION_SEARCH_NO_RESULTS_SUBTITLE": "Nothing like that could be found in your library",
   "COLLECTION_SEARCH_NO_RESULTS_TITLE": "No Results",
   "COLLECTION_SEARCH_WELCOME": "Search albums, tracks or artists...",
