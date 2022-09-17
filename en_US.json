@@ -95,7 +95,7 @@
   "IMPORT": "Import",
   "IMPORT_PLAYLIST_SUBTITLE": "Enter the playlist URL",
   "IMPORT_PLAYLIST_TITLE": "Import playlist",
-  "INDEXING_ALREADY_GOING_ON_SUBTITLE": "An indexing related operation is already going on. Please wait.",
+  "INDEXING_ALREADY_GOING_ON_SUBTITLE": "Indexing related operation is underway",
   "INDEXING_ALREADY_GOING_ON_TITLE": "Wait",
   "INTERNET_ERROR": "Check your internet connection",
   "INVALID_PLAYLIST_URL": "An invalid playlist URL was provided.",
