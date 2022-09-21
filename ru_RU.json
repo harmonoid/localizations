@@ -111,7 +111,7 @@
   "MINIMUM_FILE_SIZE_WARNING": "Ваша музыкальная библиотека должна быть переиндексирована после внесения изменений.",
   "MOBILE_ALBUM_GRID_SIZE": "Альбомы, Размер сетки",
   "MOBILE_ARTIST_GRID_SIZE": "Исполнители,Размер сетки",
-  "MOBILE_ENABLE_NOW_PLAYING_RIPPLE_EFFECT": "Волнистый эффект на \"Экран Воспроизведения\"",
+  "MOBILE_ENABLE_NOW_PLAYING_RIPPLE_EFFECT": "Эффект Волнистости для \"Экрана Воспроизведения\"",
   "MOBILE_ENABLE_VOLUME_SLIDER": "Показать ползунок громкости",
   "MORE": "Больше",
   "MUTE": "Отключить звук",
