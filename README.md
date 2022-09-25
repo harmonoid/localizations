@@ -14,6 +14,7 @@
 |Indonesian|Indonesia| [@KesiTakeshi](https://github.com/KesiTakeshi) |[`id_ID.json`](./id_ID.json)|=
 |Japanese|Japan| [@HiSubway](https://github.com/HiSubway), [@mi875](https://github.com/mi875), [@yulog](https://github.com/yulog) |[`ja_JP.json`](./ja_JP.json)|
 |Malagasy|Madagascar| [@c3k4ah](https://github.com/c3k4ah) |[`mg_MG.json`](./mg_MG.json)|
+|Malay|Malaysia| [@Thaza-Kun](https://github.com/Thaza-Kun) |[`ms_MY.json`](./ms_MY.json)|
 |Dutch|Netherlands| - | [`nl_NL.json`](./nl_NL.json)|
 |Portuguese|Brazil| [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./pt_BR.json) |
 |Russian|Russia| [@Feelogil](https://github.com/Feelogil), [@raitonoberu](https://github.com/raitonoberu) | [`ru_RU.json`](./ru_RU.json) |
