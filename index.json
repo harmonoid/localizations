@@ -78,5 +78,10 @@
     "code": "id_ID",
     "name": "Indonesian",
     "country": "Indonesia"
+  },
+  {
+    "code": "ms_MY",
+    "name": "Bahasa Melayu",
+    "country": "Malaysia"
   }
 ]
