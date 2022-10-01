@@ -77,7 +77,7 @@
   "EXIT_SUBTITLE": "Você quer nos deixar?",
   "EXIT_TITLE": "Sair",
   "EXPERIMENTAL": "Experimental",
-  "EXPERIMENTAL_SUBTITLE": "Essas configurações ainda não estão marcadas como estáveis",
+  "EXPERIMENTAL_SUBTITLE": "These settings will result in degraded performance.\nThis may be slower app launch or UI stutter.",
   "FALLBACK_ALBUM_ARTS": "Pesquisa de artes de álbuns substitutos",
   "FILE": "Arquivo",
   "FILE_INFORMATION": "Informações do arquivo",

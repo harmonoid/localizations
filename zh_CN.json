@@ -77,7 +77,7 @@
   "EXIT_SUBTITLE": "您确定退出 Harmonoid 吗?",
   "EXIT_TITLE": "退出",
   "EXPERIMENTAL": "实验性",
-  "EXPERIMENTAL_SUBTITLE": "这些设置尚未标记为稳定",
+  "EXPERIMENTAL_SUBTITLE": "These settings will result in degraded performance.\nThis may be slower app launch or UI stutter.",
   "FALLBACK_ALBUM_ARTS": "查找备用专辑封面",
   "FILE": "文件",
   "FILE_INFORMATION": "文件信息",

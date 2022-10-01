@@ -77,7 +77,7 @@
   "EXIT_SUBTITLE": "Ali res hočeš zapreti aplikacijo?",
   "EXIT_TITLE": "Izhod",
   "EXPERIMENTAL": "Eksperimentalno",
-  "EXPERIMENTAL_SUBTITLE": "Te nastavitve še niso stabilne.",
+  "EXPERIMENTAL_SUBTITLE": "These settings will result in degraded performance.\nThis may be slower app launch or UI stutter.",
   "FALLBACK_ALBUM_ARTS": "Lookup for fallback album arts",
   "FILE": "Datoteka",
   "FILE_INFORMATION": "Informacije o datoteki",

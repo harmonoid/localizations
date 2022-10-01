@@ -77,7 +77,7 @@
   "EXIT_SUBTITLE": "Vill du avsluta Harmonoid?",
   "EXIT_TITLE": "Avsluta",
   "EXPERIMENTAL": "Experimentellt",
-  "EXPERIMENTAL_SUBTITLE": "Dessa inställningar är inte stabila än",
+  "EXPERIMENTAL_SUBTITLE": "These settings will result in degraded performance.\nThis may be slower app launch or UI stutter.",
   "FALLBACK_ALBUM_ARTS": "Sök efter reservskivomslag",
   "FILE": "Fil",
   "FILE_INFORMATION": "Filinformation",

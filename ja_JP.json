@@ -77,7 +77,7 @@
   "EXIT_SUBTITLE": "Harmonoidを終了しますか？",
   "EXIT_TITLE": "終了",
   "EXPERIMENTAL": "実験的",
-  "EXPERIMENTAL_SUBTITLE": "これらの設定はまだ安定版ではありません",
+  "EXPERIMENTAL_SUBTITLE": "These settings will result in degraded performance.\nThis may be slower app launch or UI stutter.",
   "FALLBACK_ALBUM_ARTS": "Lookup for fallback album arts",
   "FILE": "ファイル",
   "FILE_INFORMATION": "ファイル情報",

@@ -77,7 +77,7 @@
   "EXIT_SUBTITLE": "Хотите выйти?",
   "EXIT_TITLE": "Выход",
   "EXPERIMENTAL": "Экспериментальные",
-  "EXPERIMENTAL_SUBTITLE": "Эти настройки пока что нестабильны",
+  "EXPERIMENTAL_SUBTITLE": "These settings will result in degraded performance.\nThis may be slower app launch or UI stutter.",
   "FALLBACK_ALBUM_ARTS": "Поиск обложек альбомов",
   "FILE": "Файл",
   "FILE_INFORMATION": "Сведения",

@@ -77,7 +77,7 @@
   "EXIT_SUBTITLE": "Harmonoid'dən çıxmaq istədiyinə əminsiniz?",
   "EXIT_TITLE": "Çıx",
   "EXPERIMENTAL": "Eksperimental",
-  "EXPERIMENTAL_SUBTITLE": "Bu parametrlər hələ stabil olaraq qeyd edilməyib",
+  "EXPERIMENTAL_SUBTITLE": "These settings will result in degraded performance.\nThis may be slower app launch or UI stutter.",
   "FALLBACK_ALBUM_ARTS": "Lookup for fallback album arts",
   "FILE": "Fayl",
   "FILE_INFORMATION": "Fayl informasiyası",

@@ -77,7 +77,7 @@
   "EXIT_SUBTITLE": "Voulez-vous quitter Harmonoid ?",
   "EXIT_TITLE": "Quitter",
   "EXPERIMENTAL": "Expérimental",
-  "EXPERIMENTAL_SUBTITLE": "Ces paramètres ne sont pas marqués comme étant stables.",
+  "EXPERIMENTAL_SUBTITLE": "These settings will result in degraded performance.\nThis may be slower app launch or UI stutter.",
   "FALLBACK_ALBUM_ARTS": "Lookup for fallback album arts",
   "FILE": "Fichier",
   "FILE_INFORMATION": "Information sur le fichier",
