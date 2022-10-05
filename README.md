@@ -22,6 +22,7 @@
 |Swedish|Sweden| - | [`sv_SE.json`](./sv_SE.json) |
 |Turkish|Turkey| [@TuranBerlin](https://github.com/TuranBerlin) | [`tr_TR.json`](./tr_TR.json) |
 |Simplified Chinese|China| [@ALILEX-1](https://github.com/@ALILEX-1), [@stonega](https://github.com/stonega), [@wcxu21](https://github.com/wcxu21), [@zzs20020430](https://github.com/zzs20020430) | [`zh_CN.json`](./zh_CN.json) |
+| Italian | Italy | [@Trainax](https://github.com/Trainax) | [`it_IT.json`](./it_IT.json) |
 
 ## Contribute
 
