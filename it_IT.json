@@ -141,7 +141,7 @@
   "PERMISSIONS": "Permessi",
   "PERMISSIONS_SUBTITLE": "Permessi aggiuntivi richiesti per Android",
   "PERMISSION_IMAGES_AND_PHOTOS": "Immagini e foto",
-  "PERMISSION_IMAGES_AND_PHOTOS_SUBTITLE": "Per le copertine degli album di riserva nella directory.\Android 13+ separa le autorizzazioni per la musica e le immagini.",
+  "PERMISSION_IMAGES_AND_PHOTOS_SUBTITLE": "Per le copertine degli album di riserva nella directory.\nAndroid 13+ separa le autorizzazioni per la musica e le immagini.",
   "PERMISSION_MUSIC_AND_AUDIO": "Musica e audio",
   "PERMISSION_MUSIC_AND_AUDIO_SUBTITLE": "Per riprodurre e gestire la libreria musicale",
   "PERMISSION_NOTIFICATIONS": "Notifiche",
