@@ -99,7 +99,7 @@
   "INDEXING_ALREADY_GOING_ON_TITLE": "等待",
   "INTERNET_ERROR": "检查您的网络连接。",
   "INVALID_PLAYLIST_URL": "提供了无效的播放列表 URL。",
-  "LAST_COLLECTION_DIRECTORY_REMOVED": "您的收藏中需要只是包括一个目录。",
+  "LAST_COLLECTION_DIRECTORY_REMOVED": "您的收藏中需要至少包括一个目录。",
   "LESS": "较少",
   "LIKED_SONGS": "喜欢的歌曲",
   "LYRICS": "歌词",
