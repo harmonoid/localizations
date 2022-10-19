@@ -1,0 +1,20 @@
+name: CI 
+
+on:
+  push:
+    branches: [ "ci" ]
+  pull_request:
+    branches: [ "main", "master"]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Verif if all json is correct json
+      run: for file in `ls | grep '.json' `; do  python -mjson.tool "$file" > /dev/null ; done
+    
