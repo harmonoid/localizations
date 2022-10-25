@@ -1,20 +1,17 @@
-name: CI 
+name: CI
 
 on:
   push:
-    branches: [ "ci" ]
+    branches: ["main", "master"]
   pull_request:
-    branches: [ "main", "master"]
+    branches: ["main", "master"]
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-
-    - name: Validate JSONs
-      run: for file in `ls | grep '.json' `; do  python -mjson.tool "$file" > /dev/null ; done
-    
+      - uses: actions/checkout@v3
+      - name: Validate JSON syntax
+        run: for file in `ls | grep '.json' `; do  python -mjson.tool "$file" > /dev/null ; done
+      - name: Validate index entries & translation values
+        run: python3 .github/ci.py
