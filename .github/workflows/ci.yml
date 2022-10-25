@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Verif if all json is correct json
+    - name: Validate JSONs
       run: for file in `ls | grep '.json' `; do  python -mjson.tool "$file" > /dev/null ; done
     
