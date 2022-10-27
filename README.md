@@ -36,6 +36,10 @@ First of all, big thanks for taking your time to maintain / contribute to transl
 - Want to become a permanent maintainer & need write access to this repository? Please [open a new issue](https://github.com/harmonoid/translations/issues/new).
 - 🎉🎉🎉
 
+#### NOTE:
+
+It will be a really great idea to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) specification in your commit messages. Though, it is not necessary.
+
 ## License
 
 This repository & work here is under [The Unlicense](https://unlicense.org/) license.
