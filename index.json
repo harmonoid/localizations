@@ -88,5 +88,10 @@
     "code": "ms_MY",
     "name": "Bahasa Melayu",
     "country": "Malaysia"
+  },
+  {
+    "code": "uk_UA",
+    "name": "Українська",
+    "country": "Україна"
   }
 ]
