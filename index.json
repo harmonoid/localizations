@@ -1,97 +1,97 @@
 [
   {
-    "code": "en_US",
-    "name": "English",
-    "country": "United States"
+    "code":"az_AZ",
+    "name":"Azerbaijani",
+    "country":"Azerbaijan"
   },
   {
-    "code": "ru_RU",
-    "name": "Русский",
-    "country": "Россия"
+    "code":"de_DE",
+    "name":"Deutsch",
+    "country":"Deutschland"
   },
   {
-    "code": "sl_SI",
-    "name": "Slovenščina",
-    "country": "Slovenija"
+    "code":"en_US",
+    "name":"English",
+    "country":"United States"
   },
   {
-    "code": "pt_BR",
-    "name": "Português",
-    "country": "Brasil"
+    "code":"fa_IR",
+    "name":"فارسی",
+    "country":"ایران"
   },
   {
-    "code": "de_DE",
-    "name": "Deutsch",
-    "country": "Deutschland"
+    "code":"fr_FR",
+    "name":"Français",
+    "country":"France"
   },
   {
-    "code": "nl_NL",
-    "name": "Nederlands",
-    "country": "Nederland"
+    "code":"hu_HU",
+    "name":"Magyar",
+    "country":"Magyarország"
   },
   {
-    "code": "sv_SE",
-    "name": "Svenska",
-    "country": "Sverige"
+    "code":"id_ID",
+    "name":"Indonesian",
+    "country":"Indonesia"
   },
   {
-    "code": "fr_FR",
-    "name": "Français",
-    "country": "France"
+    "code":"it_IT",
+    "name":"Italian",
+    "country":"Italy"
   },
   {
-    "code": "fa_IR",
-    "name": "فارسی",
-    "country": "ایران"
+    "code":"ja_JP",
+    "name":"日本語",
+    "country":"日本"
   },
   {
-    "code": "hu_HU",
-    "name": "Magyar",
-    "country": "Magyarország"
+    "code":"mg_MG",
+    "name":"Malagasy",
+    "country":"Madagascar"
   },
   {
-    "code": "mg_MG",
-    "name": "Malagasy",
-    "country": "Madagascar"
+    "code":"ms_MY",
+    "name":"Bahasa Melayu",
+    "country":"Malaysia"
   },
   {
-    "code": "zh_CN",
-    "name": "中文",
-    "country": "中国"
+    "code":"nl_NL",
+    "name":"Nederlands",
+    "country":"Nederland"
   },
   {
-    "code": "ja_JP",
-    "name": "日本語",
-    "country": "日本"
+    "code":"pt_BR",
+    "name":"Português",
+    "country":"Brasil"
   },
   {
-    "code": "tr_TR",
-    "name": "Türkçe",
-    "country": "Türkiye"
+    "code":"ru_RU",
+    "name":"Русский",
+    "country":"Россия"
   },
   {
-    "code": "az_AZ",
-    "name": "Azerbaijani",
-    "country": "Azerbaijan"
+    "code":"sl_SI",
+    "name":"Slovenščina",
+    "country":"Slovenija"
   },
   {
-    "code": "id_ID",
-    "name": "Indonesian",
-    "country": "Indonesia"
+    "code":"sv_SE",
+    "name":"Svenska",
+    "country":"Sverige"
   },
   {
-    "code": "it_IT",
-    "name": "Italian",
-    "country": "Italy"
-  },
-  {
-    "code": "ms_MY",
-    "name": "Bahasa Melayu",
-    "country": "Malaysia"
+    "code":"tr_TR",
+    "name":"Türkçe",
+    "country":"Türkiye"
   },
   {
     "code": "uk_UA",
     "name": "Українська",
     "country": "Україна"
+  },
+  {
+    "code":"zh_CN",
+    "name":"中文",
+    "country":"中国"
   }
 ]
