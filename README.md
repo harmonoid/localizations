@@ -25,6 +25,7 @@
 |Ukrainian|Ukraine| [@unreadablename](https://github.com/unreadablename)| [`uk_UA.json`](./translations/uk_UA.json) |
 |Simplified Chinese|China| [@ALILEX-1](https://github.com/ALILEX-1), [@litbear](https://github.com/litbear), [@stonega](https://github.com/stonega), [@wcxu21](https://github.com/wcxu21), [@zzs20020430](https://github.com/zzs20020430) | [`zh_CN.json`](./translations/zh_CN.json) |
 
+
 ## Contribute
 
 First of all, big thanks for taking your time to maintain / contribute to translations for [Harmonoid](https://github.com/harmonoid).
