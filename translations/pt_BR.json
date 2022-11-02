@@ -172,7 +172,7 @@
   "REFRESH": "Atualizar",
   "REFRESH_INFORMATION": "Apenas verifica os novos arquivos adicionados e excluídos para atualizar a biblioteca de músicas (mais rápido)",
   "REFRESH_SUBTITLE": "Verifique se há arquivos novos e excluídos",
-  "REINDEX": "Reindex",
+  "REINDEX": "Reindexar",
   "REINDEX_INFORMATION": "Construir a biblioteca de música novamente (mais lento)",
   "REINDEX_SUBTITLE": "Construa o banco de dados da biblioteca de música novamente",
   "REMIND_ME_NEXT_TIME": "Lembre-me da próxima vez",
