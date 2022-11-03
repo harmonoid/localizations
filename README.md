@@ -6,24 +6,25 @@
 
 |Language|Country|Contributors|Source|
 |--------|-------|------------|------|
-|Azerbaijani|Azerbaijan| [@Lucifer25x](https://github.com/Lucifer25x) |[`az_AZ.json`](./az_AZ.json)|
-|German|Germany| [@MickLesk](https://github.com/MickLesk) |[`de_DE.json`](./de_DE.json)|
-|Persian|Iran| [@0xj0hn](https://github.com/0xj0hn) |[`fa_IR.json`](./fa_IR.json)|
-|French|France| [@gaetan1903](https://github.com/gaetan1903) |[`fr_FR.json`](./fr_FR.json)|
-|Hungarian|Hungary| - |[`hu_HU.json`](./hu_HU.json)|
-|Indonesian|Indonesia| [@KesiTakeshi](https://github.com/KesiTakeshi) |[`id_ID.json`](./id_ID.json)|
-|Italian|Italy| [@Trainax](https://github.com/Trainax) | [`it_IT.json`](./it_IT.json) |
-|Japanese|Japan| [@HiSubway](https://github.com/HiSubway), [@mi875](https://github.com/mi875), [@yulog](https://github.com/yulog) |[`ja_JP.json`](./ja_JP.json)|
-|Malagasy|Madagascar| [@c3k4ah](https://github.com/c3k4ah), [@rivo2302](https://github.com/rivo2302), [@tbgracy](https://github.com/tbgracy) |[`mg_MG.json`](./mg_MG.json)|
-|Malay|Malaysia| [@Thaza-Kun](https://github.com/Thaza-Kun) |[`ms_MY.json`](./ms_MY.json)|
-|Dutch|Netherlands| - | [`nl_NL.json`](./nl_NL.json)|
-|Portuguese|Brazil| [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./pt_BR.json) |
-|Russian|Russia| [@Feelogil](https://github.com/Feelogil), [@raitonoberu](https://github.com/raitonoberu) | [`ru_RU.json`](./ru_RU.json) |
-|Slovenian|Slovenia| [@mytja](https://github.com/mytja) | [`sl_SI.json`](./sl_SI.json) |
-|Swedish|Sweden| - | [`sv_SE.json`](./sv_SE.json) |
-|Turkish|Turkey| [@CilgaIscan](https://github.com/CilgaIscan), [@TuranBerlin](https://github.com/TuranBerlin) | [`tr_TR.json`](./tr_TR.json) |
-|Ukrainian|Ukraine| [@unreadablename](https://github.com/unreadablename)| [`uk_UA.json`](./uk_UA.json) |
-|Simplified Chinese|China| [@ALILEX-1](https://github.com/ALILEX-1), [@litbear](https://github.com/litbear), [@stonega](https://github.com/stonega), [@wcxu21](https://github.com/wcxu21), [@zzs20020430](https://github.com/zzs20020430) | [`zh_CN.json`](./zh_CN.json) |
+|Azerbaijani|Azerbaijan| [@Lucifer25x](https://github.com/Lucifer25x) |[`az_AZ.json`](./translations/az_AZ.json)|
+|German|Germany| [@MickLesk](https://github.com/MickLesk) |[`de_DE.json`](./translations/de_DE.json)|
+|Persian|Iran| [@0xj0hn](https://github.com/0xj0hn) |[`fa_IR.json`](./translations/fa_IR.json)|
+|French|France| [@gaetan1903](https://github.com/gaetan1903) |[`fr_FR.json`](./translations/fr_FR.json)|
+|Hungarian|Hungary| - |[`hu_HU.json`](./translations/hu_HU.json)|
+|Indonesian|Indonesia| [@KesiTakeshi](https://github.com/KesiTakeshi) |[`id_ID.json`](./translations/id_ID.json)|
+|Italian|Italy| [@Trainax](https://github.com/Trainax) | [`it_IT.json`](./translations/it_IT.json) |
+|Japanese|Japan| [@HiSubway](https://github.com/HiSubway), [@mi875](https://github.com/mi875), [@yulog](https://github.com/yulog) |[`ja_JP.json`](./translations/ja_JP.json)|
+|Malagasy|Madagascar| [@c3k4ah](https://github.com/c3k4ah), [@rivo2302](https://github.com/rivo2302), [@tbgracy](https://github.com/tbgracy) |[`mg_MG.json`](./translations/mg_MG.json)|
+|Malay|Malaysia| [@Thaza-Kun](https://github.com/Thaza-Kun) |[`ms_MY.json`](./translations/ms_MY.json)|
+|Dutch|Netherlands| - | [`nl_NL.json`](./translations/nl_NL.json)|
+|Portuguese|Brazil| [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./translations/pt_BR.json) |
+|Russian|Russia| [@Feelogil](https://github.com/Feelogil), [@raitonoberu](https://github.com/raitonoberu) | [`ru_RU.json`](./translations/ru_RU.json) |
+|Slovenian|Slovenia| [@mytja](https://github.com/mytja) | [`sl_SI.json`](./translations/sl_SI.json) |
+|Swedish|Sweden| - | [`sv_SE.json`](./translations/sv_SE.json) |
+|Turkish|Turkey| [@CilgaIscan](https://github.com/CilgaIscan), [@TuranBerlin](https://github.com/TuranBerlin) | [`tr_TR.json`](./translations/tr_TR.json) |
+|Ukrainian|Ukraine| [@unreadablename](https://github.com/unreadablename)| [`uk_UA.json`](./translations/uk_UA.json) |
+|Simplified Chinese|China| [@ALILEX-1](https://github.com/ALILEX-1), [@litbear](https://github.com/litbear), [@stonega](https://github.com/stonega), [@wcxu21](https://github.com/wcxu21), [@zzs20020430](https://github.com/zzs20020430) | [`zh_CN.json`](./translations/zh_CN.json) |
+
 
 ## Contribute
 
