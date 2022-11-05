@@ -1,102 +1,82 @@
-[
-  {
-    "code":"az_AZ",
-    "name":"Azerbaijani",
-    "country":"Azerbaijan"
+{
+  "az_AZ": {
+    "name": "Azerbaijani",
+    "country": "Azerbaijan"
   },
-  {
-    "code":"de_DE",
-    "name":"Deutsch",
-    "country":"Deutschland"
+  "de_DE": {
+    "name": "Deutsch",
+    "country": "Deutschland"
   },
-  {
-    "code":"en_US",
-    "name":"English",
-    "country":"United States"
+  "en_US": {
+    "name": "English",
+    "country": "United States"
   },
-  {
-    "code":"es_LA",
-    "name":"Español",
-    "country":"Latin America"
+  "es_LA": {
+    "name": "Español",
+    "country": "Latin America"
   },
-  {
-    "code":"fa_IR",
-    "name":"فارسی",
-    "country":"ایران"
+  "fa_IR": {
+    "name": "فارسی",
+    "country": "ایران"
   },
-  {
-    "code":"fr_FR",
-    "name":"Français",
-    "country":"France"
+  "fr_FR": {
+    "name": "Français",
+    "country": "France"
   },
-  {
-    "code":"hu_HU",
-    "name":"Magyar",
-    "country":"Magyarország"
+  "hu_HU": {
+    "name": "Magyar",
+    "country": "Magyarország"
   },
-  {
-    "code":"id_ID",
-    "name":"Indonesian",
-    "country":"Indonesia"
+  "id_ID": {
+    "name": "Indonesian",
+    "country": "Indonesia"
   },
-  {
-    "code":"it_IT",
-    "name":"Italian",
-    "country":"Italy"
+  "it_IT": {
+    "name": "Italian",
+    "country": "Italy"
   },
-  {
-    "code":"ja_JP",
-    "name":"日本語",
-    "country":"日本"
+  "ja_JP": {
+    "name": "日本語",
+    "country": "日本"
   },
-  {
-    "code":"mg_MG",
-    "name":"Malagasy",
-    "country":"Madagascar"
+  "mg_MG": {
+    "name": "Malagasy",
+    "country": "Madagascar"
   },
-  {
-    "code":"ms_MY",
-    "name":"Bahasa Melayu",
-    "country":"Malaysia"
+  "ms_MY": {
+    "name": "Bahasa Melayu",
+    "country": "Malaysia"
   },
-  {
-    "code":"nl_NL",
-    "name":"Nederlands",
-    "country":"Nederland"
+  "nl_NL": {
+    "name": "Nederlands",
+    "country": "Nederland"
   },
-  {
-    "code":"pt_BR",
-    "name":"Português",
-    "country":"Brasil"
+  "pt_BR": {
+    "name": "Português",
+    "country": "Brasil"
   },
-  {
-    "code":"ru_RU",
-    "name":"Русский",
-    "country":"Россия"
+  "ru_RU": {
+    "name": "Русский",
+    "country": "Россия"
   },
-  {
-    "code":"sl_SI",
-    "name":"Slovenščina",
-    "country":"Slovenija"
+  "sl_SI": {
+    "name": "Slovenščina",
+    "country": "Slovenija"
   },
-  {
-    "code":"sv_SE",
-    "name":"Svenska",
-    "country":"Sverige"
+  "sv_SE": {
+    "name": "Svenska",
+    "country": "Sverige"
   },
-  {
-    "code":"tr_TR",
-    "name":"Türkçe",
-    "country":"Türkiye"
+  "tr_TR": {
+    "name": "Türkçe",
+    "country": "Türkiye"
   },
-  {
-    "code": "uk_UA",
+  "uk_UA": {
     "name": "Українська",
     "country": "Україна"
   },
-  {
-    "code":"zh_CN",
-    "name":"中文",
-    "country":"中国"
+  "zh_CN": {
+    "name": "中文",
+    "country": "中国"
   }
-]
+}

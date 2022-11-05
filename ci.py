@@ -10,26 +10,30 @@ if __name__ == "__main__":
     # Check whether all languages contain en-US equivalent key/value entries.
     # Get available keys in en-US.
     keys: List[str] = []
-    with open(os.path.join(translations_dir, "en_US.json"), "r", encoding="utf_8") as file:
+    with open(
+        os.path.join(translations_dir, "en_US.json"), "r", encoding="utf_8"
+    ) as file:
         keys.extend(json.loads(file.read()).keys())
     # Check if any language has some key missing.
     for file in os.listdir(translations_dir):
         if file.endswith(".json"):
-            with open(os.path.join(translations_dir, file), "r", encoding="utf_8") as file:
+            with open(
+                os.path.join(translations_dir, file), "r", encoding="utf_8"
+            ) as file:
                 contents: Dict[str, str] = json.loads(file.read())
                 for key in keys:
                     if key not in contents:
                         print(f"{file.name}: {key} not found.")
                         success = False
-    languages: List[Dict[str, str]] = []
+    language_codes: List[str] = []
     # Check whether all entries in index.json are valid i.e. equivalent translation file exists.
     with open(os.path.join(current_dir, "index.json"), "r", encoding="utf_8") as file:
         languages = json.loads(file.read())
-        for l in languages:
-            if not os.path.isfile(os.path.join(translations_dir, f"{l['code']}.json")):
-                print(f"{l['code']}.json not found.")
+        for k, _ in languages.items():
+            if not os.path.isfile(os.path.join(translations_dir, f"{k}.json")):
+                print(f"{k}.json not found.")
                 success = False
-    language_codes = list(map(lambda l: l["code"], languages))
+        language_codes = list(languages.keys())
     # Check whether all translation files i.e. ll-RR.json have an entry in index.json.
     for file in os.listdir(translations_dir):
         if file.endswith(".json"):
