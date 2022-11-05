@@ -31,9 +31,9 @@
 
 First of all, big thanks for taking your time to maintain / contribute to translations for [Harmonoid](https://github.com/harmonoid).
 
-- Please use existing [English • United States](./en_US.json) translations as a reference.
+- Please use existing [English • United States](./translations/en_US.json) translations as a reference.
 - Edit existing or add new file for your language e.g. `fr_FR.json`.
-- If you are adding a new language, please add entry in the [`index.json`](https://github.com/harmonoid/translations/blob/master/index.json).
+- If you are adding a new language, please add entry in the [`index.json`](./index.json).
 - Raise a new [pull request](https://github.com/harmonoid/translations/pulls).
 - Add yourself in the above table as a contributor (if not already).
 - Want to become a permanent maintainer & need write access to this repository? Please [open a new issue](https://github.com/harmonoid/translations/issues/new).
@@ -41,7 +41,7 @@ First of all, big thanks for taking your time to maintain / contribute to transl
 
 #### NOTE:
 
-It will be a really great idea to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) specification in your commit messages. Though, it is not necessary.
+It will be a really great idea to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) specification in your commit messages.
 
 ## License
 
