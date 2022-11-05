@@ -15,6 +15,11 @@
     "country":"United States"
   },
   {
+    "code":"es_LA",
+    "name":"Español",
+    "country":"Latin America"
+  },
+  {
     "code":"fa_IR",
     "name":"فارسی",
     "country":"ایران"
