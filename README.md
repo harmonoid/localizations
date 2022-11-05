@@ -7,6 +7,7 @@
 |Language|Country|Contributors|Source|
 |--------|-------|------------|------|
 |Azerbaijani|Azerbaijan| [@Lucifer25x](https://github.com/Lucifer25x) |[`az_AZ.json`](./translations/az_AZ.json)|
+|Spanish|Latin America| [@SteveeWasTaken](https://github.com/SteveeWasTaken) |[`es_LA.json`](./translations/es_LA.json)|
 |German|Germany| [@MickLesk](https://github.com/MickLesk), [@ken-der-guru](https://github.com/ken-der-guru) |[`de_DE.json`](./translations/de_DE.json)|
 |Persian|Iran| [@0xj0hn](https://github.com/0xj0hn) |[`fa_IR.json`](./translations/fa_IR.json)|
 |French|France| [@gaetan1903](https://github.com/gaetan1903) |[`fr_FR.json`](./translations/fr_FR.json)|
