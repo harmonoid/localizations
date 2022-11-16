@@ -5,6 +5,11 @@
     "country":"Azerbaijan"
   },
   {
+    "code":"cs_CZ",
+    "name":"Čeština",
+    "country":"Česká republika"
+  },
+  {
     "code":"de_DE",
     "name":"Deutsch",
     "country":"Deutschland"
