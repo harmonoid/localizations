@@ -25,6 +25,11 @@
     "country":"United States"
   },
   {
+    "code":"es_ES",
+    "name":"Español",
+    "country":"España" 
+  },
+  {
     "code":"es_LA",
     "name":"Español",
     "country":"Latin America"
