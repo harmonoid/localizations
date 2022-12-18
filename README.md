@@ -27,6 +27,7 @@
 |Turkish|Turkey| [@CilgaIscan](https://github.com/CilgaIscan), [@TuranBerlin](https://github.com/TuranBerlin) | [`tr_TR.json`](./translations/tr_TR.json) |
 |Ukrainian|Ukraine| [@unreadablename](https://github.com/unreadablename)| [`uk_UA.json`](./translations/uk_UA.json) |
 |Simplified Chinese|China| [@ALILEX-1](https://github.com/ALILEX-1), [@litbear](https://github.com/litbear), [@stonega](https://github.com/stonega), [@wcxu21](https://github.com/wcxu21), [@zzs20020430](https://github.com/zzs20020430) | [`zh_CN.json`](./translations/zh_CN.json) |
+|Spanish|Spain| [@enrique-mp](https://github.com/enrique-mp) |[`es_ES.json`](./translations/es_ES.json)|
 
 
 ## Contribute
