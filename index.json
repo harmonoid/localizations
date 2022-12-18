@@ -5,6 +5,11 @@
         "country": "Saudi Arabia"
   },
   {
+        "code": "bn_IN",
+        "name": "Bengali",
+        "country": "India"
+  },
+  {
     "code":"az_AZ",
     "name":"Azerbaijani",
     "country":"Azerbaijan"
