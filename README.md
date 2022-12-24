@@ -10,6 +10,7 @@
 |Azerbaijani|Azerbaijan| [@Lucifer25x](https://github.com/Lucifer25x) |[`az_AZ.json`](./translations/az_AZ.json)|
 |Czech|Czech Republic| [@IHtDzenda](https://github.com/IHtDzenda), [@PogLop](https://github.com/PogLop) |[`cs_CZ.json`](./translations/cs_CZ.json)|
 |German|Germany| [@MickLesk](https://github.com/MickLesk), [@ken-der-guru](https://github.com/ken-der-guru) |[`de_DE.json`](./translations/de_DE.json)|
+|Spanish|Spain| [@enrique-mp](https://github.com/enrique-mp) |[`es_ES.json`](./translations/es_ES.json)|
 |Spanish|Latin America| [@SteveeWasTaken](https://github.com/SteveeWasTaken) |[`es_LA.json`](./translations/es_LA.json)|
 |Persian|Iran| [@0xj0hn](https://github.com/0xj0hn) |[`fa_IR.json`](./translations/fa_IR.json)|
 |French|France| [@gaetan1903](https://github.com/gaetan1903) |[`fr_FR.json`](./translations/fr_FR.json)|
@@ -27,7 +28,6 @@
 |Turkish|Turkey| [@CilgaIscan](https://github.com/CilgaIscan), [@TuranBerlin](https://github.com/TuranBerlin) | [`tr_TR.json`](./translations/tr_TR.json) |
 |Ukrainian|Ukraine| [@unreadablename](https://github.com/unreadablename)| [`uk_UA.json`](./translations/uk_UA.json) |
 |Simplified Chinese|China| [@ALILEX-1](https://github.com/ALILEX-1), [@litbear](https://github.com/litbear), [@stonega](https://github.com/stonega), [@wcxu21](https://github.com/wcxu21), [@zzs20020430](https://github.com/zzs20020430) | [`zh_CN.json`](./translations/zh_CN.json) |
-|Spanish|Spain| [@enrique-mp](https://github.com/enrique-mp) |[`es_ES.json`](./translations/es_ES.json)|
 
 
 ## Contribute
