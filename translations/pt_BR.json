@@ -77,6 +77,8 @@
   "ENABLE_125_SCALING": "Ativar escala de 125%.",
   "ENABLE_ACRYLIC_BLUR": "Ativar desfoque acrílico do Windows.",
   "ENABLE_DISCORD_RPC": "Ativar a integração do Discord RPC",
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
   "ERROR": "Erro",
   "EXIT_FULLSCREEN": "Sair da tela cheia",
   "EXIT_NOW_PLAYING": "Sair agora da reprodução",

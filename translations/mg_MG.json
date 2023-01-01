@@ -77,6 +77,8 @@
   "ENABLE_125_SCALING": "Ampandehano ny tohatra manisa 125%.",
   "ENABLE_ACRYLIC_BLUR": "Ampandehano ny 'Windows acrylic blur'.",
   "ENABLE_DISCORD_RPC": "Enable Discord RPC integration",
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
   "ERROR": "Fahadisoana",
   "EXIT_FULLSCREEN": "Miala fullscreen",
   "EXIT_NOW_PLAYING": "Miala now playing",

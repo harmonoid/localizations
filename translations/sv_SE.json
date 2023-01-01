@@ -77,6 +77,8 @@
   "ENABLE_125_SCALING": "Aktivera 125% uppskalning.",
   "ENABLE_ACRYLIC_BLUR": "Aktivera Windows akryl suddighet.",
   "ENABLE_DISCORD_RPC": "Aktivera Discord RPC integrering",
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
   "ERROR": "Fel",
   "EXIT_FULLSCREEN": "Avsluta helskärm",
   "EXIT_NOW_PLAYING": "Avsluta spelas nu",

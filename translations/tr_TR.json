@@ -77,6 +77,8 @@
   "ENABLE_125_SCALING": "125% ölçeklemeyi etkinleştir",
   "ENABLE_ACRYLIC_BLUR": "Windows Acrylic Blur'u etkinleştir",
   "ENABLE_DISCORD_RPC": "Discord Rich Presence'u etkinleştir",
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
   "ERROR": "Hata",
   "EXIT_FULLSCREEN": "Tam ekranı kapat",
   "EXIT_NOW_PLAYING": "Şimdi oynatılıyor'u kapat",

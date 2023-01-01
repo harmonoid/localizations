@@ -77,6 +77,8 @@
   "ENABLE_125_SCALING": "开启 125% 缩放。",
   "ENABLE_ACRYLIC_BLUR": "开启 Windows 歌词模糊。",
   "ENABLE_DISCORD_RPC": "启用 Discord RPC 集成",
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
   "ERROR": "错误",
   "EXIT_FULLSCREEN": "退出全屏",
   "EXIT_NOW_PLAYING": "退出正在播放",

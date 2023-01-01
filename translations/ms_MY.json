@@ -77,6 +77,8 @@
   "ENABLE_125_SCALING": "Aktifkan penskalaan 125%",
   "ENABLE_ACRYLIC_BLUR": "Aktifkan kabur akrilik Windows",
   "ENABLE_DISCORD_RPC": "Aktifkan integrasi RPC Discord",
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
   "ERROR": "Ralat",
   "EXIT_FULLSCREEN": "Keluar paparan penuh",
   "EXIT_NOW_PLAYING": "Tutup yang sedang main",
