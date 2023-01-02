@@ -92,8 +92,13 @@
   "ENABLE_ACRYLIC_BLUR": "开启 Windows 歌词模糊。",
   "ENABLE_BLUR_EFFECT": "Enable Blur Effect",
   "ENABLE_DISCORD_RPC": "启用 Discord RPC 集成",
+<<<<<<< HEAD
   "ENABLE_GLOW_EFFECT": "Enable Glow Effect",
   "ENTER_YOUR_OWN_FORMAT_HERE": "Enter your own format here",
+=======
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
+>>>>>>> upstream/master
   "ERROR": "错误",
   "EXIT_FULLSCREEN": "退出全屏",
   "EXIT_NOW_PLAYING": "退出正在播放",
@@ -267,8 +272,12 @@
   "STARTING_PLAYBACK": "开始播放",
   "STATS_SUBTITLE": "有关您的音乐库的统计详细信息",
   "STATS_TITLE": "统计",
+<<<<<<< HEAD
   "STICKY_MINIPLAYER": "Sticky Miniplayer",
   "STICKY_MINIPLAYER_SUBTITLE": "Makes Miniplayer always sticky",
+=======
+  "STICKY_MINIPLAYER": "Sticky miniplayer",
+>>>>>>> upstream/master
   "STREAM": "流",
   "THEME_MODE_DARK": "深色",
   "THEME_MODE_LIGHT": "浅色",

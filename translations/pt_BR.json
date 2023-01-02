@@ -92,8 +92,13 @@
   "ENABLE_ACRYLIC_BLUR": "Ativar desfoque acrílico do Windows.",
   "ENABLE_BLUR_EFFECT": "Enable Blur Effect",
   "ENABLE_DISCORD_RPC": "Ativar a integração do Discord RPC",
+<<<<<<< HEAD
   "ENABLE_GLOW_EFFECT": "Enable Glow Effect",
   "ENTER_YOUR_OWN_FORMAT_HERE": "Enter your own format here",
+=======
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
+>>>>>>> upstream/master
   "ERROR": "Erro",
   "EXIT_FULLSCREEN": "Sair da tela cheia",
   "EXIT_NOW_PLAYING": "Sair agora da reprodução",
@@ -267,8 +272,12 @@
   "STARTING_PLAYBACK": "Iniciando a reprodução",
   "STATS_SUBTITLE": "Detalhes estatísticos sobre sua biblioteca de músicas",
   "STATS_TITLE": "Estatísticas",
+<<<<<<< HEAD
   "STICKY_MINIPLAYER": "Sticky Miniplayer",
   "STICKY_MINIPLAYER_SUBTITLE": "Makes Miniplayer always sticky",
+=======
+  "STICKY_MINIPLAYER": "Sticky miniplayer",
+>>>>>>> upstream/master
   "STREAM": "Fluxo",
   "THEME_MODE_DARK": "Escuro",
   "THEME_MODE_LIGHT": "Claro",

@@ -9,11 +9,15 @@
   "ADD_TO_PLAYLIST": "Add to playlist",
   "ALBUM": "Albums",
   "ALBUMS_FROM_ARTIST": "Albums",
-  "ALBUM_ARTIST": "Album artist",
+  "ALBUM_ARTIST": "Album Artist",
   "ALBUM_SINGLE": "Album",
+<<<<<<< HEAD
   "ALBUM_THUMBNAIL_SIZE_IN_LIST": "Size of Album Thumbnail",
   "ALBUM_TILE_HEIGHT_RESET_TO_DEFAULT": "Height of the Album Tile has been set to",
   "ALL_FILES": "All files",
+=======
+  "ALL_FILES": "All Files",
+>>>>>>> upstream/master
   "ARTIST": "Artists",
   "ARTIST_SINGLE": "Artist",
   "ASCENDING": "Ascending",
@@ -53,7 +57,7 @@
   "COLLECTION_TRACK_DELETE_DIALOG_HEADER": "Delete",
   "COLLECTION_TRACK_PLAYLIST_REMOVE_DIALOG_BODY": "Remove \"TRACK_NAME\" from \"PLAYLIST_NAME\"?",
   "COMING_UP": "Coming Up",
-  "CONTROL_PANEL": "Control panel",
+  "CONTROL_PANEL": "Control Panel",
   "COPY_AS_JSON": "Copy as JSON",
   "COPY_LINK": "Copy link",
   "CORRUPT_LRC_FILE": "Selected LRC file is corrupt. Please verify the file & try again.",
@@ -61,11 +65,15 @@
   "CREATE": "Create",
   "CREATE_NEW_PLAYLIST": "Create new playlist",
   "CREATE_PLAYLIST_SUBHEADER": "Create a new playlist to add your music",
+<<<<<<< HEAD
   "CUSTOMIZATIONS": "Customizations",
   "CUSTOMIZATIONS_SUBTITLE": "Change how player looks make it yours",
   "DATE_ADDED": "Date added",
   "DATE_TIME_FORMAT": "Date Time Format",
   "DATE_TIME_FORMAT_RESET_TO_DEFAULT": "Date Time Format has been set to",
+=======
+  "DATE_ADDED": "Date Added",
+>>>>>>> upstream/master
   "DELETE": "Delete",
   "DESCENDING": "Descending",
   "DISABLE_ANIMATIONS": "Disable animations",
@@ -92,8 +100,13 @@
   "ENABLE_ACRYLIC_BLUR": "Enable Windows acrylic blur",
   "ENABLE_BLUR_EFFECT": "Enable Blur Effect",
   "ENABLE_DISCORD_RPC": "Enable Discord RPC integration",
+<<<<<<< HEAD
   "ENABLE_GLOW_EFFECT": "Enable Glow Effect",
   "ENTER_YOUR_OWN_FORMAT_HERE": "Enter your own format here",
+=======
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
+>>>>>>> upstream/master
   "ERROR": "Error",
   "EXIT_FULLSCREEN": "Exit fullscreen",
   "EXIT_NOW_PLAYING": "Exit now playing",
@@ -267,8 +280,12 @@
   "STARTING_PLAYBACK": "Starting playback",
   "STATS_SUBTITLE": "Statistical details about your music library",
   "STATS_TITLE": "Stats",
+<<<<<<< HEAD
   "STICKY_MINIPLAYER": "Sticky Miniplayer",
   "STICKY_MINIPLAYER_SUBTITLE": "Makes Miniplayer always sticky",
+=======
+  "STICKY_MINIPLAYER": "Sticky miniplayer",
+>>>>>>> upstream/master
   "STREAM": "Stream",
   "THEME_MODE_DARK": "Dark",
   "THEME_MODE_LIGHT": "Light",
@@ -297,7 +314,7 @@
   "VIDEO_SINGLE": "Video",
   "VISUALS": "Add or remove visuals visible during music playback",
   "VISUALS_TITLE": "Visuals",
-  "VOLUME_BOOST": "Volume boost",
+  "VOLUME_BOOST": "Volume Boost",
   "WARNING": "Warning",
   "WEB_INTERNET_ERROR": "Let's play your local music, while you get back online.",
   "WEB_NO_RESULTS": "Nothing like that could be found",

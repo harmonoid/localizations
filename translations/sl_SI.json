@@ -92,8 +92,13 @@
   "ENABLE_ACRYLIC_BLUR": "Vključi Windows Acrylic blur.",
   "ENABLE_BLUR_EFFECT": "Enable Blur Effect",
   "ENABLE_DISCORD_RPC": "Vključi Discord RPC integracijo",
+<<<<<<< HEAD
   "ENABLE_GLOW_EFFECT": "Enable Glow Effect",
   "ENTER_YOUR_OWN_FORMAT_HERE": "Enter your own format here",
+=======
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
+>>>>>>> upstream/master
   "ERROR": "Napaka",
   "EXIT_FULLSCREEN": "Zapusti celozaslonski način",
   "EXIT_NOW_PLAYING": "Zapri trenutno predvajano",
@@ -267,8 +272,12 @@
   "STARTING_PLAYBACK": "Začenjam predvajanje",
   "STATS_SUBTITLE": "Statistični podatki o tvoji zbirki",
   "STATS_TITLE": "Statistika",
+<<<<<<< HEAD
   "STICKY_MINIPLAYER": "Sticky Miniplayer",
   "STICKY_MINIPLAYER_SUBTITLE": "Makes Miniplayer always sticky",
+=======
+  "STICKY_MINIPLAYER": "Sticky miniplayer",
+>>>>>>> upstream/master
   "STREAM": "Pretočno predvajaj",
   "THEME_MODE_DARK": "Temni",
   "THEME_MODE_LIGHT": "Svetli",

@@ -92,8 +92,13 @@
   "ENABLE_ACRYLIC_BLUR": "Включить «акриловое размытие» (Windows).",
   "ENABLE_BLUR_EFFECT": "Enable Blur Effect",
   "ENABLE_DISCORD_RPC": "Включить интеграцию с Discord RPC",
+<<<<<<< HEAD
   "ENABLE_GLOW_EFFECT": "Enable Glow Effect",
   "ENTER_YOUR_OWN_FORMAT_HERE": "Enter your own format here",
+=======
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
+>>>>>>> upstream/master
   "ERROR": "Ошибка",
   "EXIT_FULLSCREEN": "Выйти из полноэкранного режима",
   "EXIT_NOW_PLAYING": "Закрыть очередь",
@@ -267,8 +272,12 @@
   "STARTING_PLAYBACK": "Воспроизведение",
   "STATS_SUBTITLE": "Статистика Вашей музыкальной библиотеки",
   "STATS_TITLE": "Статистика",
+<<<<<<< HEAD
   "STICKY_MINIPLAYER": "Sticky Miniplayer",
   "STICKY_MINIPLAYER_SUBTITLE": "Makes Miniplayer always sticky",
+=======
+  "STICKY_MINIPLAYER": "Sticky miniplayer",
+>>>>>>> upstream/master
   "STREAM": "Stream",
   "THEME_MODE_DARK": "Тёмная",
   "THEME_MODE_LIGHT": "Светлая",

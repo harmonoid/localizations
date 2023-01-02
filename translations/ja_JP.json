@@ -92,8 +92,13 @@
   "ENABLE_ACRYLIC_BLUR": "Windows acrylic blurを有効化",
   "ENABLE_BLUR_EFFECT": "Enable Blur Effect",
   "ENABLE_DISCORD_RPC": "Discord RPC統合を有効にする",
+<<<<<<< HEAD
   "ENABLE_GLOW_EFFECT": "Enable Glow Effect",
   "ENTER_YOUR_OWN_FORMAT_HERE": "Enter your own format here",
+=======
+  "ENABLE_VOLUME_BOOST_FILTER": "Enable volume boost filter",
+  "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Enabling volume boost filter may cause playback to not work properly on some Android devices/ROMs.",
+>>>>>>> upstream/master
   "ERROR": "エラー",
   "EXIT_FULLSCREEN": "フルスクリーンを終了",
   "EXIT_NOW_PLAYING": "再生中を閉じる",
@@ -267,8 +272,12 @@
   "STARTING_PLAYBACK": "再生開始",
   "STATS_SUBTITLE": "あなたの音楽ライブラリの統計情報",
   "STATS_TITLE": "統計",
+<<<<<<< HEAD
   "STICKY_MINIPLAYER": "Sticky Miniplayer",
   "STICKY_MINIPLAYER_SUBTITLE": "Makes Miniplayer always sticky",
+=======
+  "STICKY_MINIPLAYER": "Sticky miniplayer",
+>>>>>>> upstream/master
   "STREAM": "ストリーム",
   "THEME_MODE_DARK": "ダーク",
   "THEME_MODE_LIGHT": "ライト",
