@@ -150,7 +150,7 @@
   "PERMISSIONS": "権限",
   "PERMISSIONS_SUBTITLE": "Androidでは追加の権限が必要",
   "PERMISSION_IMAGES_AND_PHOTOS": "画像と写真",
-  "PERMISSION_IMAGES_AND_PHOTOS_SUBTITLE": "in ディレクトリの予備のアルバムアートについて。\nAndroid 13以上では音楽と画像が分離されます。",
+  "PERMISSION_IMAGES_AND_PHOTOS_SUBTITLE": "ディレクトリの予備のアルバムアートについて。\nAndroid 13以上では音楽と画像が分離されます。",
   "PERMISSION_MUSIC_AND_AUDIO": "音楽と音声",
   "PERMISSION_MUSIC_AND_AUDIO_SUBTITLE": "音楽ライブラリの再生と管理について",
   "PERMISSION_NOTIFICATIONS": "通知",
