@@ -65,6 +65,11 @@
     "country":"日本"
   },
   {
+    "code": "ko_KR",
+    "name": "한국어",
+    "country": "한국"
+  },
+  {
     "code":"mg_MG",
     "name":"Malagasy",
     "country":"Madagascar"
