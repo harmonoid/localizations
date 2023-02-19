@@ -219,7 +219,7 @@
   "SETTING_APP_VERSION_TITLE": "버전",
   "SETTING_DISPLAY_SUBTITLE": "Configure application's visual appearance & behavior",
   "SETTING_DISPLAY_TITLE": "Display",
-  "SETTING_INDEXING_LINEAR_PROGRESS_INDICATOR": "TOTAL_STRING 중 NUMBER_STRING 트랙을 색인 했습니다...",
+  "SETTING_INDEXING_LINEAR_PROGRESS_INDICATOR": "TOTAL 중 COMPLETED 트랙을 색인 했습니다...",
   "SETTING_INDEXING_SUBTITLE": "음악 라이브러리에 더 많은 폴더 포함",
   "SETTING_INDEXING_TITLE": "라이브러리",
   "SETTING_LANGUAGE_SUBTITLE": "앱의 언어 변경합니다",
