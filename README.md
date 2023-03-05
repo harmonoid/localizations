@@ -18,7 +18,7 @@
 |Hungarian|Hungary| - |[`hu_HU.json`](./translations/hu_HU.json)|
 |Indonesian|Indonesia| [@KesiTakeshi](https://github.com/KesiTakeshi) |[`id_ID.json`](./translations/id_ID.json)|
 |Italian|Italy| [@Trainax](https://github.com/Trainax) | [`it_IT.json`](./translations/it_IT.json) |
-|Japanese|Japan| [@HiSubway](https://github.com/HiSubway), [@mi875](https://github.com/mi875), [@yulog](https://github.com/yulog) |[`ja_JP.json`](./translations/ja_JP.json)|
+|Japanese|Japan| [@HiSubway](https://github.com/HiSubway), [@mi875](https://github.com/mi875), [@yulog](https://github.com/yulog), [@maboroshin](https://github.com/maboroshin/) |[`ja_JP.json`](./translations/ja_JP.json)|
 |Korean|Korea| [@dart-bird](https://github.com/dart-bird) |[`ko_KR.json`](./translations/ko_KR.json)|
 |Malagasy|Madagascar| [@c3k4ah](https://github.com/c3k4ah), [@rivo2302](https://github.com/rivo2302), [@tbgracy](https://github.com/tbgracy) |[`mg_MG.json`](./translations/mg_MG.json)|
 |Malay|Malaysia| [@Thaza-Kun](https://github.com/Thaza-Kun) |[`ms_MY.json`](./translations/ms_MY.json)|
