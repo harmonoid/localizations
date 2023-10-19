@@ -12,7 +12,7 @@
 |Czech|Czech Republic| [@IHtDzenda](https://github.com/IHtDzenda), [@PogLop](https://github.com/PogLop), [@Tutislav](https://github.com/Tutislav) |[`cs_CZ.json`](./translations/cs_CZ.json)|
 |German|Germany| [@MickLesk](https://github.com/MickLesk), [@ken-der-guru](https://github.com/ken-der-guru) |[`de_DE.json`](./translations/de_DE.json)|
 |Spanish|Spain| [@enrique-mp](https://github.com/enrique-mp) |[`es_ES.json`](./translations/es_ES.json)|
-|Spanish|Latin America| [@SteveeWasTaken](https://github.com/SteveeWasTaken) |[`es_LA.json`](./translations/es_LA.json)|
+|Spanish|Latin America| [@who-is-thiss](https://github.com/who-is-thiss) |[`es_LA.json`](./translations/es_LA.json)|
 |Persian|Iran| [@0xj0hn](https://github.com/0xj0hn) |[`fa_IR.json`](./translations/fa_IR.json)|
 |French|France| [@gaetan1903](https://github.com/gaetan1903) |[`fr_FR.json`](./translations/fr_FR.json)|
 |Hungarian|Hungary| - |[`hu_HU.json`](./translations/hu_HU.json)|
