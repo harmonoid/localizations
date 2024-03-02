@@ -69,6 +69,11 @@
     "name":"日本語",
     "country":"日本"
   },
+   {
+    "code":"ku_KU",
+    "name":"Kurmancî",
+    "country":"Kurdistan"
+  },
   {
     "code": "ko_KR",
     "name": "한국어",
