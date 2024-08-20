@@ -25,6 +25,11 @@
     "country":"Deutschland"
   },
   {
+    "code":"el_GR",
+    "name":"Ελληνικά",
+    "country":"Ελλάδα" 
+  },
+  {
     "code":"en_US",
     "name":"English",
     "country":"United States"
