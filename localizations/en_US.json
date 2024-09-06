@@ -174,6 +174,8 @@
   "SETTINGS_SECTION_LANGUAGE_TITLE": "Language",
   "SETTINGS_SECTION_MEDIA_LIBRARY_SUBTITLE": "Configure how the media files are organized",
   "SETTINGS_SECTION_MEDIA_LIBRARY_TITLE": "Media library",
+  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Configure behavior of the \"Now playing\"",
+  "SETTINGS_SECTION_NOW_PLAYING_TITLE": "Now playing",
   "SETTINGS_SECTION_STATS_SUBTITLE": "Statistical details about the media library",
   "SETTINGS_SECTION_STATS_TITLE": "Stats",
   "SET_LRC_FILE": "Set LRC file",
