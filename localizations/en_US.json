@@ -1,6 +1,7 @@
 {
   "ABOUT": "About",
   "ADD": "Add",
+  "ADDED_FOLDERS": "Added folders:",
   "ADDED_M_OF_N_FILES": "Added \"M\" of \"N\" files...",
   "ADDING_YOUR_MUSIC": "Adding your music...",
   "ADD_NEW_FOLDER": "Add new folder",
@@ -32,7 +33,6 @@
   "COUNT": "Count",
   "CREATE": "Create",
   "CREATE_NEW_PLAYLIST": "Create new playlist",
-  "CURRENTLY_ADDED_FOLDERS": "Currently added folders:",
   "DATE_ADDED": "Date added",
   "DELETE": "Delete",
   "DESCENDING": "Descending",
