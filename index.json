@@ -8,5 +8,10 @@
     "code": "ro_RO",
     "name": "Română",
     "country": "România"
+  },
+  {
+    "code": "sl_SI",
+    "name": "slovenščina",
+    "country": "Slovenija"
   }
 ]
