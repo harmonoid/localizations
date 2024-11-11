@@ -53,7 +53,7 @@
   "ENABLE_ANIMATION_EFFECTS": "Aktifkan efek animasi",
   "ENABLE_DISCORD_RPC": "Aktifkan RPC Discord",
   "ENABLE_NOTIFICATION_LYRICS": "Aktifkan lirik notifikasi",
-  "ENABLE_NOW_PLAYING_RIPPLE_EFFECT": "Aktifkan \"Layar sedang diputar\" efek ripple",
+  "ENABLE_NOW_PLAYING_RIPPLE_EFFECT": "Aktifkan \"Layar sedang diputar\" efek riak",
   "ENABLE_VOLUME_BOOST_FILTER": "Aktifkan filter boost volume",
   "ENABLE_VOLUME_BOOST_FILTER_WARNING": "Mengaktifkan filter boost volume mungkin menyebabkan pemutaran tidak bekerja dengan semestinya di beberapa perangkat Android/ROM.",
   "ENTRIES": "Masuk",
