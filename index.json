@@ -5,13 +5,18 @@
     "country": "United States"
   },
   {
+    "code": "pt_BR",
+    "name": "Português",
+    "country": "Brasil"
+  },
+  {
     "code": "ro_RO",
     "name": "Română",
     "country": "România"
   },
   {
     "code": "sl_SI",
-    "name": "slovenščina",
+    "name": "Slovenščina",
     "country": "Slovenija"
   }
 ]
