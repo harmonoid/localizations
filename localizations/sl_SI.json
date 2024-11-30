@@ -1,5 +1,6 @@
 {
   "ABOUT": "O nas",
+  "ABOUT_HARMONOID": "About Harmonoid",
   "ADD": "Dodaj",
   "ADDED_FOLDERS": "Dodane mape:",
   "ADDED_M_OF_N_FILES": "Dodanih \"M\" od \"N\" datotek ...",
@@ -156,6 +157,7 @@
   "PRIVACY": "Zasebnost",
   "PROCEED": "Proceed",
   "PROPERTY": "Lastnost",
+  "QUIT_HARMONOID": "Quit Harmonoid",
   "READ": "Beri",
   "READ_METADATA": "Preberi metapodatke",
   "RECOMMENDATIONS": "Predlogi",

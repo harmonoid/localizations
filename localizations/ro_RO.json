@@ -1,5 +1,6 @@
 {
   "ABOUT": "Despre",
+  "ABOUT_HARMONOID": "About Harmonoid",
   "ADD": "Adaugă",
   "ADDED_FOLDERS": "Dosare adăugate:",
   "ADDED_M_OF_N_FILES": "S-au adăugat \"M\" din \"N\" de fișiere...",
@@ -156,6 +157,7 @@
   "PRIVACY": "Confidențialitate",
   "PROCEED": "Proceed",
   "PROPERTY": "Proprietate",
+  "QUIT_HARMONOID": "Quit Harmonoid",
   "READ": "Citește",
   "READ_METADATA": "Citește metadatele",
   "RECOMMENDATIONS": "Sugestii",

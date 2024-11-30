@@ -1,5 +1,6 @@
 {
   "ABOUT": "About",
+  "ABOUT_HARMONOID": "About Harmonoid",
   "ADD": "Add",
   "ADDED_FOLDERS": "Added folders:",
   "ADDED_M_OF_N_FILES": "Added \"M\" of \"N\" files...",
@@ -156,6 +157,7 @@
   "PRIVACY": "Privacy",
   "PROCEED": "Proceed",
   "PROPERTY": "Property",
+  "QUIT_HARMONOID": "Quit Harmonoid",
   "READ": "Read",
   "READ_METADATA": "Read metadata",
   "RECOMMENDATIONS": "Suggestions",
