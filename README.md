@@ -6,7 +6,7 @@
 
 | Language | Country | Contributors | Source |
 | -------- | ------- | ------------ | ------ |
-|Portuguese|Brazil| [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./translations/pt_BR.json) |
+|Portuguese|Brazil| [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./localizations/pt_BR.json) |
 
 ## Contribute
 
