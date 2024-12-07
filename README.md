@@ -8,6 +8,8 @@
 | -------- | ------- | ------------ | ------ |
 |English|United States| [@alexmercerind](https://github.com/alexmercerind) | [`en_US.json`](./localizations/en_US.json) |
 |Portuguese|Brazil| [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./localizations/pt_BR.json) |
+|Romanian|Romania| [@alexmercerind](https://github.com/alexmercerind) | [`ro_RO.json`](./localizations/ro_RO.json) |
+|Slovenian|Slovenia| [@alexmercerind](https://github.com/alexmercerind) | [`sl_SI.json`](./localizations/sl_SI.json) |
 
 ## Contribute
 
