@@ -6,6 +6,7 @@
 
 | Language | Country | Contributors | Source |
 | -------- | ------- | ------------ | ------ |
+|English|United States| [@alexmercerind](https://github.com/alexmercerind) | [`en_US.json`](./localizations/en_US.json) |
 |Portuguese|Brazil| [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./localizations/pt_BR.json) |
 
 ## Contribute
