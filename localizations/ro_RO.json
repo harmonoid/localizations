@@ -199,6 +199,8 @@
   "SETTINGS_SECTION_MISCELLANEOUS_TITLE": "Diverse",
   "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Schimbă comportamentul \"redării curente\"",
   "SETTINGS_SECTION_NOW_PLAYING_TITLE": "Redarea curentă",
+  "SETTINGS_SECTION_PERMISSIONS_SUBTITLE": "Grant additional permissions to enhance the experience",
+  "SETTINGS_SECTION_PERMISSIONS_TITLE": "Permissions",
   "SETTINGS_SECTION_STATS_SUBTITLE": "Detalii statistice despre biblioteca media",
   "SETTINGS_SECTION_STATS_TITLE": "Statistici",
   "SET_LRC_FILE": "Setează fișierul LRC",

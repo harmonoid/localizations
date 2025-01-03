@@ -199,6 +199,8 @@
   "SETTINGS_SECTION_MISCELLANEOUS_TITLE": "Miscellaneous",
   "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Configure behavior of the \"Now playing\"",
   "SETTINGS_SECTION_NOW_PLAYING_TITLE": "Now playing",
+  "SETTINGS_SECTION_PERMISSIONS_SUBTITLE": "Grant additional permissions to enhance the experience",
+  "SETTINGS_SECTION_PERMISSIONS_TITLE": "Permissions",
   "SETTINGS_SECTION_STATS_SUBTITLE": "Statistical details about the media library",
   "SETTINGS_SECTION_STATS_TITLE": "Stats",
   "SET_LRC_FILE": "Set LRC file",

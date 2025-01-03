@@ -199,6 +199,8 @@
   "SETTINGS_SECTION_MISCELLANEOUS_TITLE": "Diversos",
   "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Configurar comportamento do \"Tocando Agora\"",
   "SETTINGS_SECTION_NOW_PLAYING_TITLE": "Tocando Agora",
+  "SETTINGS_SECTION_PERMISSIONS_SUBTITLE": "Grant additional permissions to enhance the experience",
+  "SETTINGS_SECTION_PERMISSIONS_TITLE": "Permissions",
   "SETTINGS_SECTION_STATS_SUBTITLE": "Detalhes estatísticos sobre a biblioteca de mídia",
   "SETTINGS_SECTION_STATS_TITLE": "Estatísticas",
   "SET_LRC_FILE": "Definir arquivo LRC",

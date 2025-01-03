@@ -199,6 +199,8 @@
   "SETTINGS_SECTION_MISCELLANEOUS_TITLE": "Drugo",
   "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Spremenite obnašanje prikaza \"Trenutno predvajano\"",
   "SETTINGS_SECTION_NOW_PLAYING_TITLE": "Trenutno predvajano",
+  "SETTINGS_SECTION_PERMISSIONS_SUBTITLE": "Grant additional permissions to enhance the experience",
+  "SETTINGS_SECTION_PERMISSIONS_TITLE": "Permissions",
   "SETTINGS_SECTION_STATS_SUBTITLE": "Statistika o vaši glasbeni zbirki",
   "SETTINGS_SECTION_STATS_TITLE": "Statistika",
   "SET_LRC_FILE": "Izberite datoteko LRC",
