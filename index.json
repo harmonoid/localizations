@@ -23,5 +23,10 @@
     "code": "sl_SI",
     "name": "Slovenščina",
     "country": "Slovenija"
-  }
+  },
+    {
+    "code": "de_DE",
+    "name": "Deutsch",
+    "country": "Deutschland"
+  },
 ]
