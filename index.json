@@ -5,6 +5,11 @@
     "country": "United States"
   },
   {
+    "code": "de_DE",
+    "name": "Deutsch",
+    "country": "Deutschland"
+  },
+  {
     "code": "el_GR",
     "name": "Ελληνικά",
     "country": "Ελλάδα"
