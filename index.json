@@ -5,6 +5,11 @@
     "country": "United States"
   },
   {
+    "code": "de_DE",
+    "name": "Deutsch",
+    "country": "Deutschland"
+  },
+  {
     "code": "el_GR",
     "name": "Ελληνικά",
     "country": "Ελλάδα"
@@ -23,10 +28,5 @@
     "code": "sl_SI",
     "name": "Slovenščina",
     "country": "Slovenija"
-  },
-    {
-    "code": "de_DE",
-    "name": "Deutsch",
-    "country": "Deutschland"
-  },
+  }
 ]
