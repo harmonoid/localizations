@@ -158,6 +158,7 @@
   "PLAYLIST_ENTRY_REMOVE_DIALOG_SUBTITLE": "Ștergi \"\"ENTRY\"\" din \"\"PLAYLIST\"\"?",
   "PLAYLIST_RENAME_DIALOG_SUBTITLE": "Introdu numele listei de redare",
   "PLAY_ALL": "Redă tot",
+  "PLAY_NEXT": "Play next",
   "PLAY_NOW": "Redă acum",
   "PLAY_URL": "Redă URL",
   "PLAY_URL_SUBTITLE": "Introdu URI-ul resursei media",

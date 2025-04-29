@@ -158,6 +158,7 @@
   "PLAYLIST_ENTRY_REMOVE_DIALOG_SUBTITLE": "Remover \"ENTRY\" de \"PLAYLIST\"?",
   "PLAYLIST_RENAME_DIALOG_SUBTITLE": "Renomear a playlist",
   "PLAY_ALL": "Reproduzir tudo",
+  "PLAY_NEXT": "Play next",
   "PLAY_NOW": "Reproduzir agora",
   "PLAY_URL": "Reproduzir URL",
   "PLAY_URL_SUBTITLE": "Insira o URI do recurso de mídia",

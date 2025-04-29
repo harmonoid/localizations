@@ -158,6 +158,7 @@
   "PLAYLIST_ENTRY_REMOVE_DIALOG_SUBTITLE": "Izbriši \"\"ENTRY\"\" iz \"\"PLAYLIST\"\"?",
   "PLAYLIST_RENAME_DIALOG_SUBTITLE": "Vnesite ime seznama predvajanja",
   "PLAY_ALL": "Predvajaj vse",
+  "PLAY_NEXT": "Play next",
   "PLAY_NOW": "Predvajaj zdaj",
   "PLAY_URL": "Predvajaj URL",
   "PLAY_URL_SUBTITLE": "Vnesite URI do medijske datoteke",
