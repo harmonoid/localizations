@@ -64,6 +64,7 @@
   "ENTRIES": "Entries",
   "ENTRY": "Entry",
   "ERROR": "Error",
+  "EXCLUSIVE_AUDIO": "Exclusive audio",
   "EXIT_FULLSCREEN": "Exit fullscreen",
   "EXIT_NOW_PLAYING": "Exit now playing",
   "EXIT_SUBTITLE": "Do you want to exit Harmonoid?",
