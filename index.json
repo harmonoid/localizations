@@ -28,5 +28,10 @@
     "code": "sl_SI",
     "name": "Slovenščina",
     "country": "Slovenija"
+  },
+  {
+    "code": "es_ES",
+    "name": "Español",
+    "country": "España"
   }
 ]
