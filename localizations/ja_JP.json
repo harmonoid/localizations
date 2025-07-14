@@ -243,7 +243,7 @@
   "URL": "URL",
   "USE_COLOR_PALETTE": "カラーパレットを使用",
   "USE_SYSTEM_COLOR_SCHEME": "システムのカラーテーマを使用",
-  "USE_THESE_CHARACTERS_TO_SEPARATE_ARTISTS": "複数のアーテイストを分けるために以下の文字を使用 ; // / \\\\ や \\ ,
+  "USE_THESE_CHARACTERS_TO_SEPARATE_ARTISTS": "複数のアーテイストを分けるために以下の文字を使用 ; // / \\\\ や \\",
   "VALUE": "値",
   "VOLUME_BOOST": "音量ブースト",
   "WARNING": "警告",
