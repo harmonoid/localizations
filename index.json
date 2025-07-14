@@ -15,6 +15,11 @@
     "country": "Ελλάδα"
   },
   {
+    "code": "ja_JP",
+    "name": "日本語",
+    "country": "日本"
+  },
+  {
     "code": "pt_BR",
     "name": "Português",
     "country": "Brasil"
