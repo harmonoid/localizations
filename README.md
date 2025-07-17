@@ -11,6 +11,7 @@
 |Portuguese|Brazil| [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./localizations/pt_BR.json) |
 |Romanian|Romania| [@raresnita](https://github.com/raresnita) | [`ro_RO.json`](./localizations/ro_RO.json) |
 |Slovenian|Slovenia| [@alexmercerind](https://github.com/alexmercerind) | [`sl_SI.json`](./localizations/sl_SI.json) |
+|Polish|Poland| [@KOXXPL](https://github.com/KOXXPL) | [`pl_PL.json`](./localizations/pl_PL.json) |
 
 ## Contribute
 
