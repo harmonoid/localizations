@@ -9,7 +9,8 @@
 |English|United States| [@alexmercerind](https://github.com/alexmercerind) | [`en_US.json`](./localizations/en_US.json) |
 |Greek|Greece| [@cuhsy](https://github.com/cuhsy) | [`el_GR.json`](./localizations/el_GR.json) |
 |Japanese|Japan| [@maboroshin](https://github.com/maboroshin) | [`ja_JP.json`](./localizations/ja_JP.json) |
-|Portuguese|Brazil| [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./localizations/pt_BR.json) |
+|Polish|Poland| [@KOXXPL](https://github.com/KOXXPL) | [`pl_PL.json`](./localizations/pl_PL.json) |
+|Portuguese|Brazil| [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./localizations/pt_BR.json) 
 |Romanian|Romania| [@raresnita](https://github.com/raresnita) | [`ro_RO.json`](./localizations/ro_RO.json) |
 |Slovenian|Slovenia| [@alexmercerind](https://github.com/alexmercerind) | [`sl_SI.json`](./localizations/sl_SI.json) |
 

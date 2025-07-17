@@ -20,6 +20,11 @@
     "country": "日本"
   },
   {
+    "code": "pl_PL",
+    "name": "Polski",
+    "country": "Polska"
+  },
+  {
     "code": "pt_BR",
     "name": "Português",
     "country": "Brasil"
