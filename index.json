@@ -38,5 +38,10 @@
     "code": "sl_SI",
     "name": "Slovenščina",
     "country": "Slovenija"
+  },
+  {
+    "code": "tr-TR",
+    "name": "Türkçe",
+    "country": "Türkiye"
   }
 ]
