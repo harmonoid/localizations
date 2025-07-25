@@ -38,5 +38,10 @@
     "code": "sl_SI",
     "name": "Slovenščina",
     "country": "Slovenija"
+  },
+  {
+    "code": "zh_CN",
+    "name": "简体中文",
+    "country": "中国"
   }
 ]
