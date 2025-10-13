@@ -14,6 +14,7 @@
 |Romanian|Romania| [@raresnita](https://github.com/raresnita) | [`ro_RO.json`](./localizations/ro_RO.json) |
 |Slovenian|Slovenia| [@alexmercerind](https://github.com/alexmercerind) | [`sl_SI.json`](./localizations/sl_SI.json) |
 |Chinese|China| [@VisionsAll](https://github.com/VisionsAll) | [`zh_CN.json`](./localizations/zh_CN.json) |
+|Vietnamese|Vietnam| [@honhatduy](https://github.com/honhatduy) | [`vi_VN.json`](./localizations/vi_VN.json) |
 
 ## Contribute
 
