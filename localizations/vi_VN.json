@@ -64,6 +64,7 @@
   "ENTRIES": "Mục",
   "ENTRY": "Mục",
   "ERROR": "Lỗi",
+  "EXCLUSIVE_AUDIO": "Âm thanh độc quyền",
   "EXIT_FULLSCREEN": "Thoát toàn màn hình",
   "EXIT_NOW_PLAYING": "Thoát đang phát",
   "EXIT_SUBTITLE": "Bạn có muốn thoát Harmonoid?",
@@ -128,7 +129,12 @@
   "N_ENTRIES": "\"N\" Mục",
   "N_GENRES": "\"N\" Thể loại",
   "N_TRACKS": "\"N\" Bài hát",
+  "OFF": "Tắt",
   "OK": "OK",
+  "ONE_ALBUM": "Một album",
+  "ONE_ARTIST": "Một nghệ sĩ",
+  "ONE_GENRE": "Một thể loại",
+  "ONE_TRACK": "Một bài hát",
   "OPEN_FILE_OR_URL": "Mở file hoặc URL",
   "OPEN_IN_BROWSER": "Mở trong trình duyệt",
   "OPTIONS": "Tùy chọn",
@@ -178,6 +184,7 @@
   "REMOVE_FROM_PLAYLIST": "Loại khỏi danh sách phát",
   "RENAME": "Đổi tên",
   "REPEAT": "Lặp lại",
+  "REPLAYGAIN": "ReplayGain",
   "RESET_PITCH": "Đặt lại cao độ",
   "RESET_SPEED": "Đặt lại tốc độ",
   "RESTORE": "Khôi phục",
@@ -244,3 +251,4 @@
   "YEAR": "Năm",
   "YES": "Đồng ý"
 }
+
