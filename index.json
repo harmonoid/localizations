@@ -5,6 +5,11 @@
     "country": "United States"
   },
   {
+    "code": "zh_CN",
+    "name": "简体中文",
+    "country": "中国"
+  },
+  {
     "code": "de_DE",
     "name": "Deutsch",
     "country": "Deutschland"
@@ -48,10 +53,5 @@
     "code": "vi_VN",
     "name": "Tiếng Việt",
     "country": "Việt Nam"
-  },
-  {
-    "code": "zh_CN",
-    "name": "简体中文",
-    "country": "中国"
   }
 ]
