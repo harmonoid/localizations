@@ -54,4 +54,9 @@
     "name": "Tiếng Việt",
     "country": "Việt Nam"
   }
+  {
+    "code": "ko_KR",
+    "name": "한글",
+    "country": "Korea"
+  },
 ]
