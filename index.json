@@ -40,6 +40,11 @@
     "country": "Slovenija"
   },
   {
+    "code": "tr-TR",
+    "name": "Türkçe",
+    "country": "Türkiye"
+  },
+  {
     "code": "vi_VN",
     "name": "Tiếng Việt",
     "country": "Việt Nam"
