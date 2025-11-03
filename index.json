@@ -1,13 +1,13 @@
 [
   {
-    "code": "zh_CN",
-    "name": "简体中文",
-    "country": "中国"
-  },
-  {
     "code": "en_US",
     "name": "English",
     "country": "United States"
+  },
+  {
+    "code": "zh_CN",
+    "name": "简体中文",
+    "country": "中国"
   },
   {
     "code": "de_DE",
@@ -43,5 +43,15 @@
     "code": "sl_SI",
     "name": "Slovenščina",
     "country": "Slovenija"
+  },
+  {
+    "code": "tr-TR",
+    "name": "Türkçe",
+    "country": "Türkiye"
+  },
+  {
+    "code": "vi_VN",
+    "name": "Tiếng Việt",
+    "country": "Việt Nam"
   }
 ]
