@@ -245,6 +245,8 @@
   "SORT_BY": "Sortiraj glede na",
   "SPEED": "Hitrost",
   "START": "Start",
+  "SUBSCRIPTION_EXPIRED_SUBTITLE": "Couldn't verify your access",
+  "SUBSCRIPTION_EXPIRED_TITLE": "Membership expired",
   "THEME": "Tema",
   "THEME_MODE_DARK": "Temna",
   "THEME_MODE_LIGHT": "Svetle",

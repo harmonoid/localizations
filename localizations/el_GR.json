@@ -245,6 +245,8 @@
   "SORT_BY": "Ταξινόμηση κατά",
   "SPEED": "Ταχύτητα",
   "START": "Start",
+  "SUBSCRIPTION_EXPIRED_SUBTITLE": "Couldn't verify your access",
+  "SUBSCRIPTION_EXPIRED_TITLE": "Membership expired",
   "THEME": "Θέμα",
   "THEME_MODE_DARK": "Σκούρο",
   "THEME_MODE_LIGHT": "Φωτεινό",

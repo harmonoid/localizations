@@ -245,6 +245,8 @@
   "SORT_BY": "정렬 기준",
   "SPEED": "재생 속도",
   "START": "시작",
+  "SUBSCRIPTION_EXPIRED_SUBTITLE": "Couldn't verify your access",
+  "SUBSCRIPTION_EXPIRED_TITLE": "Membership expired",
   "THEME": "테마",
   "THEME_MODE_DARK": "다크",
   "THEME_MODE_LIGHT": "라이트",

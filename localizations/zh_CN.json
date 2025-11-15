@@ -245,6 +245,8 @@
   "SORT_BY": "排序方式",
   "SPEED": "倍速",
   "START": "左对齐",
+  "SUBSCRIPTION_EXPIRED_SUBTITLE": "Couldn't verify your access",
+  "SUBSCRIPTION_EXPIRED_TITLE": "Membership expired",
   "THEME": "主题",
   "THEME_MODE_DARK": "深色",
   "THEME_MODE_LIGHT": "浅色",

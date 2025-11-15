@@ -245,6 +245,8 @@
   "SORT_BY": "Sıralama ölçütü",
   "SPEED": "Hız",
   "START": "Başlat",
+  "SUBSCRIPTION_EXPIRED_SUBTITLE": "Couldn't verify your access",
+  "SUBSCRIPTION_EXPIRED_TITLE": "Membership expired",
   "THEME": "Tema",
   "THEME_MODE_DARK": "Koyu",
   "THEME_MODE_LIGHT": "Açık",

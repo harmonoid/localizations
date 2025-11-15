@@ -245,6 +245,8 @@
   "SORT_BY": "Sortieren nach",
   "SPEED": "Geschwindigkeit",
   "START": "Start",
+  "SUBSCRIPTION_EXPIRED_SUBTITLE": "Couldn't verify your access",
+  "SUBSCRIPTION_EXPIRED_TITLE": "Membership expired",
   "THEME": "Thema",
   "THEME_MODE_DARK": "Dunkel",
   "THEME_MODE_LIGHT": "Hell",

@@ -245,6 +245,8 @@
   "SORT_BY": "並び替え",
   "SPEED": "速さ",
   "START": "先頭",
+  "SUBSCRIPTION_EXPIRED_SUBTITLE": "Couldn't verify your access",
+  "SUBSCRIPTION_EXPIRED_TITLE": "Membership expired",
   "THEME": "テーマ",
   "THEME_MODE_DARK": "ダーク",
   "THEME_MODE_LIGHT": "ライト",

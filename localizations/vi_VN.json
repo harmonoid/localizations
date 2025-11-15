@@ -245,6 +245,8 @@
   "SORT_BY": "Xếp theo",
   "SPEED": "Tốc độ",
   "START": "Phải",
+  "SUBSCRIPTION_EXPIRED_SUBTITLE": "Couldn't verify your access",
+  "SUBSCRIPTION_EXPIRED_TITLE": "Membership expired",
   "THEME": "Chủ đề",
   "THEME_MODE_DARK": "Tối",
   "THEME_MODE_LIGHT": "Sáng",
