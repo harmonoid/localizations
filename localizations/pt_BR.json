@@ -42,6 +42,7 @@
   "CROSSFADE": "Crossfade",
   "CROSSFADE_BETWEEN_TRACKS": "Crossfade between tracks",
   "CROSSFADE_DURATION": "Crossfade duration:",
+  "CROSSFADE_EXCLUSIVE_AUDIO_ERROR": "Exclusive audio is not supported with crossfade",
   "DATE_ADDED": "Data adicionada",
   "DEFAULT": "Padrão",
   "DELETE": "Excluir",
