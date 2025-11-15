@@ -148,7 +148,7 @@
   "ORDER": "순서",
   "OTP": "OTP",
   "OTP_SEND": "Send OTP",
-  "OTP_SEND_FAILURE": "Couldn\\'t send OTP.",
+  "OTP_SEND_FAILURE": "Couldn't send OTP.",
   "OTP_SEND_SUCCESS": "OTP Sent. Please check your email.",
   "OTP_VERIFY": "Verify OTP",
   "OTP_VERIFY_FAILURE": "Couldn't verify OTP",
