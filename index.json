@@ -20,6 +20,11 @@
     "country": "España"
   },
   {
+    "code": "fr_FR",
+    "name": "Français",
+    "country": "France"
+  },
+  {
     "code": "ja_JP",
     "name": "日本語",
     "country": "日本"
