@@ -19,6 +19,7 @@
 | Turkish    | Turkey        | [@mikropsoft](https://github.com/mikropsoft)       | [`tr_TR.json`](./localizations/tr_TR.json) |
 | Vietnamese | Vietnam       | [@honhatduy](https://github.com/honhatduy)         | [`vi_VN.json`](./localizations/vi_VN.json) |
 | Chinese    | China         | [@VisionsAll](https://github.com/VisionsAll)       | [`zh_CN.json`](./localizations/zh_CN.json) |
+| Russian    | Russia        | [@skrandark](https://github.com/skrandark)         | [`ru_RU.json`](./localizations/ru_RU.json) |
 
 ## Contribute
 
