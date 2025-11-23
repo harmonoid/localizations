@@ -50,6 +50,11 @@
     "country": "România"
   },
   {
+    "code": "ru_RU",
+    "name": "Русский",
+    "country": "Россия"
+  },
+  {
     "code": "sl_SI",
     "name": "Slovenščina",
     "country": "Slovenija"
@@ -73,11 +78,5 @@
     "code": "zh_TW",
     "name": "繁體中文",
     "country": "臺灣"
-  }
-  ,
-  {
-    "code": "ru_RU",
-    "name": "Русский",
-    "country": "Россия"
   }
 ]
