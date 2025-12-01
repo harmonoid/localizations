@@ -78,5 +78,10 @@
     "code": "zh_TW",
     "name": "繁體中文",
     "country": "臺灣"
+  },
+  {
+    "code": "tok",
+    "name": "toki pona",
+    "country": "ma pona"
   }
 ]
