@@ -60,6 +60,11 @@
     "country": "Slovenija"
   },
   {
+    "code": "tok",
+    "name": "toki pona",
+    "country": "ma pona"
+  },
+  {
     "code": "tr_TR",
     "name": "Türkçe",
     "country": "Türkiye"
@@ -78,10 +83,5 @@
     "code": "zh_TW",
     "name": "繁體中文",
     "country": "臺灣"
-  },
-  {
-    "code": "tok",
-    "name": "toki pona",
-    "country": "ma pona"
   }
 ]
