@@ -25,6 +25,11 @@
     "country": "France"
   },
   {
+    "code": "it_IT",
+    "name": "Italiano",
+    "country": "Italia"
+  },
+  {
     "code": "ja_JP",
     "name": "日本語",
     "country": "日本"
