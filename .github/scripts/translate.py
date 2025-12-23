@@ -10,6 +10,7 @@ from typing import Dict, Any, Set, Optional, List
 BATCH_SIZE = 50
 LLM_MODEL = 'github/gpt-4o'
 SOURCE_LANGUAGE = 'en_US'
+SKIP_LANGUAGES = {'tok'}
 
 
 def load_json(file_path: Path) -> Dict[str, Any]:
@@ -18,7 +19,7 @@ def load_json(file_path: Path) -> Dict[str, Any]:
         with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(f"Error loading {file_path}: {e}", flush=True)
+        print(f"Error loading {file_path}: {e}")
         raise
 
 
@@ -30,13 +31,13 @@ def save_json(file_path: Path, data: Dict[str, Any]) -> None:
             json.dump(data, f, ensure_ascii=False, indent=2)
             f.write('\n')
     except Exception as e:
-        print(f"Error saving {file_path}: {e}", flush=True)
+        print(f"Error saving {file_path}: {e}")
         raise
 
 
 def get_changed_keys(en_file: Path) -> Set[str]:
     """Extract changed keys from git diff of the English localization file."""
-    print("Getting git diff...", flush=True)
+    print("Getting git diff...")
     
     try:
         result = subprocess.run(
@@ -47,14 +48,14 @@ def get_changed_keys(en_file: Path) -> Set[str]:
             cwd=en_file.parent.parent
         )
         
-        print(f"Git diff return code: {result.returncode}", flush=True)
+        print(f"Git diff return code: {result.returncode}")
         
         if result.returncode != 0:
-            print(f"Git diff error: {result.stderr}", flush=True)
+            print(f"Git diff error: {result.stderr}")
             sys.exit(1)
         
         if not result.stdout.strip():
-            print("No diff found - file unchanged", flush=True)
+            print("No diff found - file unchanged")
             return set()
         
         # Parse diff output to extract changed keys using regex for better accuracy
@@ -69,10 +70,10 @@ def get_changed_keys(en_file: Path) -> Set[str]:
         return changed_keys
         
     except subprocess.TimeoutExpired:
-        print("Git diff timed out", flush=True)
+        print("Git diff timed out")
         sys.exit(1)
     except Exception as e:
-        print(f"Exception in get_changed_keys: {e}", flush=True)
+        print(f"Exception in get_changed_keys: {e}")
         sys.exit(1)
 
 
@@ -109,17 +110,17 @@ def call_llm(prompt: str) -> Optional[str]:
         stdout, stderr = process.communicate(input=prompt, timeout=300)
         
         if process.returncode != 0:
-            print(f"LLM error: {stderr}", flush=True)
+            print(f"LLM error: {stderr}")
             return None
         
         return stdout.strip() if stdout.strip() else None
         
     except subprocess.TimeoutExpired:
-        print("LLM call timed out", flush=True)
+        print("LLM call timed out")
         process.kill()
         return None
     except Exception as e:
-        print(f"Exception calling LLM: {e}", flush=True)
+        print(f"Exception calling LLM: {e}")
         return None
 
 
@@ -166,16 +167,16 @@ def translate_keys(
     if not keys_dict:
         return {}
     
-    print(f"Calling LLM...", flush=True)
+    print(f"Calling LLM...")
     
     prompt = build_translation_prompt(keys_dict, target_language, full_en_data, existing_target_data)
     response = call_llm(prompt)
     
     if not response:
-        print("Empty or failed LLM response, returning original keys", flush=True)
+        print("Empty or failed LLM response, returning original keys")
         return keys_dict
     
-    print(f"LLM returned successfully", flush=True)
+    print(f"LLM returned successfully")
     
     # Strip markdown formatting
     content = strip_markdown_code_block(response)
@@ -186,12 +187,12 @@ def translate_keys(
         
         # Validate that all keys are present
         if not isinstance(translated, dict):
-            print("LLM response is not a dictionary", flush=True)
+            print("LLM response is not a dictionary")
             return keys_dict
         
         missing_keys = set(keys_dict.keys()) - set(translated.keys())
         if missing_keys:
-            print(f"Warning: Missing keys in translation: {missing_keys}", flush=True)
+            print(f"Warning: Missing keys in translation: {missing_keys}")
             # Fill in missing keys with original values
             for key in missing_keys:
                 translated[key] = keys_dict[key]
@@ -199,8 +200,8 @@ def translate_keys(
         return translated
         
     except json.JSONDecodeError as e:
-        print(f"JSON decode error: {e}", flush=True)
-        print(f"Content preview: {content[:500]}...", flush=True)
+        print(f"JSON decode error: {e}")
+        print(f"Content preview: {content[:500]}...")
         return keys_dict
 
 
@@ -214,10 +215,10 @@ def translate_language(
 ) -> bool:
     """Translate all keys for a specific language."""
     if not keys_to_translate:
-        print("Up to date", flush=True)
+        print("Up to date")
         return False
     
-    print(f"Translating {len(keys_to_translate)} keys...", flush=True)
+    print(f"Translating {len(keys_to_translate)} keys...")
     
     # Translate in batches
     translated = {}
@@ -229,7 +230,7 @@ def translate_language(
         batch_dict = {k: keys_to_translate[k] for k in batch_keys}
         
         batch_num = i // BATCH_SIZE + 1
-        print(f"Batch {batch_num}/{total_batches} ({len(batch_keys)} keys)", flush=True)
+        print(f"Batch {batch_num}/{total_batches} ({len(batch_keys)} keys)")
         
         batch_translated = translate_keys(batch_dict, lang_name, en_data, existing_data)
         translated.update(batch_translated)
@@ -241,14 +242,14 @@ def translate_language(
     # Save the updated translations
     target_file = localizations_dir / f"{lang_code}.json"
     save_json(target_file, ordered_data)
-    print(f"✓ Saved to {target_file.name}", flush=True)
+    print(f"✓ Saved to {target_file.name}")
     
     return True
 
 
 def main() -> None:
     """Main entry point for the translation script."""
-    print("Starting translation script...", flush=True)
+    print("Starting translation script...")
     
     # Setup paths
     script_dir = Path(__file__).parent
@@ -257,19 +258,19 @@ def main() -> None:
     index_file = project_root / "index.json"
     en_file = localizations_dir / f"{SOURCE_LANGUAGE}.json"
     
-    print(f"Paths:", flush=True)
-    print(f"  project_root: {project_root}", flush=True)
-    print(f"  en_file: {en_file}", flush=True)
+    print(f"Paths:")
+    print(f"  project_root: {project_root}")
+    print(f"  en_file: {en_file}")
     
     # Validate English localization file exists
     if not en_file.exists():
-        print(f"Error: {en_file} not found", flush=True)
+        print(f"Error: {en_file} not found")
         sys.exit(1)
     
     # Load English localization file
     try:
         en_data = load_json(en_file)
-        print(f"Loaded {len(en_data)} keys from {SOURCE_LANGUAGE}.json", flush=True)
+        print(f"Loaded {len(en_data)} keys from {SOURCE_LANGUAGE}.json")
     except Exception:
         sys.exit(1)
     
@@ -277,19 +278,19 @@ def main() -> None:
     changed_keys = get_changed_keys(en_file)
     
     if not changed_keys:
-        print("No changed keys found - nothing to translate", flush=True)
+        print("No changed keys found - nothing to translate")
         sys.exit(0)
     
-    print(f"Found {len(changed_keys)} changed keys: {', '.join(sorted(changed_keys))}", flush=True)
+    print(f"Found {len(changed_keys)} changed keys: {', '.join(sorted(changed_keys))}")
     
     # Load list of available languages from index.json
     if not index_file.exists():
-        print(f"Error: {index_file} not found", flush=True)
+        print(f"Error: {index_file} not found")
         sys.exit(1)
     
     try:
         languages = load_json(index_file)
-        print(f"Loaded {len(languages)} languages", flush=True)
+        print(f"Loaded {len(languages)} languages")
     except Exception:
         sys.exit(1)
     
@@ -301,14 +302,19 @@ def main() -> None:
         lang_name = lang_info.get('name')
         
         if not lang_code or not lang_name:
-            print(f"Warning: Invalid language entry: {lang_info}", flush=True)
+            print(f"Warning: Invalid language entry: {lang_info}")
             continue
         
         # Skip English since it's the source language
         if lang_code == SOURCE_LANGUAGE:
             continue
         
-        print(f"\n[{lang_code}] {lang_name}", flush=True)
+        # Skip languages that should not be auto-translated
+        if lang_code in SKIP_LANGUAGES:
+            print(f"\n[{lang_code}] {lang_name} - Skipped (manual translation only)")
+            continue
+        
+        print(f"\n[{lang_code}] {lang_name}")
         
         # Load existing translations for this language
         target_file = localizations_dir / f"{lang_code}.json"
@@ -321,7 +327,7 @@ def main() -> None:
         if translate_language(lang_code, lang_name, keys_to_translate, en_data, existing_data, localizations_dir):
             translated_count += 1
     
-    print(f"\n✓ Done - translated {translated_count} language(s)", flush=True)
+    print(f"\n✓ Done - translated {translated_count} language(s)")
 
 
 if __name__ == "__main__":
