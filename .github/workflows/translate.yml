@@ -1,0 +1,66 @@
+name: Translate
+
+on:
+  push:
+    branches: ["main", "master"]
+    paths:
+      - "localizations/en_US.json"
+
+jobs:
+  translate:
+    if: github.event.pusher.name == 'alexmercerind' && github.event.pusher.email == 'saini123hitesh@gmail.com'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install llm-github-models CLI
+        run: |
+          pip install llm-github-models
+      - name: Configure llm
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          llm keys set github --value "$GITHUB_TOKEN"
+      - name: Generate translations
+        run: |
+          python3 .github/scripts/translate.py
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true'
+        id: create_pr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: auto-translate localizations"
+          title: "Auto-Translate Localizations"
+          body: "This pull request contains automatically generated translations based on changes to `en_US.json`."
+          branch: auto-translate-${{ github.run_number }}
+          delete-branch: true
+      - name: Assign reviewer to PR
+        if: steps.check_changes.outputs.has_changes == 'true' && steps.create_pr.outputs.pull-request-number
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.pulls.requestReviewers({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: ${{ steps.create_pr.outputs.pull-request-number }},
+              reviewers: ['gemini-code-assist']
+            });
