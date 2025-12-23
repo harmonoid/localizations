@@ -181,7 +181,7 @@
   "PLAYLIST_ADD_DIALOG_TITLE": "Ajouter à la playlist",
   "PLAYLIST_CREATE_DIALOG_SUBTITLE": "Saisissez le nom de la playlist",
   "PLAYLIST_DELETE_DIALOG_SUBTITLE": "Supprimer la playlist « \"NAME\" » ?",
-  "PLAYLIST_ENTRY_REMOVE_DIALOG_SUBTITLE": "Supprimer « \"ENTRY\" » de « \"PLAYLIST\" » ?",
+  "PLAYLIST_ENTRY_REMOVE_DIALOG_SUBTITLE": "Supprimer \"\"ENTRY\"\" de \"\"PLAYLIST\"\" ?",
   "PLAYLIST_RENAME_DIALOG_SUBTITLE": "Saisissez le nom de la playlist",
   "PLAY_ALL": "Tout lire",
   "PLAY_NEXT": "Lecture suivante",
