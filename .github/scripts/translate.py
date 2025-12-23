@@ -4,7 +4,7 @@ import json
 import subprocess
 import sys
 from pathlib import Path
-from typing import Dict, Any
+from typing import Dict, Any, Set
 
 
 def load_json(file_path: Path) -> Dict[str, Any]:
@@ -18,7 +18,30 @@ def save_json(file_path: Path, data: Dict[str, Any]) -> None:
         f.write('\n')
 
 
-def translate_batch(batch_dict: Dict[str, str], target_language: str) -> Dict[str, str]:
+def get_changed_keys(en_file: Path) -> Set[str]:
+    result = subprocess.run(
+        ['git', 'diff', 'HEAD~1', 'HEAD', '--', str(en_file)],
+        capture_output=True,
+        text=True,
+        check=True,
+        cwd=en_file.parent.parent
+    )
+    
+    changed_keys = set()
+    for line in result.stdout.split('\n'):
+        if line.startswith('+') and not line.startswith('+++'):
+            content = line[1:].strip()
+            if content.startswith('"') and '":' in content:
+                try:
+                    key = content.split('"')[1]
+                    changed_keys.add(key)
+                except IndexError:
+                    continue
+    
+    return changed_keys
+
+
+def translate_keys(keys_dict: Dict[str, str], target_language: str) -> Dict[str, str]:
     prompt = f"""You are a professional translator. Translate the following JSON object from English to {target_language}.
 
 IMPORTANT RULES:
@@ -31,8 +54,7 @@ IMPORTANT RULES:
 7. Try to keep the same string length as the original string (if possible)
 
 Input JSON:
-{json.dumps(batch_dict, ensure_ascii=False, indent=2)}
-"""
+{json.dumps(keys_dict, ensure_ascii=False, indent=2)}"""
 
     result = subprocess.run(
         ['llm', 'prompt', '-m', 'github/gpt-5', prompt],
@@ -42,21 +64,21 @@ Input JSON:
     )
     
     if result.returncode != 0:
-        print(f"  Error: {result.stderr}")
-        return batch_dict
+        print(f"Error: {result.stderr}")
+        return keys_dict
     
     content = result.stdout.strip()
-    
-    if content.startswith('```json'):
-        content = content.split('```json')[1].split('```')[0].strip()
-    elif content.startswith('```'):
-        content = content.split('```')[1].split('```')[0].strip()
+    if content.startswith('```'):
+        content = content.split('```')[1]
+        if content.startswith('json'):
+            content = content[4:]
+        content = content.split('```')[0].strip()
     
     try:
         return json.loads(content)
     except json.JSONDecodeError as e:
-        print(f"  JSON decode error: {e}")
-        return batch_dict
+        print(f"JSON error: {e}")
+        return keys_dict
 
 
 def main():
@@ -64,14 +86,17 @@ def main():
     project_root = script_dir.parent.parent
     localizations_dir = project_root / "localizations"
     index_file = project_root / "index.json"
-    
     en_file = localizations_dir / "en_US.json"
+    
     if not en_file.exists():
         print(f"Error: {en_file} not found")
         sys.exit(1)
     
     en_data = load_json(en_file)
     print(f"Loaded {len(en_data)} keys from en_US.json")
+    
+    changed_keys = get_changed_keys(en_file)
+    print(f"Found {len(changed_keys)} changed keys: {', '.join(sorted(changed_keys))}")
     
     if not index_file.exists():
         print(f"Error: {index_file} not found")
@@ -89,19 +114,15 @@ def main():
         print(f"\n[{lang_code}] {lang_name}")
         
         target_file = localizations_dir / f"{lang_code}.json"
-        existing_data = {}
+        existing_data = load_json(target_file) if target_file.exists() else {}
         
-        if target_file.exists():
-            existing_data = load_json(target_file)
-        
-        keys_to_translate = {k: v for k, v in en_data.items() 
-                           if k not in existing_data or existing_data[k] == v}
+        keys_to_translate = {k: en_data[k] for k in changed_keys if k in en_data}
         
         if not keys_to_translate:
-            print("  Up to date")
+            print("Up to date")
             continue
         
-        print(f"  Translating {len(keys_to_translate)} keys")
+        print(f"Translating {len(keys_to_translate)} keys...")
         
         batch_size = 50
         translated = {}
@@ -111,16 +132,18 @@ def main():
             batch_keys = keys[i:i + batch_size]
             batch_dict = {k: keys_to_translate[k] for k in batch_keys}
             
-            print(f"  Batch {i // batch_size + 1}/{(len(keys) + batch_size - 1) // batch_size}")
+            batch_num = i // batch_size + 1
+            total_batches = (len(keys) + batch_size - 1) // batch_size
+            print(f"Batch {batch_num}/{total_batches}")
             
-            batch_translated = translate_batch(batch_dict, lang_name)
+            batch_translated = translate_keys(batch_dict, lang_name)
             translated.update(batch_translated)
         
         final_data = {**existing_data, **translated}
         ordered_data = {k: final_data.get(k, en_data[k]) for k in en_data.keys()}
         
         save_json(target_file, ordered_data)
-        print(f"  ✓ Saved")
+        print(f"✓ Saved")
     
     print("\n✓ Done")
 
