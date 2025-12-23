@@ -14,4 +14,4 @@ jobs:
       - name: Validate JSON syntax
         run: for file in `ls | grep '.json' `; do  python -mjson.tool "$file" > /dev/null ; done
       - name: Validate index entries & localization values
-        run: python3 .github/ci.py
+        run: python3 .github/scripts/ci.py
