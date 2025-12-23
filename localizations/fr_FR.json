@@ -199,7 +199,7 @@
   "RECOMMENDATIONS": "Suggestions",
   "RECOMMENDED_HINT": "(Recommandé)",
   "REFRESH": "Actualiser",
-  "REFRESH_MEDIA_LIBRARY_UPON_START": "Actualiser la bibliothèque multimédia au démarrage",
+  "REFRESH_MEDIA_LIBRARY_UPON_START": "Actualiser au lancement de l'application",
   "REFRESH_SUBTITLE": "Vérifier les fichiers nouveaux et supprimés",
   "REINDEX": "Réindexer",
   "REINDEX_SUBTITLE": "Reconstruire la base de données de la bibliothèque multimédia",

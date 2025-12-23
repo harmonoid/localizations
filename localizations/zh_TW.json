@@ -199,7 +199,7 @@
   "RECOMMENDATIONS": "推薦",
   "RECOMMENDED_HINT": "(推薦)",
   "REFRESH": "重新整理",
-  "REFRESH_MEDIA_LIBRARY_UPON_START": "啓動時重新整理媒體庫",
+  "REFRESH_MEDIA_LIBRARY_UPON_START": "應用程式啟動時刷新媒體庫",
   "REFRESH_SUBTITLE": "檢查新增和刪除的檔案",
   "REINDEX": "重建索引",
   "REINDEX_SUBTITLE": "重建媒體庫",

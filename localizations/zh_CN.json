@@ -199,7 +199,7 @@
   "RECOMMENDATIONS": "推荐",
   "RECOMMENDED_HINT": "(推荐)",
   "REFRESH": "刷新",
-  "REFRESH_MEDIA_LIBRARY_UPON_START": "启动时刷新媒体库",
+  "REFRESH_MEDIA_LIBRARY_UPON_START": "启动应用时刷新",
   "REFRESH_SUBTITLE": "检查新文件和已删除文件",
   "REINDEX": "重建索引",
   "REINDEX_SUBTITLE": "重建媒体数据库",

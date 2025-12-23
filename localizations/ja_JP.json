@@ -199,7 +199,7 @@
   "RECOMMENDATIONS": "おすすめ",
   "RECOMMENDED_HINT": "(推奨)",
   "REFRESH": "更新",
-  "REFRESH_MEDIA_LIBRARY_UPON_START": "起動時にメディアライブラリを更新",
+  "REFRESH_MEDIA_LIBRARY_UPON_START": "アプリ起動時に更新",
   "REFRESH_SUBTITLE": "新規および削除されたファイルを検出",
   "REINDEX": "再構築",
   "REINDEX_SUBTITLE": "メディアライブラリのデータベースを再び構築します",
