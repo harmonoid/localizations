@@ -19,26 +19,43 @@ def save_json(file_path: Path, data: Dict[str, Any]) -> None:
 
 
 def get_changed_keys(en_file: Path) -> Set[str]:
-    result = subprocess.run(
-        ['git', 'diff', 'HEAD~1', 'HEAD', '--', str(en_file)],
-        capture_output=True,
-        text=True,
-        check=True,
-        cwd=en_file.parent.parent
-    )
+    print("Getting git diff...", flush=True)
     
-    changed_keys = set()
-    for line in result.stdout.split('\n'):
-        if line.startswith('+') and not line.startswith('+++'):
-            content = line[1:].strip()
-            if content.startswith('"') and '":' in content:
-                try:
-                    key = content.split('"')[1]
-                    changed_keys.add(key)
-                except IndexError:
-                    continue
-    
-    return changed_keys
+    try:
+        result = subprocess.run(
+            ['git', 'diff', 'HEAD~1', 'HEAD', '--', str(en_file)],
+            capture_output=True,
+            text=True,
+            check=False,
+            cwd=en_file.parent.parent
+        )
+        
+        print(f"Git diff return code: {result.returncode}", flush=True)
+        
+        if result.returncode != 0:
+            print(f"Git diff error: {result.stderr}", flush=True)
+            sys.exit(1)
+        
+        if not result.stdout.strip():
+            print("No diff found - file unchanged", flush=True)
+            return set()
+        
+        changed_keys = set()
+        for line in result.stdout.split('\n'):
+            if line.startswith('+') and not line.startswith('+++'):
+                content = line[1:].strip()
+                if content.startswith('"') and '":' in content:
+                    try:
+                        key = content.split('"')[1]
+                        changed_keys.add(key)
+                    except IndexError:
+                        continue
+        
+        return changed_keys
+        
+    except Exception as e:
+        print(f"Exception in get_changed_keys: {e}", flush=True)
+        sys.exit(1)
 
 
 def translate_keys(keys_dict: Dict[str, str], target_language: str) -> Dict[str, str]:
@@ -56,53 +73,85 @@ IMPORTANT RULES:
 Input JSON:
 {json.dumps(keys_dict, ensure_ascii=False, indent=2)}"""
 
-    result = subprocess.run(
-        ['llm', 'prompt', '-m', 'github/gpt-5', prompt],
-        capture_output=True,
-        text=True,
-        check=False
-    )
-    
-    if result.returncode != 0:
-        print(f"Error: {result.stderr}")
-        return keys_dict
-    
-    content = result.stdout.strip()
-    if content.startswith('```'):
-        content = content.split('```')[1]
-        if content.startswith('json'):
-            content = content[4:]
-        content = content.split('```')[0].strip()
+    print(f"Calling LLM...", flush=True)
     
     try:
-        return json.loads(content)
-    except json.JSONDecodeError as e:
-        print(f"JSON error: {e}")
+        result = subprocess.run(
+            ['llm', '-m', 'github/gpt-4o'],
+            input=prompt,
+            capture_output=True,
+            text=True,
+            check=False,
+            timeout=120
+        )
+        
+        print(f"LLM returned with code {result.returncode}", flush=True)
+        
+        if result.returncode != 0:
+            print(f"Error: {result.stderr}", flush=True)
+            return keys_dict
+        
+        content = result.stdout.strip()
+        
+        if not content:
+            print(f"Empty response from LLM", flush=True)
+            return keys_dict
+        
+        if content.startswith('```'):
+            content = content.split('```')[1]
+            if content.startswith('json'):
+                content = content[4:]
+            content = content.split('```')[0].strip()
+        
+        try:
+            return json.loads(content)
+        except json.JSONDecodeError as e:
+            print(f"JSON error: {e}", flush=True)
+            print(f"Content: {content[:200]}...", flush=True)
+            return keys_dict
+            
+    except subprocess.TimeoutExpired:
+        print(f"LLM call timed out after 120 seconds", flush=True)
+        return keys_dict
+    except Exception as e:
+        print(f"Exception calling LLM: {e}", flush=True)
         return keys_dict
 
 
 def main():
+    print("Starting translation script...", flush=True)
+    
     script_dir = Path(__file__).parent
     project_root = script_dir.parent.parent
     localizations_dir = project_root / "localizations"
     index_file = project_root / "index.json"
     en_file = localizations_dir / "en_US.json"
     
+    print(f"Paths:", flush=True)
+    print(f"  project_root: {project_root}", flush=True)
+    print(f"  en_file: {en_file}", flush=True)
+    
     if not en_file.exists():
-        print(f"Error: {en_file} not found")
+        print(f"Error: {en_file} not found", flush=True)
         sys.exit(1)
     
     en_data = load_json(en_file)
-    print(f"Loaded {len(en_data)} keys from en_US.json")
+    print(f"Loaded {len(en_data)} keys from en_US.json", flush=True)
     
     changed_keys = get_changed_keys(en_file)
-    print(f"Found {len(changed_keys)} changed keys: {', '.join(sorted(changed_keys))}")
+    
+    if not changed_keys:
+        print("No changed keys found - nothing to translate", flush=True)
+        sys.exit(0)
+    
+    print(f"Found {len(changed_keys)} changed keys: {', '.join(sorted(changed_keys))}", flush=True)
     
     if not index_file.exists():
-        print(f"Error: {index_file} not found")
+        print(f"Error: {index_file} not found", flush=True)
         sys.exit(1)
     
     languages = load_json(index_file)
+    print(f"Loaded {len(languages)} languages", flush=True)
     
     for lang_info in languages:
         lang_code = lang_info['code']
@@ -111,7 +160,7 @@ def main():
         if lang_code == 'en_US':
             continue
         
-        print(f"\n[{lang_code}] {lang_name}")
+        print(f"\n[{lang_code}] {lang_name}", flush=True)
         
         target_file = localizations_dir / f"{lang_code}.json"
         existing_data = load_json(target_file) if target_file.exists() else {}
@@ -119,10 +168,10 @@ def main():
         keys_to_translate = {k: en_data[k] for k in changed_keys if k in en_data}
         
         if not keys_to_translate:
-            print("Up to date")
+            print("Up to date", flush=True)
             continue
         
-        print(f"Translating {len(keys_to_translate)} keys...")
+        print(f"Translating {len(keys_to_translate)} keys...", flush=True)
         
         batch_size = 50
         translated = {}
@@ -134,7 +183,7 @@ def main():
             
             batch_num = i // batch_size + 1
             total_batches = (len(keys) + batch_size - 1) // batch_size
-            print(f"Batch {batch_num}/{total_batches}")
+            print(f"Batch {batch_num}/{total_batches}", flush=True)
             
             batch_translated = translate_keys(batch_dict, lang_name)
             translated.update(batch_translated)
@@ -143,9 +192,9 @@ def main():
         ordered_data = {k: final_data.get(k, en_data[k]) for k in en_data.keys()}
         
         save_json(target_file, ordered_data)
-        print(f"✓ Saved")
+        print(f"✓ Saved", flush=True)
     
-    print("\n✓ Done")
+    print("\n✓ Done", flush=True)
 
 
 if __name__ == "__main__":
