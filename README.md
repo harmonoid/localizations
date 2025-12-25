@@ -24,7 +24,7 @@
 | Vietnamese      | Vietnam       | [@honhatduy](https://github.com/honhatduy)         | [`vi_VN.json`](./localizations/vi_VN.json) |
 | Chinese         | China         | [@VisionsAll](https://github.com/VisionsAll)       | [`zh_CN.json`](./localizations/zh_CN.json) |
 | Chinese (Trad.) | Taiwan        | [@willee-wahaha](https://github.com/willee-wahaha) | [`zh_TW.json`](./localizations/zh_TW.json) |
-| Arabic | World        | [@Quartz313](https://github.com/Quartz313) | [`ar_World.json`](./localizations/ar_World.json) |
+| Arabic          | World         | [@Quartz313](https://github.com/Quartz313)         | [`ar_World.json`](./localizations/ar_World.json) |
 
 ## Contribute
 
