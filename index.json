@@ -93,5 +93,10 @@
     "code": "zh_TW",
     "name": "繁體中文",
     "country": "臺灣"
-  }
+  },
+  {
+    "code": "ar_World",
+    "name": "العربية",
+    "country": "العالم"
+  }  
 ]
