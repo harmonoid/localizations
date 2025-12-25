@@ -12,13 +12,13 @@
 | Italian         | Italy         | -                                                  | [`it_IT.json`](./localizations/it_IT.json) |
 | Spanish         | Spain         | [@PelatusRex](https://github.com/PelatusRex)       | [`es_ES.json`](./localizations/es_ES.json) |
 | Japanese        | Japan         | [@maboroshin](https://github.com/maboroshin)       | [`ja_JP.json`](./localizations/ja_JP.json) |
-| Korean          | Korea         | [@exflynet](https://github.com/exflynet)             | [`ko_KR.json`](./localizations/ko_KR.json) |
+| Korean          | Korea         | [@exflynet](https://github.com/exflynet)           | [`ko_KR.json`](./localizations/ko_KR.json) |
 | Kurdish         | Kurdistan     | [@CYAXXX](https://github.com/CYAXXX)               | [`ku_KU.json`](./localizations/ku_KU.json) |
 | Polish          | Poland        | [@KOXXPL](https://github.com/KOXXPL)               | [`pl_PL.json`](./localizations/pl_PL.json) |
 | Portuguese      | Brazil        | [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./localizations/pt_BR.json) |
 | Romanian        | Romania       | [@raresnita](https://github.com/raresnita)         | [`ro_RO.json`](./localizations/ro_RO.json) |
 | Russian         | Russia        | [@skrandark](https://github.com/skrandark)         | [`ru_RU.json`](./localizations/ru_RU.json) |
-| Slovenian       | Slovenia      | [@alexmercerind](https://github.com/alexmercerind) | [`sl_SI.json`](./localizations/sl_SI.json) |
+| Slovenian       | Slovenia      | [@mytja](https://github.com/mytja)                 | [`sl_SI.json`](./localizations/sl_SI.json) |
 | Toki Pona       | -             | [@SeliliPona](https://github.com/SeliliPona)       | [`tok.json`](./localizations/tok.json)     |
 | Turkish         | Turkey        | [@mikropsoft](https://github.com/mikropsoft)       | [`tr_TR.json`](./localizations/tr_TR.json) |
 | Vietnamese      | Vietnam       | [@honhatduy](https://github.com/honhatduy)         | [`vi_VN.json`](./localizations/vi_VN.json) |
