@@ -6,8 +6,8 @@
 
 | Language        | Country       | Contributors                                       | Source                                     |
 | --------------- | ------------- | -------------------------------------------------- | ------------------------------------------ |
-| Arabic          | World         | [@Quartz313](https://github.com/Quartz313)         | [`ar_World.json`](./localizations/ar_World.json) |
 | English         | United States | [@alexmercerind](https://github.com/alexmercerind) | [`en_US.json`](./localizations/en_US.json) |
+| Arabic          | -             | [@Quartz313](https://github.com/Quartz313)         | [`ar.json`](./localizations/ar.json)       |
 | German          | Germany       | [@vcmikuu](https://github.com/vcmikuu)             | [`de_DE.json`](./localizations/de_DE.json) |
 | Greek           | Greece        | [@cuhsy](https://github.com/cuhsy)                 | [`el_GR.json`](./localizations/el_GR.json) |
 | Italian         | Italy         | -                                                  | [`it_IT.json`](./localizations/it_IT.json) |

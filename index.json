@@ -1,13 +1,13 @@
 [
   {
-    "code": "ar_World",
-    "name": "العربية",
-    "country": "العالم"
-  },
-  {
     "code": "en_US",
     "name": "English",
     "country": "United States"
+  },
+  {
+    "code": "ar",
+    "name": "العربية",
+    "country": "العالم"
   },
   {
     "code": "de_DE",
