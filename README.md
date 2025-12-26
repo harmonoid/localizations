@@ -6,6 +6,7 @@
 
 | Language        | Country       | Contributors                                       | Source                                     |
 | --------------- | ------------- | -------------------------------------------------- | ------------------------------------------ |
+| Arabic          | World         | [@Quartz313](https://github.com/Quartz313)         | [`ar_World.json`](./localizations/ar_World.json) |
 | English         | United States | [@alexmercerind](https://github.com/alexmercerind) | [`en_US.json`](./localizations/en_US.json) |
 | German          | Germany       | [@vcmikuu](https://github.com/vcmikuu)             | [`de_DE.json`](./localizations/de_DE.json) |
 | Greek           | Greece        | [@cuhsy](https://github.com/cuhsy)                 | [`el_GR.json`](./localizations/el_GR.json) |
@@ -24,7 +25,6 @@
 | Vietnamese      | Vietnam       | [@honhatduy](https://github.com/honhatduy)         | [`vi_VN.json`](./localizations/vi_VN.json) |
 | Chinese         | China         | [@VisionsAll](https://github.com/VisionsAll)       | [`zh_CN.json`](./localizations/zh_CN.json) |
 | Chinese (Trad.) | Taiwan        | [@willee-wahaha](https://github.com/willee-wahaha) | [`zh_TW.json`](./localizations/zh_TW.json) |
-| Arabic          | World         | [@Quartz313](https://github.com/Quartz313)         | [`ar_World.json`](./localizations/ar_World.json) |
 
 ## Contribute
 
