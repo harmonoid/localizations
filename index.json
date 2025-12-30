@@ -5,6 +5,11 @@
     "country": "United States"
   },
   {
+    "code": "ar",
+    "name": "العربية",
+    "country": "العالم"
+  },
+  {
     "code": "de_DE",
     "name": "Deutsch",
     "country": "Deutschland"
