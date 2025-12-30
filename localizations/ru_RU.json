@@ -83,6 +83,8 @@
   "FIND": "Найти",
   "FOLDER": "Папка",
   "FOLDERS": "Папки",
+  "FOLDERS_NO_ITEMS_SUBTITLE": "This folder is empty",
+  "FOLDERS_NO_ITEMS_TITLE": "No files found",
   "FOLDER_NOT_FOUND": "Не удалось найти эту папку",
   "FOLLOW_ON_X": "Подписаться в \"X\"",
   "FULLSCREEN": "Полноэкранный режим",

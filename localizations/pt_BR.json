@@ -83,6 +83,8 @@
   "FIND": "Encontrar",
   "FOLDER": "Pasta",
   "FOLDERS": "Pastas",
+  "FOLDERS_NO_ITEMS_SUBTITLE": "This folder is empty",
+  "FOLDERS_NO_ITEMS_TITLE": "No files found",
   "FOLDER_NOT_FOUND": "Esta pasta não pôde ser localizada",
   "FOLLOW_ON_X": "Siga no \"X\"",
   "FULLSCREEN": "Entrar em tela cheia",

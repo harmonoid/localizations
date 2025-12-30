@@ -83,6 +83,8 @@
   "FIND": "探す",
   "FOLDER": "フォルダ",
   "FOLDERS": "フォルダ",
+  "FOLDERS_NO_ITEMS_SUBTITLE": "This folder is empty",
+  "FOLDERS_NO_ITEMS_TITLE": "No files found",
   "FOLDER_NOT_FOUND": "このフォルダーが見つかりません",
   "FOLLOW_ON_X": "\"X\"でフォロー",
   "FULLSCREEN": "全画面表示",

@@ -83,6 +83,8 @@
   "FIND": "찾기",
   "FOLDER": "폴더",
   "FOLDERS": "폴더",
+  "FOLDERS_NO_ITEMS_SUBTITLE": "This folder is empty",
+  "FOLDERS_NO_ITEMS_TITLE": "No files found",
   "FOLDER_NOT_FOUND": "이 폴더를 찾을 수 없습니다.",
   "FOLLOW_ON_X": "\"X\"팔로우 하기",
   "FULLSCREEN": "전체화면으로 전환",

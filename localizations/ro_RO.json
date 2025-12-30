@@ -83,6 +83,8 @@
   "FIND": "Găsește",
   "FOLDER": "Dosar",
   "FOLDERS": "Dosare",
+  "FOLDERS_NO_ITEMS_SUBTITLE": "This folder is empty",
+  "FOLDERS_NO_ITEMS_TITLE": "No files found",
   "FOLDER_NOT_FOUND": "Acest dosar nu a putut fi localizat",
   "FOLLOW_ON_X": "Urmărește pe \"X\"",
   "FULLSCREEN": "Intră în ecran complet",

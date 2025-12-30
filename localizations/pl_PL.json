@@ -83,6 +83,8 @@
   "FIND": "Znajdź",
   "FOLDER": "Folder",
   "FOLDERS": "Foldery",
+  "FOLDERS_NO_ITEMS_SUBTITLE": "This folder is empty",
+  "FOLDERS_NO_ITEMS_TITLE": "No files found",
   "FOLDER_NOT_FOUND": "Ten folder nie mógł zostać znaleziony",
   "FOLLOW_ON_X": "Obserwuj na \"X\"",
   "FULLSCREEN": "Wejdź w tryb pełnego ekranu",

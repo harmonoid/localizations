@@ -83,6 +83,8 @@
   "FIND": "Buscar",
   "FOLDER": "Carpeta",
   "FOLDERS": "Carpetas",
+  "FOLDERS_NO_ITEMS_SUBTITLE": "This folder is empty",
+  "FOLDERS_NO_ITEMS_TITLE": "No files found",
   "FOLDER_NOT_FOUND": "No se pudo encontrar esta carpeta",
   "FOLLOW_ON_X": "Seguir en \"X\"",
   "FULLSCREEN": "Pantalla completa",

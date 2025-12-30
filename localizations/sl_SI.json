@@ -83,6 +83,8 @@
   "FIND": "Poišči",
   "FOLDER": "Mapa",
   "FOLDERS": "Mape",
+  "FOLDERS_NO_ITEMS_SUBTITLE": "This folder is empty",
+  "FOLDERS_NO_ITEMS_TITLE": "No files found",
   "FOLDER_NOT_FOUND": "Te mape ni bilo mogoče najti",
   "FOLLOW_ON_X": "Sledite na \"X\"",
   "FULLSCREEN": "Pojdi v celozaslonski način",
