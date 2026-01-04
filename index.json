@@ -5,11 +5,6 @@
     "country": "United States"
   },
   {
-    "code": "ar",
-    "name": "العربية",
-    "country": "العالم"
-  },
-  {
     "code": "de_DE",
     "name": "Deutsch",
     "country": "Deutschland"
@@ -30,9 +25,9 @@
     "country": "France"
   },
   {
-    "code": "it_IT",
-    "name": "Italiano",
-    "country": "Italia"
+    "code": "id_ID",
+    "name": "Bahasa Indonesia",
+    "country": "Indonesia"
   },
   {
     "code": "ja_JP",
@@ -43,11 +38,6 @@
     "code": "ko_KR",
     "name": "한글",
     "country": "Korea"
-  },
-  {
-    "code": "ku_KU",
-    "name": "Kurdî",
-    "country": "Kurdistan"
   },
   {
     "code": "pl_PL",
