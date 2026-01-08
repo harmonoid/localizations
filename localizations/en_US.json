@@ -31,6 +31,8 @@
   "CLEAR_LRC_FILE": "Clear selected LRC file",
   "CLEAR_SELECTION": "Clear selection",
   "COMING_UP": "Coming up",
+  "CONFIGURE_VISIBLE_TABS_SUBTITLE": "Choose which tabs appear in the media library",
+  "CONFIGURE_VISIBLE_TABS_TITLE": "Configure visible tabs",
   "CONNECT": "Connect",
   "CONNECTED": "Connected",
   "CONTROL_PANEL": "Control panel",

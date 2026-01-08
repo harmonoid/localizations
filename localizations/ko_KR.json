@@ -31,6 +31,8 @@
   "CLEAR_LRC_FILE": "선택한 LRC파일 삭제",
   "CLEAR_SELECTION": "선택 해제",
   "COMING_UP": "다음",
+  "CONFIGURE_VISIBLE_TABS_SUBTITLE": "Choose which tabs appear in the media library",
+  "CONFIGURE_VISIBLE_TABS_TITLE": "Configure visible tabs",
   "CONNECT": "연결",
   "CONNECTED": "연결됨",
   "CONTROL_PANEL": "제어판",

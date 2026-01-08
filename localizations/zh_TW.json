@@ -31,6 +31,8 @@
   "CLEAR_LRC_FILE": "清除選擇的 LRC 檔案",
   "CLEAR_SELECTION": "清除選取",
   "COMING_UP": "敬請期待",
+  "CONFIGURE_VISIBLE_TABS_SUBTITLE": "Choose which tabs appear in the media library",
+  "CONFIGURE_VISIBLE_TABS_TITLE": "Configure visible tabs",
   "CONNECT": "連接",
   "CONNECTED": "已連接",
   "CONTROL_PANEL": "控制面板",

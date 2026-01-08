@@ -31,6 +31,8 @@
   "CLEAR_LRC_FILE": "مسح ملف LRC المحدد",
   "CLEAR_SELECTION": "إلغاء التحديد",
   "COMING_UP": "القادم",
+  "CONFIGURE_VISIBLE_TABS_SUBTITLE": "Choose which tabs appear in the media library",
+  "CONFIGURE_VISIBLE_TABS_TITLE": "Configure visible tabs",
   "CONNECT": "اتصال",
   "CONNECTED": "متصل",
   "CONTROL_PANEL": "لوحة التحكم",

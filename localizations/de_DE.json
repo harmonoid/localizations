@@ -31,6 +31,8 @@
   "CLEAR_LRC_FILE": "Ausgewählte LRC-Datei löschen",
   "CLEAR_SELECTION": "Auswahl aufheben",
   "COMING_UP": "Kommt als Nächstes",
+  "CONFIGURE_VISIBLE_TABS_SUBTITLE": "Choose which tabs appear in the media library",
+  "CONFIGURE_VISIBLE_TABS_TITLE": "Configure visible tabs",
   "CONNECT": "Verbinden",
   "CONNECTED": "Verbunden",
   "CONTROL_PANEL": "Steuerzentrale",
