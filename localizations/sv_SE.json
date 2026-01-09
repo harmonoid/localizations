@@ -53,7 +53,7 @@
   "DEVELOPER": "Utvecklare",
   "DISCONNECT": "Frånkoppla",
   "DISCOVERING_FILES": "Upptäcker filer...",
-  "DISPLAY_ARTIST_IMAGES": "Visa artist bilder",
+  "DISPLAY_ARTIST_IMAGES": "Visa artistbilder",
   "DISPLAY_AUDIO_FORMAT": "Visa ljudformat",
   "DISPLAY_PROGRESS_ON_TASKBAR": "Visa förloppet på aktivitetsfältet",
   "DISPLAY_UPON_PLAYBACK": "Visa vid uppspelning",
@@ -94,7 +94,7 @@
   "GENRE": "Genre",
   "GENRES": "Genrer",
   "GITHUB": "GitHub",
-  "GO_TO_SETTINGS": "Gå till inställningar",
+  "GO_TO_SETTINGS": "Gå till Inställningar",
   "GRID": "Rutnät",
   "HIDE": "Göm",
   "HIDE_HIDDEN_FILES": "Dölj dolda filer",
@@ -122,7 +122,7 @@
   "LYRICS_SIZE": "Låttext storlek:",
   "MATERIAL_DESIGN": "Materialdesign",
   "MEDIA_FILES": "Media filer",
-  "MEDIA_LIBRARY": "Media bibliotek",
+  "MEDIA_LIBRARY": "Mediebibliotek",
   "MEDIA_LIBRARY_INACCESSIBLE_FOLDERS_SUBTITLE": "Några av mapparna i ditt mediebibliotek kunde inte öppnas..\nKanske har deras plats ändrats. eller tillgången till dem återkallas av \"OPERATING_SYSTEM\".\nTa bort dessa mappar innan du fortsätter och lägg till dem igen efteråt.",
   "MEDIA_LIBRARY_INACCESSIBLE_FOLDERS_TITLE": "Otillgängliga mappar",
   "MEDIA_LIBRARY_NO_ITEMS_SUBTITLE": "Ändra var du vill söka efter musiken från inställningarna",
@@ -220,7 +220,7 @@ There is an extra > character in the string, which seems to be a typo.
   "PLAYLIST_ADD_DIALOG_SUBTITLE": "Välj en spellista för att lägga till detta objekt",
   "PLAYLIST_ADD_DIALOG_TITLE": "Lägg till i spellista",
   "PLAYLIST_CREATE_DIALOG_SUBTITLE": "Ange namn för spellistan",
-  "PLAYLIST_DELETE_DIALOG_SUBTITLE": "Ta bort spellistan \"\">NAME\"\"?",
+  "PLAYLIST_DELETE_DIALOG_SUBTITLE": "Ta bort spellistan \"\"NAME\"\"?",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -238,7 +238,7 @@ Outdated
   "PLAYLIST_ADD_DIALOG_SUBTITLE": "Välj en spellista för att lägga till detta objekt",
   "PLAYLIST_ADD_DIALOG_TITLE": "Lägg till i spellista",
   "PLAYLIST_CREATE_DIALOG_SUBTITLE": "Ange namn för spellistan",
-  "PLAYLIST_DELETE_DIALOG_SUBTITLE": "Ta bort spellistan \"\">NAME\"\"?",
+  "PLAYLIST_DELETE_DIALOG_SUBTITLE": "Ta bort spellistan \"\"NAME\"\"?",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -321,7 +321,7 @@ There should be a space between 'som' and the opening quote.
   "LESS": "Mindre",
   "LICENSE": "Licens",
   "LIKED_SONGS": "Gillade låtar",
-  "LINKED_AS_X": "Länkad som\"\"X\"\"",
+  "LINKED_AS_X": "Länkad som \"\"X\"\"",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -338,7 +338,7 @@ localizations/sv_SE.json
   "LESS": "Mindre",
   "LICENSE": "Licens",
   "LIKED_SONGS": "Gillade låtar",
-  "LINKED_AS_X": "Länkad som\"\"X\"\"",
+  "LINKED_AS_X": "Länkad som \"\"X\"\"",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -421,7 +421,7 @@ This should be written with a hyphen as 'SD-kort'.
   "RESULTS_FOR_QUERY": "Resultat för \"\"FRÅGA\"\"",
   "SAVE": "Spara",
   "SAVE_AS_PLAYLIST": "Spara som spellista",
-  "SD_CARD": "SD Kort",
+  "SD_CARD": "SD-kort",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -438,7 +438,7 @@ localizations/sv_SE.json
   "RESULTS_FOR_QUERY": "Resultat för \"\"FRÅGA\"\"",
   "SAVE": "Spara",
   "SAVE_AS_PLAYLIST": "Spara som spellista",
-  "SD_CARD": "SD Kort",
+  "SD_CARD": "SD-kort",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -471,7 +471,7 @@ There is a typo in 'Inställnigar'. It should be 'Inställningar'.
   "SEARCH_HINT": "Sök...",
   "SEE_ALL": "Se alla",
   "SELECT": "Välj",
-  "SETTINGS": "Inställnigar",
+  "SETTINGS": "Inställningar",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -488,7 +488,7 @@ localizations/sv_SE.json
   "SEARCH_HINT": "Sök...",
   "SEE_ALL": "Se alla",
   "SELECT": "Välj",
-  "SETTINGS": "Inställnigar",
+  "SETTINGS": "Inställningar",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -505,7 +505,7 @@ localizations/sv_SE.json
   "SETTINGS_SECTION_MEDIA_LIBRARY_TITLE": "Mediebibliotek",
   "SETTINGS_SECTION_MISCELLANEOUS_SUBTITLE": "Andra alternativ som kan konfigureras",
   "SETTINGS_SECTION_MISCELLANEOUS_TITLE": "Övrigt",
-  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Nu spelande\"",
+  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Now playing\"",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -515,13 +515,13 @@ medium
 
 There is a double space before 'spelande'. Also, as mentioned in another comment, 'spelande' should be 'spelas'.
 
-  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Nu spelas\"",
+  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Now playing\"",
 
 @Vinyx08
   "SETTINGS_SECTION_MEDIA_LIBRARY_TITLE": "Mediebibliotek",
   "SETTINGS_SECTION_MISCELLANEOUS_SUBTITLE": "Andra alternativ som kan konfigureras",
   "SETTINGS_SECTION_MISCELLANEOUS_TITLE": "Övrigt",
-  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Nu  spelande\"",
+  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Now playing\"",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -531,14 +531,14 @@ medium
 
 There is a double space before 'spelande'. Also, as mentioned in another comment, 'spelande' should be 'spelas'.
 
-  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Nu spelas\"",
+  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Now playing\"",
 
 @Vinyx08
 localizations/sv_SE.json
   "SETTINGS_SECTION_MEDIA_LIBRARY_TITLE": "Mediebibliotek",
   "SETTINGS_SECTION_MISCELLANEOUS_SUBTITLE": "Andra alternativ som kan konfigureras",
   "SETTINGS_SECTION_MISCELLANEOUS_TITLE": "Övrigt",
-  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Nu  spelande\"",
+  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Now playing\"",
 Contributor
 @gemini-code-assist
 gemini-code-assist bot
@@ -548,7 +548,7 @@ medium
 
 There is a double space before 'spelande'. Also, as mentioned in another comment, 'spelande' should be 'spelas'.
 
-  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Nu spelas\"",
+  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Now playing\"",
 
 @Vinyx08
 localizations/sv_SE.json
@@ -671,7 +671,7 @@ Allow edits b",
   "PLAYLIST_ADD_DIALOG_SUBTITLE": "Välj en spellista för att lägga till detta objekt",
   "PLAYLIST_ADD_DIALOG_TITLE": "Lägg till i spellista",
   "PLAYLIST_CREATE_DIALOG_SUBTITLE": "Ange namn för spellistan",
-  "PLAYLIST_DELETE_DIALOG_SUBTITLE": "Ta bort spellistan \"\">Namn\"\"?",
+  "PLAYLIST_DELETE_DIALOG_SUBTITLE": "Ta bort spellistan \"\"¨NAME\"\"?",
   "PLAYLIST_ENTRY_REMOVE_DIALOG_SUBTITLE": "Ta bort \"\"INTRÄDE\"\" från \"\"SPELLISTA\"\"?",
   "PLAYLIST_RENAME_DIALOG_SUBTITLE": "Ange namn för spellistan",
   "PLAY_ALL": "Spela alla",
@@ -713,7 +713,7 @@ Allow edits b",
   "SEARCH_BANNER_NO_ITEMS_TITLE": "Inga resultat",
   "SEARCH_BANNER_SUBTITLE": "Sök efter din musik...",
   "SEARCH_BANNER_TITLE": "Hitta",
-  "SEARCH_HINT": Sök...",
+  "SEARCH_HINT": "Sök...",
   "SEE_ALL": "Se alla",
   "SELECT": "Välj",
   "SETTINGS": "Inställnigar",
@@ -728,7 +728,7 @@ Allow edits b",
   "SETTINGS_SECTION_MEDIA_LIBRARY_TITLE": "Mediebibliotek",
   "SETTINGS_SECTION_MISCELLANEOUS_SUBTITLE": "Andra alternativ som kan konfigureras",
   "SETTINGS_SECTION_MISCELLANEOUS_TITLE": "Övrigt",
-  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Nu  spelande\"",
+  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Now playing\"",
   "SETTINGS_SECTION_NOW_PLAYING_TITLE": "Nu spelande",
   "SETTINGS_SECTION_PERMISSIONS_SUBTITLE": "Bevilja ytterligare behörigheter för att förbättra upplevelsen",
   "SETTINGS_SECTION_PERMISSIONS_TITLE": "Behörigheter",
@@ -778,7 +778,7 @@ Allow edits b",
   "TRACK": "Spår",
   "TRACKS": "Spår",
   "TRACKS_DELETE_DIALOG_SUBTITLE": "Ta bort \"N\" spår?",
-  "TRACK_DELETE_DIALOG_SUBTITLE": "Ta bort spåret \"\"Namn\"\"?",
+  "TRACK_DELETE_DIALOG_SUBTITLE": "Ta bort spåret \"\"NAME\"\"?",
   "TRACK_NUMBER": "Spårnummer",
   "TYPE": "Typ",
   "UNMUTE": "Aktivera ljudet",
