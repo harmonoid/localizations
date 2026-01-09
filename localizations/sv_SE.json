@@ -246,7 +246,7 @@
   "SETTINGS_SECTION_LASTFM_TITLE": "Last.fm",
   "SETTINGS_SECTION_MEDIA_LIBRARY_SUBTITLE": "Konfigurera hur mediefilerna organiseras",
   "SETTINGS_SECTION_MISCELLANEOUS_SUBTITLE": "Andra alternativ som kan konfigureras",
-  "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Now playing\"",
+    "SETTINGS_SECTION_NOW_PLAYING_SUBTITLE": "Konfigurera beteendet för \"Nu spelande\"",
   "SETTINGS_SECTION_NOW_PLAYING_TITLE": "Nu spelande",
   "SETTINGS_SECTION_PERMISSIONS_SUBTITLE": "Bevilja ytterligare behörigheter för att förbättra upplevelsen",
   "SETTINGS_SECTION_PERMISSIONS_TITLE": "Behörigheter",
