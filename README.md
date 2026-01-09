@@ -25,7 +25,7 @@
 | Vietnamese      | Vietnam       | [@honhatduy](https://github.com/honhatduy)         | [`vi_VN.json`](./localizations/vi_VN.json) |
 | Chinese         | China         | [@VisionsAll](https://github.com/VisionsAll)       | [`zh_CN.json`](./localizations/zh_CN.json) |
 | Chinese (Trad.) | Taiwan        | [@willee-wahaha](https://github.com/willee-wahaha) | [`zh_TW.json`](./localizations/zh_TW.json) |
-
+| Swedish         | Sweden        | [@Vinyx08](https://github.com/Vinyx08)             | [`zh_TW.json`](./localizations/zh_TW.json) |
 ## Contribute
 
 - Use existing [English • United States](./localizations/en_US.json) values as a reference.
