@@ -20,12 +20,13 @@
 | Romanian        | Romania       | [@raresnita](https://github.com/raresnita)         | [`ro_RO.json`](./localizations/ro_RO.json) |
 | Russian         | Russia        | [@skrandark](https://github.com/skrandark)         | [`ru_RU.json`](./localizations/ru_RU.json) |
 | Slovenian       | Slovenia      | [@mytja](https://github.com/mytja)                 | [`sl_SI.json`](./localizations/sl_SI.json) |
+| Swedish         | Sweden        | [@Vinyx08](https://github.com/Vinyx08)             | [`sv_SE.json`](./localizations/sv_SE.json) |
 | Toki Pona       | -             | [@SeliliPona](https://github.com/SeliliPona)       | [`tok.json`](./localizations/tok.json)     |
 | Turkish         | Turkey        | [@mikropsoft](https://github.com/mikropsoft)       | [`tr_TR.json`](./localizations/tr_TR.json) |
 | Vietnamese      | Vietnam       | [@honhatduy](https://github.com/honhatduy)         | [`vi_VN.json`](./localizations/vi_VN.json) |
 | Chinese         | China         | [@VisionsAll](https://github.com/VisionsAll)       | [`zh_CN.json`](./localizations/zh_CN.json) |
 | Chinese (Trad.) | Taiwan        | [@willee-wahaha](https://github.com/willee-wahaha) | [`zh_TW.json`](./localizations/zh_TW.json) |
-| Swedish         | Sweden        | [@Vinyx08](https://github.com/Vinyx08)             | [`sv_SE.json`](./localizations/sv_SE.json) |
+
 ## Contribute
 
 - Use existing [English • United States](./localizations/en_US.json) values as a reference.
