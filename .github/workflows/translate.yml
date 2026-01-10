@@ -11,6 +11,11 @@ on:
         description: "Commit SHA to checkout (optional, defaults to latest)"
         required: false
         type: string
+      base_branch:
+        description: "Base branch for PR (defaults to main)"
+        required: false
+        type: string
+        default: "main"
 
 jobs:
   translate:
@@ -58,4 +63,5 @@ jobs:
           title: "Auto-Translate Localizations"
           body: "This pull request contains automatically generated translations based on changes to `en_US.json`."
           branch: auto-translate-${{ github.run_number }}
+          base: ${{ github.event.inputs.base_branch || github.ref_name }}
           delete-branch: true
