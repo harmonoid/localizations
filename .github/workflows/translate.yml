@@ -5,6 +5,12 @@ on:
     branches: ["main", "master"]
     paths:
       - "localizations/en_US.json"
+  workflow_dispatch:
+    inputs:
+      commit_sha:
+        description: "Commit SHA to checkout (optional, defaults to latest)"
+        required: false
+        type: string
 
 jobs:
   translate:
@@ -17,6 +23,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.inputs.commit_sha || github.sha }}
           fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
