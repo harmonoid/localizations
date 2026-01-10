@@ -2,7 +2,7 @@ name: Translate
 
 on:
   push:
-    branches: ["main", "master"]
+    branches: master
     paths:
       - "localizations/en_US.json"
   workflow_dispatch:
@@ -12,10 +12,10 @@ on:
         required: false
         type: string
       base_branch:
-        description: "Base branch for PR (defaults to main)"
+        description: "Base branch for PR (defaults to master)"
         required: false
         type: string
-        default: "main"
+        default: "master"
 
 jobs:
   translate:
