@@ -14,7 +14,7 @@ on:
 
 jobs:
   translate:
-    if: github.event.pusher.name == 'alexmercerind' && github.event.pusher.email == 'saini123hitesh@gmail.com'
+    if: github.event_name == 'workflow_dispatch' || (github.event.pusher.name == 'alexmercerind' && github.event.pusher.email == 'saini123hitesh@gmail.com')
     runs-on: ubuntu-latest
     permissions:
       contents: write
