@@ -104,4 +104,10 @@
     "name": "繁體中文",
     "country": "臺灣"
   }
+   {
+    "code": "sv_SE",
+    "name": "Svenska",
+    "country": "Sverige"
+  }
 ]
+
