@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "تحديث عند بدء التطبيق",
   "REFRESH_SUBTITLE": "التحقق من الملفات الجديدة والمحذوفة",
   "REINDEX": "إعادة فهرسة",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "بناء قاعدة بيانات مكتبة الوسائط مجدداً",
   "REINDEX_WARNING": "هذا الخيار يمسح قاعدة بيانات مكتبة الوسائط ويعيد فحص جميع الملفات. استخدم \"تحديث\" للتحقق فقط من الملفات المضافة أو المحذوفة.",
   "REMOVE": "إزالة",

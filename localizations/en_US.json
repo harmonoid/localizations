@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Refresh on app launch",
   "REFRESH_SUBTITLE": "Check for new & deleted files",
   "REINDEX": "Reindex",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "Build the media library database again",
   "REINDEX_WARNING": "This option clears the media library database and rescans all files. Use \"REFRESH\" to check only for added or removed files.",
   "REMOVE": "Remove",

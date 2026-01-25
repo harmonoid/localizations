@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Reîmprospătează biblioteca media la pornire",
   "REFRESH_SUBTITLE": "Verifică fișiere noi și șterse",
   "REINDEX": "Reindexează",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "Reindexează biblioteca media",
   "REINDEX_WARNING": "Această opțiune șterge baza de date media și rescanează toate fișierele. Folosește \"REFRESH\" pentru a verifica dacă au fost adăugate sau șterse fișiere.",
   "REMOVE": "Șterge",

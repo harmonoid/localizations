@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "mi o alasa kin tan open mi",
   "REFRESH_SUBTITLE": "o alasa e lipu sin e weka lipu",
   "REINDEX": "o sin",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "o sin e jo kalama",
   "REINDEX_WARNING": "ni li weka e jo kalama li alasa kin e kalama. sina wile alasa e lipu sin e weka lipu la o alasa kin.",
   "REMOVE": "o weka",

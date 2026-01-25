@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Aggiorna la libreria multimediale all'avvio",
   "REFRESH_SUBTITLE": "Verifica la presenza di file nuovi ed eliminati",
   "REINDEX": "Rigenera indice",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "Ricostruisci nuovamente il database della libreria multimediale",
   "REINDEX_WARNING": "Questa opzione cancella il database della libreria multimediale e riesegue la scansione di tutti i file. Usa \"REFRESH\" per verificare solo i file aggiunti o rimossi.",
   "REMOVE": "Rimuovi",

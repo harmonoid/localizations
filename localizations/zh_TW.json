@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "啓動時重新整理媒體庫",
   "REFRESH_SUBTITLE": "檢查新增和刪除的檔案",
   "REINDEX": "重建索引",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "重建媒體庫",
   "REINDEX_WARNING": "此選項會清除媒體庫並重建，請用 \"REFRESH\" 檢查新增或刪除的檔案。",
   "REMOVE": "移除",

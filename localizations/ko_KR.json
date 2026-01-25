@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "시작할 때 미디어 라이브러리 새로 고침",
   "REFRESH_SUBTITLE": "추가 또는 삭제된 파일 체크하기",
   "REINDEX": "미디어 라이브러리 다시 생성",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "미디어 라이브러리 데이터베이스를 다시 구축 하세요",
   "REINDEX_WARNING": "이 옵션은 미디어 라이브러리 데이터베이스를 지우고 모든 파일을 다시 검사합니다. \"REFRESH\"기능을 사용하면 추가되거나 삭제된 파일만 확인합니다.",
   "REMOVE": "삭제",

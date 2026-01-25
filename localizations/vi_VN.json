@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Làm mới thư viện nhạc khi khởi động",
   "REFRESH_SUBTITLE": "Kiểm tra các tệp mới và bị xóa",
   "REINDEX": "Lập lại chỉ mục",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "Nạp lại cơ sở dữ liệu thư viện nhạc",
   "REINDEX_WARNING": "Tùy chọn này xóa cơ sở dữ liệu thư viện đa nhạc và quét lại tất cả tệp. Dùng \"REFRESH\" để chỉ kiểm tra các tệp mới thêm hoặc bị xóa.",
   "REMOVE": "Gỡ bỏ",

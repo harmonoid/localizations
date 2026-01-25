@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Osveži glasbeno zbirko ob zagonu programa",
   "REFRESH_SUBTITLE": "Preveri za nove in izbrisane datoteke",
   "REINDEX": "Reindeksirajte",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "Ponovno zgradi podatkovno bazo vseh pesmi na novo",
   "REINDEX_WARNING": "Ta možnost počisti bazo medijske zbirke in ponovno pregleda vse datoteke. Uporabite \"REFRESH\" za preverjanje samo dodanih ali odstranjenih datotek.",
   "REMOVE": "Odstrani",

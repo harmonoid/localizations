@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Mediathek beim Start aktualisieren",
   "REFRESH_SUBTITLE": "Überprüfe auf neue und gelöschte Dateien",
   "REINDEX": "Neu indizieren",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "Erstelle die Datenbank der Mediathek neu",
   "REINDEX_WARNING": "Diese Option löscht die Mediathek-Datenbank und durchsucht alle Dateien neu. Verwende \"Aktualisieren\", um nur nach hinzugefügten oder entfernten Dateien zu suchen.",
   "REMOVE": "Entfernen",

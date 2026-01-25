@@ -222,6 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Actualiser la bibliothèque multimédia au démarrage",
   "REFRESH_SUBTITLE": "Vérifier les fichiers nouveaux et supprimés",
   "REINDEX": "Réindexer",
+  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
   "REINDEX_SUBTITLE": "Reconstruire la base de données de la bibliothèque multimédia",
   "REINDEX_WARNING": "Cette option efface la base de données de la bibliothèque multimédia et analyse à nouveau tous les fichiers. Utilisez \"Actualiser\" pour vérifier uniquement les fichiers ajoutés ou supprimés.",
   "REMOVE": "Supprimer",
