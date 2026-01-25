@@ -222,7 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Odśwież bibliotekę multimediów przy starcie",
   "REFRESH_SUBTITLE": "Sprawdź nowe i usunięte pliki",
   "REINDEX": "Przeindeksuj",
-  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
+  "REINDEX_REQUIRED_WARNING": "Zmiana tej opcji wymaga przeindeksowania, aby odniosło skutek",
   "REINDEX_SUBTITLE": "Zbuduj bazę danych biblioteki multimediów ponownie",
   "REINDEX_WARNING": "Ta opcja czyści bazę danych biblioteki multimediów i skanuje wszystkie pliki ponownie. Użyj \"ODŚWIEŻ\", aby sprawdzić tylko dodane lub usunięte pliki.",
   "REMOVE": "Usuń",

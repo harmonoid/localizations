@@ -222,7 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Başlangıçta medya kütüphanesini yenile",
   "REFRESH_SUBTITLE": "Yeni ve silinmiş dosyaları kontrol et",
   "REINDEX": "Yeniden dizin oluştur",
-  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
+  "REINDEX_REQUIRED_WARNING": "Bu seçeneği değiştirmek için yeniden dizin oluşturma gerekiyor",
   "REINDEX_SUBTITLE": "Medya kütüphanesi veritabanını yeniden oluştur",
   "REINDEX_WARNING": "Bu seçenek, medya kütüphanesi veritabanını temizler ve tüm dosyaları yeniden tarar. Yalnızca eklenen veya kaldırılan dosyaları kontrol etmek için \"YENİLE\" seçeneğini kullanın.",
   "REMOVE": "Kaldır",
