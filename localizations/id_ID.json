@@ -222,7 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Segarkan perpustakaan media saat memulai",
   "REFRESH_SUBTITLE": "Memeriksa berkas baru dan berkas yang dihapus",
   "REINDEX": "Indeks ulang",
-  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
+  "REINDEX_REQUIRED_WARNING": "Mengubah opsi ini memerlukan indeks ulang agar berlaku",
   "REINDEX_SUBTITLE": "Membangun kembali perpustakaan media",
   "REINDEX_WARNING": "Opsi ini akan menghapus data perpustakaan dan memindai ulang seluruh berkas. Gunakan \"Segarkan\" untuk hanya memeriksa perubahan berkas.",
   "REMOVE": "Hapus",

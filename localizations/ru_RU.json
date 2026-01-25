@@ -222,7 +222,7 @@
   "REFRESH_MEDIA_LIBRARY_UPON_START": "Обновлять медиатеку при запуске",
   "REFRESH_SUBTITLE": "Проверить на наличие новых и удаленных файлов",
   "REINDEX": "Переиндексировать",
-  "REINDEX_REQUIRED_WARNING": "Changing this option requires a reindex to take effect",
+  "REINDEX_REQUIRED_WARNING": "Изменение этой опции требует переиндексации для вступления в силу",
   "REINDEX_SUBTITLE": "Перестроить базу данных медиатеки",
   "REINDEX_WARNING": "Эта опция очищает базу данных медиатеки и повторно сканирует все файлы. Используйте \"ОБНОВИТЬ\" для проверки только добавленных или удаленных файлов.",
   "REMOVE": "Удалить",
