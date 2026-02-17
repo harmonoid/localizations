@@ -15,6 +15,7 @@
 | Japanese        | Japan         | [@maboroshin](https://github.com/maboroshin)       | [`ja_JP.json`](./localizations/ja_JP.json) |
 | Korean          | Korea         | [@exflynet](https://github.com/exflynet)           | [`ko_KR.json`](./localizations/ko_KR.json) |
 | Kurdish         | Kurdistan     | [@CYAXXX](https://github.com/CYAXXX)               | [`ku_KU.json`](./localizations/ku_KU.json) |
+| Dutch           | Netherlands   | [@Piet-byte](https://github.com/Piet-byte)         | [`nl_NL.json`](./localizations/nl_NL.json) |
 | Polish          | Poland        | [@KOXXPL](https://github.com/KOXXPL)               | [`pl_PL.json`](./localizations/pl_PL.json) |
 | Portuguese      | Brazil        | [@maisondasilva](https://github.com/maisondasilva) | [`pt_BR.json`](./localizations/pt_BR.json) |
 | Romanian        | Romania       | [@raresnita](https://github.com/raresnita)         | [`ro_RO.json`](./localizations/ro_RO.json) |
@@ -28,21 +29,27 @@
 
 ## Contribute
 
-- Use existing [English • United States](./localizations/en_US.json) values as a reference.
+- Use existing [English • United States](./localizations/en_US.json) values as a
+  reference.
 - Edit or add the file for your localization e.g. `fr_FR.json`.
 - Add an entry in [`index.json`](./index.json).
 - Add your name to this README.
 - Raise a new [pull request](https://github.com/harmonoid/localizations/pulls).
-- Want to become a permanent maintainer & need write access to this repository? Please [open a new issue](https://github.com/harmonoid/localizations/issues/new).
+- Want to become a permanent maintainer & need write access to this repository?
+  Please
+  [open a new issue](https://github.com/harmonoid/localizations/issues/new).
 - 🎉🎉🎉
 
 #### NOTE:
 
-Please follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) specification in your commit messages.
+Please follow
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
+specification in your commit messages.
 
 ## License
 
-This repository & work here is under [The Unlicense](https://unlicense.org/) license.
+This repository & work here is under [The Unlicense](https://unlicense.org/)
+license.
 
 ## Notes
 
