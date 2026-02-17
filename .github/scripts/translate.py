@@ -11,7 +11,7 @@ from typing import Dict, Any, Set, Optional, List
 
 BATCH_SIZE = 50
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "openai/gpt-oss-20b"
+GROQ_MODEL = "openai/gpt-oss-120b"
 SOURCE_LANGUAGE = 'en_US'
 SKIP_LANGUAGES = {'tok'}
 
@@ -105,12 +105,14 @@ def call_groq(prompt: str) -> Optional[str]:
     if not api_key:
         print("Error: GROQ_API_KEY environment variable is not set")
         return None
+    print(f"[debug] Groq API: model={GROQ_MODEL}, prompt length={len(prompt)} chars")
     try:
         payload = {
             "model": GROQ_MODEL,
             "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.3,
+            "temperature": 0,
             "max_tokens": 8192,
+            "stream": False,
         }
         with tempfile.NamedTemporaryFile(
             mode="w", suffix=".json", delete=False, encoding="utf-8"
@@ -129,18 +131,24 @@ def call_groq(prompt: str) -> Optional[str]:
                 text=True,
                 timeout=300,
             )
+            print(f"[debug] curl returncode={result.returncode}, stdout length={len(result.stdout)}, stderr length={len(result.stderr)}")
             if result.returncode != 0:
                 print(f"Groq API error: {result.stderr}")
                 return None
             out = result.stdout.strip()
             if not out:
+                print("[debug] Groq API returned empty body")
                 return None
+            print(f"[debug] response preview (first 200 chars): {out[:200]!r}")
             data = json.loads(out)
             choice = data.get("choices")
             if not choice:
+                print(f"[debug] response has no 'choices'; keys={list(data.keys())}")
                 return None
             message = choice[0].get("message", {})
-            return (message.get("content") or "").strip() or None
+            content = (message.get("content") or "").strip() or None
+            print(f"[debug] extracted content length={len(content) if content else 0} chars")
+            return content
         finally:
             os.unlink(payload_path)
     except subprocess.TimeoutExpired:
@@ -148,6 +156,7 @@ def call_groq(prompt: str) -> Optional[str]:
         return None
     except json.JSONDecodeError as e:
         print(f"Groq API response JSON error: {e}")
+        print(f"[debug] response (first 500 chars): {out[:500] if out else '(empty)'}")
         return None
     except Exception as e:
         print(f"Exception calling Groq API: {e}")
@@ -210,6 +219,7 @@ def translate_keys(
     
     # Strip markdown formatting
     content = strip_markdown_code_block(response)
+    print(f"[debug] after strip_markdown: content length={len(content)} chars, preview: {content[:150]!r}...")
     
     # Parse JSON response
     try:
