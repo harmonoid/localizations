@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 
 import json
+import os
 import re
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 from typing import Dict, Any, Set, Optional, List
 
 BATCH_SIZE = 50
-LLM_MODEL = 'github/gpt-4o'
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "openai/gpt-oss-20b"
 SOURCE_LANGUAGE = 'en_US'
 SKIP_LANGUAGES = {'tok'}
 
@@ -78,7 +81,7 @@ def get_changed_keys(en_file: Path) -> Set[str]:
 
 
 def strip_markdown_code_block(content: str) -> str:
-    """Remove markdown code block formatting from LLM response."""
+    """Remove markdown code block formatting from model response."""
     content = content.strip()
     
     if content.startswith('```'):
@@ -96,31 +99,58 @@ def strip_markdown_code_block(content: str) -> str:
     return content
 
 
-def call_llm(prompt: str) -> Optional[str]:
-    """Call the LLM with the given prompt and return the response."""
+def call_groq(prompt: str) -> Optional[str]:
+    """Call Groq API with the given prompt via curl and return the response content."""
+    api_key = os.environ.get("GROQ_API_KEY")
+    if not api_key:
+        print("Error: GROQ_API_KEY environment variable is not set")
+        return None
     try:
-        process = subprocess.Popen(
-            ['llm', '-m', LLM_MODEL],
-            stdin=subprocess.PIPE,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True
-        )
-        
-        stdout, stderr = process.communicate(input=prompt, timeout=300)
-        
-        if process.returncode != 0:
-            print(f"LLM error: {stderr}")
-            return None
-        
-        return stdout.strip() if stdout.strip() else None
-        
+        payload = {
+            "model": GROQ_MODEL,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3,
+            "max_tokens": 8192,
+        }
+        with tempfile.NamedTemporaryFile(
+            mode="w", suffix=".json", delete=False, encoding="utf-8"
+        ) as f:
+            json.dump(payload, f, ensure_ascii=False)
+            payload_path = f.name
+        try:
+            result = subprocess.run(
+                [
+                    "curl", "-s", "-X", "POST", GROQ_API_URL,
+                    "-H", "Authorization: Bearer " + api_key,
+                    "-H", "Content-Type: application/json",
+                    "-d", "@" + payload_path,
+                ],
+                capture_output=True,
+                text=True,
+                timeout=300,
+            )
+            if result.returncode != 0:
+                print(f"Groq API error: {result.stderr}")
+                return None
+            out = result.stdout.strip()
+            if not out:
+                return None
+            data = json.loads(out)
+            choice = data.get("choices")
+            if not choice:
+                return None
+            message = choice[0].get("message", {})
+            return (message.get("content") or "").strip() or None
+        finally:
+            os.unlink(payload_path)
     except subprocess.TimeoutExpired:
-        print("LLM call timed out")
-        process.kill()
+        print("Groq API call timed out")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"Groq API response JSON error: {e}")
         return None
     except Exception as e:
-        print(f"Exception calling LLM: {e}")
+        print(f"Exception calling Groq API: {e}")
         return None
 
 
@@ -130,7 +160,7 @@ def build_translation_prompt(
     full_en_data: Dict[str, str],
     existing_target_data: Dict[str, str]
 ) -> str:
-    """Build the translation prompt for the LLM."""
+    """Build the translation prompt for the model."""
     return f"""You are a professional translator working on localization for Harmonoid, a music player application. Translate the following JSON object from English to {target_language}.
 
 CONTEXT: These strings are UI text for a music player app. They include terms related to music playback, playlists, albums, artists, audio settings, and media library management.
@@ -163,20 +193,20 @@ def translate_keys(
     full_en_data: Dict[str, str],
     existing_target_data: Dict[str, str]
 ) -> Dict[str, str]:
-    """Translate a dictionary of keys using LLM."""
+    """Translate a dictionary of keys using Groq API."""
     if not keys_dict:
         return {}
     
-    print(f"Calling LLM...")
+    print("Calling Groq API...")
     
     prompt = build_translation_prompt(keys_dict, target_language, full_en_data, existing_target_data)
-    response = call_llm(prompt)
+    response = call_groq(prompt)
     
     if not response:
-        print("Empty or failed LLM response, returning original keys")
+        print("Empty or failed Groq API response, returning original keys")
         return keys_dict
     
-    print(f"LLM returned successfully")
+    print("Groq API returned successfully")
     
     # Strip markdown formatting
     content = strip_markdown_code_block(response)
@@ -201,7 +231,7 @@ def translate_keys(
         
     except json.JSONDecodeError as e:
         print(f"JSON decode error: {e}")
-        print(f"Content preview: {content[:500]}...")
+        print(f"Content preview: {content[:500] if content else '(empty)'}...")
         return keys_dict
 
 

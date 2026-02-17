@@ -34,15 +34,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install llm-github-models CLI
-        run: |
-          pip install llm-github-models
-      - name: Configure llm
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          llm keys set github --value "$GITHUB_TOKEN"
       - name: Generate translations
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python3 .github/scripts/translate.py
       - name: Check for changes
