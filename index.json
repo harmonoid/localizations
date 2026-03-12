@@ -5,6 +5,11 @@
     "country": "United States"
   },
   {
+  "code": "hi_HI",
+  "name": "हिन्दी",
+  "country": "भारत"
+  },
+  {
     "code": "ar",
     "name": "العربية",
     "country": "العالم"
@@ -110,3 +115,4 @@
     "country": "臺灣"
   }
 ]
+
