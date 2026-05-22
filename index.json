@@ -30,6 +30,11 @@
     "country": "France"
   },
   {
+    "code": "fa_IR",
+    "name": "فارسی",
+    "country": "ایران"
+  },
+  {
     "code": "id_ID",
     "name": "Bahasa Indonesia",
     "country": "Indonesia"
