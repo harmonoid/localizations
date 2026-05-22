@@ -5,11 +5,12 @@
 ## Languages
 
 | Language        | Country       | Contributors                                       | Source                                     |
-| --------------- | ------------- | -------------------------------------------------- | ------------------------------------------ |
+| --------------- | ------------- |----------------------------------------------------|--------------------------------------------|
 | English         | United States | [@alexmercerind](https://github.com/alexmercerind) | [`en_US.json`](./localizations/en_US.json) |
 | Arabic          | -             | [@Quartz313](https://github.com/Quartz313)         | [`ar.json`](./localizations/ar.json)       |
 | German          | Germany       | [@vcmikuu](https://github.com/vcmikuu)             | [`de_DE.json`](./localizations/de_DE.json) |
 | Greek           | Greece        | [@cuhsy](https://github.com/cuhsy)                 | [`el_GR.json`](./localizations/el_GR.json) |
+| Persian         | Iran          | [@mbfakourii](https://github.com/mbfakourii)    | [`fa_IR.json`](./localizations/fa_IR.json) |
 | Italian         | Italy         | -                                                  | [`it_IT.json`](./localizations/it_IT.json) |
 | Spanish         | Spain         | [@PelatusRex](https://github.com/PelatusRex)       | [`es_ES.json`](./localizations/es_ES.json) |
 | Japanese        | Japan         | [@maboroshin](https://github.com/maboroshin)       | [`ja_JP.json`](./localizations/ja_JP.json) |
