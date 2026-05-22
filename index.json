@@ -25,14 +25,14 @@
     "country": "España"
   },
   {
-    "code": "fr_FR",
-    "name": "Français",
-    "country": "France"
-  },
-  {
     "code": "fa_IR",
     "name": "فارسی",
     "country": "ایران"
+  },
+  {
+    "code": "fr_FR",
+    "name": "Français",
+    "country": "France"
   },
   {
     "code": "id_ID",
