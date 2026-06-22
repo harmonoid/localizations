@@ -15,8 +15,8 @@
   "ADD_TO_PLAYLIST": "Dodaj do playlisty",
   "ALBUM": "Album",
   "ALBUMS": "Albumy",
-  "ALBUM_ARTIST": "Wykonawca albumu",
-  "ALBUM_ARTISTS": "Wykonawcy albumu",
+  "ALBUM_ARTIST": "Według wykonawcy albumu",
+  "ALBUM_ARTISTS": "Według wykonawców albumu",
   "ALL_FILES": "Wszystkie pliki",
   "ANIMATION_SPEED": "Prędkość animacji:",
   "ARTIST": "Wykonawca",
@@ -327,6 +327,6 @@
   "VOLUME_BOOST": "Wzmocnienie głośności",
   "WARNING": "Ostrzeżenie",
   "X": "X",
-  "YEAR": "Rok",
+  "YEAR": "Według roku wydania",
   "YES": "Tak"
 }
