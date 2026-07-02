@@ -9,7 +9,7 @@ import sys
 import tempfile
 import time
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional
 
 BATCH_SIZE = 50
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
@@ -18,6 +18,8 @@ SOURCE_LANGUAGE = "en_US"
 SKIP_LANGUAGES = {"tok"}
 API_TIMEOUT_SEC = 300
 BATCH_DELAY_SEC = 0.5
+API_RETRY_COUNT = 3
+API_RETRY_DELAY_SEC = 2
 RESPONSE_LOG_MAX_CHARS = 200
 
 
@@ -59,7 +61,7 @@ def get_git_root(start_path: Path) -> Path:
         return start_path
 
 
-def get_changed_keys(en_file: Path, git_cwd: Path) -> Set[str]:
+def get_changed_keys(en_file: Path, git_cwd: Path) -> List[str]:
     """Extract changed keys from git diff of the English localization file."""
     print("Getting git diff...")
     root = get_git_root(git_cwd)
@@ -77,9 +79,16 @@ def get_changed_keys(en_file: Path, git_cwd: Path) -> Set[str]:
             sys.exit(1)
         if not (result.stdout or "").strip():
             print("No diff found - file unchanged")
-            return set()
+            return []
         pattern = re.compile(r'^\+\s*"([^"]+)"\s*:', re.MULTILINE)
-        return {m.group(1) for m in pattern.finditer(result.stdout)}
+        changed_keys = []
+        seen = set()
+        for match in pattern.finditer(result.stdout):
+            key = match.group(1)
+            if key not in seen:
+                changed_keys.append(key)
+                seen.add(key)
+        return changed_keys
     except subprocess.TimeoutExpired:
         print("Git diff timed out")
         sys.exit(1)
@@ -143,56 +152,60 @@ def call_groq(prompt: str) -> Optional[str]:
         "max_tokens": 8192,
         "stream": False,
     }
-    payload_path = None
-    response_body: Optional[str] = None
-    try:
-        with tempfile.NamedTemporaryFile(
-            mode="w", suffix=".json", delete=False, encoding="utf-8"
-        ) as f:
-            json.dump(payload, f, ensure_ascii=False)
-            payload_path = f.name
+    for attempt in range(1, API_RETRY_COUNT + 1):
+        payload_path = None
+        response_body: Optional[str] = None
+        try:
+            with tempfile.NamedTemporaryFile(
+                mode="w", suffix=".json", delete=False, encoding="utf-8"
+            ) as f:
+                json.dump(payload, f, ensure_ascii=False)
+                payload_path = f.name
 
-        result = subprocess.run(
-            [
-                "curl", "-s", "-X", "POST", GROQ_API_URL,
-                "-H", "Authorization: Bearer " + api_key,
-                "-H", "Content-Type: application/json",
-                "-d", "@" + payload_path,
-            ],
-            capture_output=True,
-            text=True,
-            timeout=API_TIMEOUT_SEC,
-        )
+            result = subprocess.run(
+                [
+                    "curl", "-sS", "-X", "POST", GROQ_API_URL,
+                    "-H", "Authorization: Bearer " + api_key,
+                    "-H", "Content-Type: application/json",
+                    "-d", "@" + payload_path,
+                ],
+                capture_output=True,
+                text=True,
+                timeout=API_TIMEOUT_SEC,
+            )
 
-        if result.returncode != 0:
-            print(f"Groq API error: {result.stderr or result.stdout or 'unknown'}")
-            return None
+            if result.returncode != 0:
+                print(f"Groq API error: {result.stderr or result.stdout or 'unknown'}")
+            else:
+                response_body = (result.stdout or "").strip()
+                if not response_body:
+                    print("Groq API returned empty body")
+                else:
+                    _log_response_preview(response_body)
+                    content = _parse_groq_response(response_body)
+                    if content:
+                        return content
 
-        response_body = (result.stdout or "").strip()
-        if not response_body:
-            print("Groq API returned empty body")
-            return None
+        except subprocess.TimeoutExpired:
+            print("Groq API call timed out")
+        except json.JSONDecodeError as e:
+            print(f"Groq API response JSON error: {e}")
+            if response_body:
+                _log_response_preview(response_body)
+        except Exception as e:
+            print(f"Exception calling Groq API: {e}")
+        finally:
+            if payload_path and os.path.exists(payload_path):
+                try:
+                    os.unlink(payload_path)
+                except OSError:
+                    pass
 
-        _log_response_preview(response_body)
-        return _parse_groq_response(response_body)
+        if attempt < API_RETRY_COUNT:
+            print(f"Retrying Groq API call ({attempt + 1}/{API_RETRY_COUNT})...")
+            time.sleep(API_RETRY_DELAY_SEC * attempt)
 
-    except subprocess.TimeoutExpired:
-        print("Groq API call timed out")
-        return None
-    except json.JSONDecodeError as e:
-        print(f"Groq API response JSON error: {e}")
-        if response_body:
-            _log_response_preview(response_body)
-        return None
-    except Exception as e:
-        print(f"Exception calling Groq API: {e}")
-        return None
-    finally:
-        if payload_path and os.path.exists(payload_path):
-            try:
-                os.unlink(payload_path)
-            except OSError:
-                pass
+    return None
 
 
 def build_translation_prompt(
@@ -202,15 +215,20 @@ def build_translation_prompt(
     existing_target_data: Dict[str, str]
 ) -> str:
     """Build the translation prompt for the model."""
+    reference_target_data = {
+        key: value
+        for key, value in existing_target_data.items()
+        if key not in keys_dict and value != full_en_data.get(key)
+    }
     return f"""You are a professional translator working on localization for Harmonoid, a music player application. Translate the following JSON object from English to {target_language}.
 
-CONTEXT: These strings are UI text for a music player app. They include terms related to music playback, playlists, albums, artists, audio settings, and media library management.
+CONTEXT:
+- These strings are UI text for a music player app.
+- They include music playback, playlists, albums, artists, audio settings, metadata, and media library management.
+- The input values are English source text, not suggested translations.
 
-FULL ENGLISH LOCALIZATION (all strings for reference):
-{json.dumps(full_en_data, ensure_ascii=False, indent=2)}
-
-EXISTING {target_language.upper()} LOCALIZATION (for consistency reference):
-{json.dumps(existing_target_data, ensure_ascii=False, indent=2)}
+EXISTING {target_language.upper()} TRANSLATIONS FOR STYLE/TERMINOLOGY:
+{json.dumps(reference_target_data, ensure_ascii=False, indent=2)}
 
 IMPORTANT RULES:
 1. Keep all JSON keys EXACTLY the same (do not translate keys)
@@ -218,11 +236,12 @@ IMPORTANT RULES:
 3. Preserve any special formatting like quotes (""), placeholders ("M", "N", "X", "ENTRY", "PLAYLIST", etc.)
 4. Maintain the same meaning, tone, punctuation, capitalization, structure, pluralization and formatting as the English source
 5. Use appropriate music/audio terminology for the target language
-6. Maintain CONSISTENCY with the existing translations shown above - use the same style, tone, and terminology choices
+6. Maintain consistency with the existing translations shown above, but do not copy English fallback text from older files
 7. For technical terms (e.g., "playlist", "equalizer"), check if they were translated or kept in English in existing translations and follow the same pattern
 8. Return ONLY the translated JSON object, no additional text or explanations
 9. Ensure the output is valid JSON
 10. Try to keep similar string length as the original English string (if possible and natural in the target language)
+11. Do not return the English source values unless a value is a placeholder, brand name, acronym, or intentionally untranslated technical term
 
 STRINGS TO TRANSLATE:
 {json.dumps(keys_dict, ensure_ascii=False, indent=2)}"""
@@ -233,14 +252,15 @@ def translate_keys(
     target_language: str,
     full_en_data: Dict[str, str],
     existing_target_data: Dict[str, str]
-) -> Dict[str, str]:
+) -> Optional[Dict[str, str]]:
     """Translate a dictionary of keys using Groq API."""
     if not keys_dict:
         return {}
     prompt = build_translation_prompt(keys_dict, target_language, full_en_data, existing_target_data)
     response = call_groq(prompt)
     if not response:
-        return keys_dict
+        print(f"Failed to translate batch for {target_language}")
+        return None
     # Strip markdown formatting
     content = strip_markdown_code_block(response)
     
@@ -250,13 +270,23 @@ def translate_keys(
         
         # Validate that all keys are present
         if not isinstance(translated, dict):
-            return keys_dict
+            print(f"Invalid translation response for {target_language}: expected JSON object")
+            return None
         missing_keys = set(keys_dict.keys()) - set(translated.keys())
-        for key in missing_keys:
-            translated[key] = keys_dict[key]
+        if missing_keys:
+            print(
+                f"Invalid translation response for {target_language}: "
+                f"missing keys {', '.join(sorted(missing_keys))}"
+            )
+            return None
+        translated = {key: str(translated[key]) for key in keys_dict}
+        if translated == keys_dict:
+            print(f"Invalid translation response for {target_language}: returned English source text")
+            return None
         return translated
-    except json.JSONDecodeError:
-        return keys_dict
+    except json.JSONDecodeError as e:
+        print(f"Invalid translation JSON for {target_language}: {e}")
+        return None
 
 
 def translate_language(
@@ -279,6 +309,8 @@ def translate_language(
         batch_keys = keys[i : i + BATCH_SIZE]
         batch_dict = {k: keys_to_translate[k] for k in batch_keys}
         batch_translated = translate_keys(batch_dict, lang_name, en_data, existing_data)
+        if batch_translated is None:
+            raise RuntimeError(f"Translation failed for {lang_code}")
         translated.update(batch_translated)
         if BATCH_DELAY_SEC and i + BATCH_SIZE < len(keys):
             time.sleep(BATCH_DELAY_SEC)
