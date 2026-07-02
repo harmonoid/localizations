@@ -20,7 +20,6 @@ API_TIMEOUT_SEC = 300
 BATCH_DELAY_SEC = 0.5
 API_RETRY_COUNT = 3
 API_RETRY_DELAY_SEC = 2
-RESPONSE_LOG_MAX_CHARS = 200
 
 
 def load_json(file_path: Path) -> Dict[str, Any]:
@@ -111,11 +110,9 @@ def strip_markdown_code_block(content: str) -> str:
     return "\n".join(lines).strip()
 
 
-def _log_response_preview(body: str) -> None:
-    """Print first RESPONSE_LOG_MAX_CHARS of the response body."""
-    preview = body[:RESPONSE_LOG_MAX_CHARS]
-    suffix = "..." if len(body) > RESPONSE_LOG_MAX_CHARS else ""
-    print(f"Response (200 chars): {preview}{suffix}")
+def _log_response(body: str) -> None:
+    """Print the full response body."""
+    print(f"Response: {body}")
 
 
 def _parse_groq_response(body: str) -> Optional[str]:
@@ -181,7 +178,7 @@ def call_groq(prompt: str) -> Optional[str]:
                 if not response_body:
                     print("Groq API returned empty body")
                 else:
-                    _log_response_preview(response_body)
+                    _log_response(response_body)
                     content = _parse_groq_response(response_body)
                     if content:
                         return content
@@ -191,7 +188,7 @@ def call_groq(prompt: str) -> Optional[str]:
         except json.JSONDecodeError as e:
             print(f"Groq API response JSON error: {e}")
             if response_body:
-                _log_response_preview(response_body)
+                _log_response(response_body)
         except Exception as e:
             print(f"Exception calling Groq API: {e}")
         finally:
