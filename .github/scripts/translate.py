@@ -236,7 +236,7 @@ IMPORTANT RULES:
 3. Preserve any special formatting like quotes (""), placeholders ("M", "N", "X", "ENTRY", "PLAYLIST", etc.)
 4. Maintain the same meaning, tone, punctuation, capitalization, structure, pluralization and formatting as the English source
 5. Use appropriate music/audio terminology for the target language
-6. Maintain consistency with the existing translations shown above, but do not copy English fallback text from older files
+6. Maintain CONSISTENCY with the existing translations shown above - use the same style, tone, and terminology choices
 7. For technical terms (e.g., "playlist", "equalizer"), check if they were translated or kept in English in existing translations and follow the same pattern
 8. Return ONLY the translated JSON object, no additional text or explanations
 9. Ensure the output is valid JSON
