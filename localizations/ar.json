@@ -51,6 +51,7 @@
   "DATE_ADDED": "تاريخ الإضافة",
   "DEFAULT": "افتراضي",
   "DELETE": "حذف",
+  "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(تجريبي)",
   "DESCENDING": "تنازلي",
   "DEVELOPER": "المطور",
@@ -330,5 +331,6 @@
   "WARNING": "تحذير",
   "X": "X",
   "YEAR": "السنة",
-  "YES": "نعم"
+  "YES": "نعم",
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
 }

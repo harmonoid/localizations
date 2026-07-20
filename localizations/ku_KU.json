@@ -51,6 +51,7 @@
   "DATE_ADDED": "Dîroka tevlîbûnê",
   "DEFAULT": "Berdest",
   "DELETE": "Jê bibe",
+  "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Berjêr",
   "DEVELOPER": "Pêşvebir",
@@ -330,5 +331,6 @@
   "WARNING": "Hişyarî",
   "X": "X",
   "YEAR": "Sal",
-  "YES": "Erê"
+  "YES": "Erê",
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
 }

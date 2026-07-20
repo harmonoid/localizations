@@ -51,6 +51,7 @@
   "DATE_ADDED": "Ημερομηνία προσθήκης",
   "DEFAULT": "Προεπιλογή",
   "DELETE": "Διαγραφή",
+  "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Φθίνουσα",
   "DEVELOPER": "Προγραμματιστής",
@@ -330,5 +331,6 @@
   "WARNING": "Προειδοποίηση",
   "X": "X",
   "YEAR": "Έτος",
-  "YES": "Ναι"
+  "YES": "Ναι",
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
 }

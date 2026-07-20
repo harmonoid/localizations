@@ -51,6 +51,7 @@
   "DATE_ADDED": "Hinzugefügt am",
   "DEFAULT": "Standard",
   "DELETE": "Löschen",
+  "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Absteigend",
   "DEVELOPER": "Entwickler",
@@ -330,5 +331,6 @@
   "WARNING": "Warnung",
   "X": "X",
   "YEAR": "Jahr",
-  "YES": "Ja"
+  "YES": "Ja",
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
 }

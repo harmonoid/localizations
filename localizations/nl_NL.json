@@ -51,6 +51,7 @@
   "DATE_ADDED": "Datum toegevoegd",
   "DEFAULT": "Standaard",
   "DELETE": "Verwijder",
+  "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Aflopend",
   "DEVELOPER": "Ontwikkelaar",
@@ -330,5 +331,6 @@
   "WARNING": "Waarschuwing",
   "X": "X",
   "YEAR": "Jaar",
-  "YES": "Ja"
+  "YES": "Ja",
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
 }

@@ -51,6 +51,7 @@
   "DATE_ADDED": "Tanggal ditambahkan",
   "DEFAULT": "Bawaan",
   "DELETE": "Hapus",
+  "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Urutan menurun",
   "DEVELOPER": "Pengembang",
@@ -330,5 +331,6 @@
   "WARNING": "Peringatan",
   "X": "X",
   "YEAR": "Tahun",
-  "YES": "Ya"
+  "YES": "Ya",
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
 }

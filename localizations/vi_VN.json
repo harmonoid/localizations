@@ -51,6 +51,7 @@
   "DATE_ADDED": "Ngày thêm",
   "DEFAULT": "Mặc định",
   "DELETE": "Xóa",
+  "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Giảm dần",
   "DEVELOPER": "Nhà phát triển",
@@ -330,5 +331,6 @@
   "WARNING": "Cảnh báo",
   "X": "X",
   "YEAR": "Năm",
-  "YES": "Đồng ý"
+  "YES": "Đồng ý",
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
 }

@@ -51,6 +51,7 @@
   "DATE_ADDED": "Według daty dodania",
   "DEFAULT": "Domyślny",
   "DELETE": "Usuń",
+  "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Malejąco",
   "DEVELOPER": "Twórca",
@@ -330,5 +331,6 @@
   "WARNING": "Ostrzeżenie",
   "X": "X",
   "YEAR": "Według roku wydania",
-  "YES": "Tak"
+  "YES": "Tak",
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
 }
