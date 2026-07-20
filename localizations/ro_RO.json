@@ -51,7 +51,7 @@
   "DATE_ADDED": "Data adăugării",
   "DEFAULT": "Implicit",
   "DELETE": "Șterge",
-  "DELETE_YOUR_ACCOUNT": "Delete your account",
+  "DELETE_YOUR_ACCOUNT": "Șterge contul tău",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Descendent",
   "DEVELOPER": "Dezvoltator",
@@ -332,5 +332,5 @@
   "X": "X",
   "YEAR": "An",
   "YES": "Da",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Contul tău a fost șters"
 }

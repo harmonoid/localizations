@@ -51,7 +51,7 @@
   "DATE_ADDED": "添加日期",
   "DEFAULT": "默认",
   "DELETE": "删除",
-  "DELETE_YOUR_ACCOUNT": "Delete your account",
+  "DELETE_YOUR_ACCOUNT": "删除你的账户",
   "DEMO_HINT": "(演示)",
   "DESCENDING": "降序",
   "DEVELOPER": "开发者",
@@ -332,5 +332,5 @@
   "X": "X",
   "YEAR": "年份",
   "YES": "是",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "你的账户已被删除"
 }

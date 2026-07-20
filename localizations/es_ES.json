@@ -51,7 +51,7 @@
   "DATE_ADDED": "Fecha de añadido",
   "DEFAULT": "Predeterminado",
   "DELETE": "Eliminar",
-  "DELETE_YOUR_ACCOUNT": "Delete your account",
+  "DELETE_YOUR_ACCOUNT": "Eliminar tu cuenta",
   "DEMO_HINT": "(Demostración)",
   "DESCENDING": "Descendente",
   "DEVELOPER": "Desarrollador",
@@ -332,5 +332,5 @@
   "X": "X",
   "YEAR": "Año",
   "YES": "Sí",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Tu cuenta ha sido eliminada"
 }

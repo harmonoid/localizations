@@ -51,7 +51,7 @@
   "DATE_ADDED": "تاریخ افزودن",
   "DEFAULT": "پیش‌فرض",
   "DELETE": "حذف",
-  "DELETE_YOUR_ACCOUNT": "Delete your account",
+  "DELETE_YOUR_ACCOUNT": "حساب کاربری خود را حذف کنید",
   "DEMO_HINT": "(دمو)",
   "DESCENDING": "نزولی",
   "DEVELOPER": "توسعه‌دهنده",
@@ -332,5 +332,5 @@
   "X": "X",
   "YEAR": "سال",
   "YES": "بله",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "حساب کاربری شما حذف شد"
 }

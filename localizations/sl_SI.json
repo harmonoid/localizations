@@ -51,7 +51,7 @@
   "DATE_ADDED": "Datum dodajanja",
   "DEFAULT": "Privzeto",
   "DELETE": "Izbriši",
-  "DELETE_YOUR_ACCOUNT": "Delete your account",
+  "DELETE_YOUR_ACCOUNT": "Izbrišite svoj račun",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Padajoče",
   "DEVELOPER": "Razvijalec",
@@ -332,5 +332,5 @@
   "X": "X",
   "YEAR": "Leto",
   "YES": "Da",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Vaš račun je bil izbrisan"
 }
