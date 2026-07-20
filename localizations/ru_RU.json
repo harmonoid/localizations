@@ -51,7 +51,7 @@
   "DATE_ADDED": "Дата добавления",
   "DEFAULT": "По умолчанию",
   "DELETE": "Удалить",
-  "DELETE_YOUR_ACCOUNT": "Delete your account",
+  "DELETE_YOUR_ACCOUNT": "Удалить ваш аккаунт",
   "DEMO_HINT": "(Демо)",
   "DESCENDING": "По убыванию",
   "DEVELOPER": "Разработчик",
@@ -332,5 +332,5 @@
   "X": "X",
   "YEAR": "Год",
   "YES": "Да",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Ваш аккаунт удалён"
 }

@@ -51,7 +51,7 @@
   "DATE_ADDED": "Eklenme tarihi",
   "DEFAULT": "Varsayılan",
   "DELETE": "Sil",
-  "DELETE_YOUR_ACCOUNT": "Delete your account",
+  "DELETE_YOUR_ACCOUNT": "Hesabınızı sil",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Azalan",
   "DEVELOPER": "Geliştirici",
@@ -332,5 +332,5 @@
   "X": "X",
   "YEAR": "Yıl",
   "YES": "Evet",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Hesabınız silindi"
 }

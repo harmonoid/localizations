@@ -51,7 +51,7 @@
   "DATE_ADDED": "追加日",
   "DEFAULT": "標準",
   "DELETE": "削除",
-  "DELETE_YOUR_ACCOUNT": "Delete your account",
+  "DELETE_YOUR_ACCOUNT": "アカウントを削除",
   "DEMO_HINT": "(デモ)",
   "DESCENDING": "降順",
   "DEVELOPER": "開発者",
@@ -332,5 +332,5 @@
   "X": "X",
   "YEAR": "年",
   "YES": "はい",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "アカウントが削除されました"
 }
