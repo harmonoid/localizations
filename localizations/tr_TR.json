@@ -51,6 +51,8 @@
   "DATE_ADDED": "Eklenme tarihi",
   "DEFAULT": "Varsayılan",
   "DELETE": "Sil",
+  "DELETE_ACCOUNT_CONFIRMATION_DIALOG_SUBTITLE": "This will permanently delete your account. Continue?",
+  "DELETE_ACCOUNT_SUCCESS_DIALOG_SUBTITLE": "Your account has been deleted",
   "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Azalan",
@@ -331,6 +333,5 @@
   "WARNING": "Uyarı",
   "X": "X",
   "YEAR": "Yıl",
-  "YES": "Evet",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YES": "Evet"
 }

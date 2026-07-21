@@ -51,6 +51,8 @@
   "DATE_ADDED": "追加日",
   "DEFAULT": "標準",
   "DELETE": "削除",
+  "DELETE_ACCOUNT_CONFIRMATION_DIALOG_SUBTITLE": "This will permanently delete your account. Continue?",
+  "DELETE_ACCOUNT_SUCCESS_DIALOG_SUBTITLE": "Your account has been deleted",
   "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(デモ)",
   "DESCENDING": "降順",
@@ -331,6 +333,5 @@
   "WARNING": "警告",
   "X": "X",
   "YEAR": "年",
-  "YES": "はい",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YES": "はい"
 }

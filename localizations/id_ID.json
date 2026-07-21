@@ -51,6 +51,8 @@
   "DATE_ADDED": "Tanggal ditambahkan",
   "DEFAULT": "Bawaan",
   "DELETE": "Hapus",
+  "DELETE_ACCOUNT_CONFIRMATION_DIALOG_SUBTITLE": "This will permanently delete your account. Continue?",
+  "DELETE_ACCOUNT_SUCCESS_DIALOG_SUBTITLE": "Your account has been deleted",
   "DELETE_YOUR_ACCOUNT": "Delete your account",
   "DEMO_HINT": "(Demo)",
   "DESCENDING": "Urutan menurun",
@@ -331,6 +333,5 @@
   "WARNING": "Peringatan",
   "X": "X",
   "YEAR": "Tahun",
-  "YES": "Ya",
-  "YOUR_ACCOUNT_HAS_BEEN_DELETED": "Your account has been deleted"
+  "YES": "Ya"
 }
