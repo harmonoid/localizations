@@ -55,4 +55,4 @@ license.
 ## Notes
 
 - Usernames of various contributors are sorted lexicographically.
-- Hyphen (-) indicates unknown or anonymous contributors.
+- Hyphen (-) indicates unknown or anonymous contributors, or languages spanning multiple countries.
