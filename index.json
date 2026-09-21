@@ -35,6 +35,11 @@
     "country": "France"
   },
   {
+    "code": "hi_IN",
+    "name": "हिंदी",
+    "country": "भारत"
+  },
+  {
     "code": "id_ID",
     "name": "Bahasa Indonesia",
     "country": "Indonesia"
