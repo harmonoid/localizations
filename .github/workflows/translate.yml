@@ -36,7 +36,7 @@ jobs:
           python-version: "3.11"
       - name: Generate translations
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           python3 .github/scripts/translate.py
       - name: Check for changes

@@ -12,8 +12,8 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 BATCH_SIZE = 50
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "openai/gpt-oss-120b"
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+OPENROUTER_MODEL = "deepseek/deepseek-v4-flash-0731"
 SOURCE_LANGUAGE = "en_US"
 SKIP_LANGUAGES = {"tok"}
 API_TIMEOUT_SEC = 300
@@ -115,13 +115,13 @@ def _log_response(body: str) -> None:
     print(f"Response: {body}")
 
 
-def _parse_groq_response(body: str) -> Optional[str]:
-    """Parse Groq API JSON response and return message content, or None on error."""
+def _parse_openrouter_response(body: str) -> Optional[str]:
+    """Parse OpenRouter API JSON response and return message content, or None on error."""
     data = json.loads(body)
     if "error" in data:
         err = data["error"]
         msg = err.get("message", err) if isinstance(err, dict) else err
-        print(f"Groq API error payload: {msg}")
+        print(f"OpenRouter API error payload: {msg}")
         return None
     choices = data.get("choices")
     if not choices or not isinstance(choices, list):
@@ -135,15 +135,15 @@ def _parse_groq_response(body: str) -> Optional[str]:
     return str(content).strip() or None
 
 
-def call_groq(prompt: str) -> Optional[str]:
-    """Call Groq API with the given prompt via curl and return the response content."""
-    api_key = os.environ.get("GROQ_API_KEY")
+def call_openrouter(prompt: str) -> Optional[str]:
+    """Call OpenRouter API with the given prompt via curl and return the response content."""
+    api_key = os.environ.get("OPENROUTER_API_KEY")
     if not api_key:
-        print("Error: GROQ_API_KEY environment variable is not set")
+        print("Error: OPENROUTER_API_KEY environment variable is not set")
         return None
 
     payload = {
-        "model": GROQ_MODEL,
+        "model": OPENROUTER_MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
         "max_tokens": 8192,
@@ -161,7 +161,7 @@ def call_groq(prompt: str) -> Optional[str]:
 
             result = subprocess.run(
                 [
-                    "curl", "-sS", "-X", "POST", GROQ_API_URL,
+                    "curl", "-sS", "-X", "POST", OPENROUTER_API_URL,
                     "-H", "Authorization: Bearer " + api_key,
                     "-H", "Content-Type: application/json",
                     "-d", "@" + payload_path,
@@ -172,25 +172,25 @@ def call_groq(prompt: str) -> Optional[str]:
             )
 
             if result.returncode != 0:
-                print(f"Groq API error: {result.stderr or result.stdout or 'unknown'}")
+                print(f"OpenRouter API error: {result.stderr or result.stdout or 'unknown'}")
             else:
                 response_body = (result.stdout or "").strip()
                 if not response_body:
-                    print("Groq API returned empty body")
+                    print("OpenRouter API returned empty body")
                 else:
                     _log_response(response_body)
-                    content = _parse_groq_response(response_body)
+                    content = _parse_openrouter_response(response_body)
                     if content:
                         return content
 
         except subprocess.TimeoutExpired:
-            print("Groq API call timed out")
+            print("OpenRouter API call timed out")
         except json.JSONDecodeError as e:
-            print(f"Groq API response JSON error: {e}")
+            print(f"OpenRouter API response JSON error: {e}")
             if response_body:
                 _log_response(response_body)
         except Exception as e:
-            print(f"Exception calling Groq API: {e}")
+            print(f"Exception calling OpenRouter API: {e}")
         finally:
             if payload_path and os.path.exists(payload_path):
                 try:
@@ -199,7 +199,7 @@ def call_groq(prompt: str) -> Optional[str]:
                     pass
 
         if attempt < API_RETRY_COUNT:
-            print(f"Retrying Groq API call ({attempt + 1}/{API_RETRY_COUNT})...")
+            print(f"Retrying OpenRouter API call ({attempt + 1}/{API_RETRY_COUNT})...")
             time.sleep(API_RETRY_DELAY_SEC * attempt)
 
     return None
@@ -250,11 +250,11 @@ def translate_keys(
     full_en_data: Dict[str, str],
     existing_target_data: Dict[str, str]
 ) -> Optional[Dict[str, str]]:
-    """Translate a dictionary of keys using Groq API."""
+    """Translate a dictionary of keys using OpenRouter API."""
     if not keys_dict:
         return {}
     prompt = build_translation_prompt(keys_dict, target_language, full_en_data, existing_target_data)
-    response = call_groq(prompt)
+    response = call_openrouter(prompt)
     if not response:
         print(f"Failed to translate batch for {target_language}")
         return None
@@ -321,7 +321,7 @@ def translate_language(
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Translate localization keys via Groq API.")
+    parser = argparse.ArgumentParser(description="Translate localization keys via OpenRouter API.")
     parser.add_argument(
         "--dry-run",
         action="store_true",
