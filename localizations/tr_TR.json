@@ -123,6 +123,8 @@
   "LOOKUP_FOR_LRC_IN_DIRECTORY": "Dizinde .LRC dosyası ara",
   "LYRICS": "Şarkı sözleri",
   "LYRICS_ALIGNMENT": "Şarkı sözü hizalaması",
+  "LYRICS_BORDER_COLOR": "Lyrics border color",
+  "LYRICS_COLOR": "Lyrics color",
   "LYRICS_CONTROL_PANEL": "Şarkı sözleri kontrol paneli",
   "LYRICS_FONT_FAMILY": "Şarkı sözü yazı tipi ailesi",
   "LYRICS_NOT_FOUND": "Şarkı sözleri bulunamadı.",

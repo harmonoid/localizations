@@ -123,6 +123,8 @@
   "LOOKUP_FOR_LRC_IN_DIRECTORY": "البحث عن ملفات .LRC في المجلد",
   "LYRICS": "كلمات الأغاني",
   "LYRICS_ALIGNMENT": "محاذاة الكلمات",
+  "LYRICS_BORDER_COLOR": "Lyrics border color",
+  "LYRICS_COLOR": "Lyrics color",
   "LYRICS_CONTROL_PANEL": "لوحة التحكم لكلمات الأغاني",
   "LYRICS_FONT_FAMILY": "خط الكلمات",
   "LYRICS_NOT_FOUND": "لم يتم العثور على الكلمات.",

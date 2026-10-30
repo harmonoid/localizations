@@ -123,6 +123,8 @@
   "LOOKUP_FOR_LRC_IN_DIRECTORY": "Buscar arquivos .LRC no diretório",
   "LYRICS": "Letras",
   "LYRICS_ALIGNMENT": "Alinhamento das letras",
+  "LYRICS_BORDER_COLOR": "Lyrics border color",
+  "LYRICS_COLOR": "Lyrics color",
   "LYRICS_CONTROL_PANEL": "Painel de controle de letras",
   "LYRICS_FONT_FAMILY": "Fonte das letras",
   "LYRICS_NOT_FOUND": "Letras não encontradas.",

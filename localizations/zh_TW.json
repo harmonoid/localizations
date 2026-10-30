@@ -123,6 +123,8 @@
   "LOOKUP_FOR_LRC_IN_DIRECTORY": "在資料夾中尋找 .LRC",
   "LYRICS": "歌詞",
   "LYRICS_ALIGNMENT": "歌詞對齊",
+  "LYRICS_BORDER_COLOR": "Lyrics border color",
+  "LYRICS_COLOR": "Lyrics color",
   "LYRICS_CONTROL_PANEL": "歌詞控制面板",
   "LYRICS_FONT_FAMILY": "歌詞字體家族",
   "LYRICS_NOT_FOUND": "未找到歌詞",

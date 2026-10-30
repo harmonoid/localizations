@@ -123,6 +123,8 @@
   "LOOKUP_FOR_LRC_IN_DIRECTORY": "Cari berkas .LRC di dalam folder",
   "LYRICS": "Lirik",
   "LYRICS_ALIGNMENT": "Perataan lirik",
+  "LYRICS_BORDER_COLOR": "Lyrics border color",
+  "LYRICS_COLOR": "Lyrics color",
   "LYRICS_CONTROL_PANEL": "Panel kontrol lirik",
   "LYRICS_FONT_FAMILY": "Font lirik",
   "LYRICS_NOT_FOUND": "Lirik tidak ditemukan.",

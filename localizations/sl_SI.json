@@ -123,6 +123,8 @@
   "LOOKUP_FOR_LRC_IN_DIRECTORY": "Iskanje .LRC datoteke v mapi",
   "LYRICS": "Besedilo pesmi",
   "LYRICS_ALIGNMENT": "Poravnava besedila",
+  "LYRICS_BORDER_COLOR": "Lyrics border color",
+  "LYRICS_COLOR": "Lyrics color",
   "LYRICS_CONTROL_PANEL": "Nadzorna plošča za besedila pesmi",
   "LYRICS_FONT_FAMILY": "Pisava besedila",
   "LYRICS_NOT_FOUND": "Besedilo pesmi ni bilo najdeno.",
